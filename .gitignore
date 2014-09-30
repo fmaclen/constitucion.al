@@ -1,1 +1,10 @@
 .vagrant
+# heroku buildpack artifacts
+tmp
+bin
+log
+vendor
+.lesshst
+.profile.d
+.release
+.bundle
