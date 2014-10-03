@@ -3,7 +3,11 @@ require 'sinatra'
 set :bind, "0.0.0.0"
 
 get "/" do
-  "index"
+  erb :index
+end
+
+get "/css.css" do
+  scss :css, style: :expanded
 end
 
 get '/hi' do
