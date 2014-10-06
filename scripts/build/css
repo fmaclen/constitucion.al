@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Compass alpha requires us to use --poll, when final version is released try
+# w/o poll to see if it's fixed. AFAIK it is related to having a shared folder
+# w/ the VM.
+bundle exec compass watch --poll -c /vagrant/app/views/css/config.rb --css-dir public /vagrant/app/views/css/css.scss

@@ -1,0 +1,11 @@
+@mixin box-sizing($string) {
+  -webkit-box-sizing: $string;
+     -moz-box-sizing: $string;
+          box-sizing: $string;
+}
+
+@mixin box-shadow($string) {
+  -webkit-box-shadow: $string;
+     -moz-box-shadow: $string;
+          box-shadow: $string;
+}
