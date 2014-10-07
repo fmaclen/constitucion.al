@@ -9,3 +9,9 @@
      -moz-box-shadow: $string;
           box-shadow: $string;
 }
+
+@mixin border-radius($string) {
+  -webkit-border-radius: $string;
+     -moz-border-radius: $string;
+          border-radius: $string;
+}

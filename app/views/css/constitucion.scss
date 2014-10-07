@@ -1,10 +1,14 @@
 .constitucion {
   header {
-    @include box-shadow(0 0 10px rgba(0,0,0,.1));
-    height: 65px;
-    border-bottom: 1px solid #e2e2e2;
+    //@include box-shadow(0 0 10px rgba(0,0,0,.1));
+//    height: 65px;
+//    border-bottom: 1px solid #e2e2e2;
     text-align: center;
-    padding: 20px;
+
+
+    a {
+       padding: 20px;
+    }
 
     a:first-child {
       float: left;
@@ -15,41 +19,47 @@
     }
   }
 
-  h1 {
-    height: 400px;
+  .hero {
     font-size: 65px;
     line-height: 55px;
     letter-spacing: -0.05em;
     font-weight: 700;
-    color: #FFF;
-    background-color: #51a2ce;
-    margin-bottom: 125px;
+    color: #6B8795;
+    text-align: center;
+    //margin-bottom: 150px;
+    padding: 0 0 175px 0;
+    //border-bottom: 1px solid #e2e2e2;
 
-    span {
-      padding-top: 175px;
-      display: block;
-      width: 960px;
-      margin: 0 auto;
-      text-align: center;
+    img {
+      width: 250px;
+      height: 15px;
+      margin-bottom: 175px;
     }
   }
 
   section {
-    width: 960px;
+    max-width: 960px;
     margin: 0 auto;
 
     article {
-      margin: 0 0 125px 240px;
       font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-      font-size: 20px;
-      line-height: 35px;
-      color: #333;
+      font-size: 24px;
+      line-height: 44px;
+      color: #666;
+      text-align: center;
 
       h3 {
-        font-size: 25px;
-        font-weight: 900;
-        color: #51a2ce;
-        margin-bottom: 35px;
+        @include border-radius(30px);
+        font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #4db9df;
+        margin-bottom: 50px;
+        border: 2px solid #4db9df;
+        padding: 13px 35px 10px 35px;
+        display: inline-block;
+        text-transform: uppercase;
+        line-height: 25px;
       }
     }
   }

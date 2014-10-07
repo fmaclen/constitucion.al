@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="250px" height="30px" viewBox="0 0 250 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1 (8751) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-1" sketch:type="MSArtboardGroup">
+            <rect id="Rectangle-1" fill="#FFFFFF" sketch:type="MSShapeGroup" x="53" y="-15" width="48" height="60"></rect>
+            <rect id="Rectangle-1" fill="#FFFFFF" sketch:type="MSShapeGroup" x="149" y="-15" width="48" height="60"></rect>
+            <rect id="Rectangle-1" fill="#F2D15B" sketch:type="MSShapeGroup" x="111" y="-3" width="29" height="36"></rect>
+            <rect id="Rectangle-1" fill="#4DB9DF" sketch:type="MSShapeGroup" x="-43" y="-15" width="96" height="60"></rect>
+            <rect id="Rectangle-1" fill="#4DB9DF" sketch:type="MSShapeGroup" x="197" y="-15" width="96" height="60"></rect>
+        </g>
+    </g>
+</svg>
