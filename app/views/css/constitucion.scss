@@ -37,29 +37,59 @@
     }
   }
 
+  h3 {
+    margin: 50px 0;
+    text-align: center;
+
+    span {
+      @include border-radius(30px);
+      font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      font-weight: 700;
+      color: #4db9df;
+      border: 2px solid #4db9df;
+      padding: 13px 35px 10px 35px;
+      text-transform: uppercase;
+      line-height: 25px;
+
+    }
+  }
+
+  h4 {
+    font-size: 40px;
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    color: #4db9df;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  h5 {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #999;
+    text-align: center;
+    margin: 75px 0 10px 0;
+  }
+
   section {
     max-width: 960px;
     margin: 0 auto;
 
     article {
       font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-      font-size: 24px;
-      line-height: 44px;
-      color: #666;
-      text-align: center;
+      font-size: 16px;
+      line-height: 25px;
+      margin-bottom: 100px;
 
-      h3 {
-        @include border-radius(30px);
-        font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-        font-size: 18px;
+      aside {
         font-weight: 700;
-        color: #4db9df;
-        margin-bottom: 50px;
-        border: 2px solid #4db9df;
-        padding: 13px 35px 10px 35px;
-        display: inline-block;
-        text-transform: uppercase;
-        line-height: 25px;
+      }
+
+      &.preambulo {
+        text-align: center;
+        font-size: 24px;
+        line-height: 44px;
+        color: #666;
       }
     }
   }

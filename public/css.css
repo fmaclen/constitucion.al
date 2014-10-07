@@ -86,28 +86,52 @@ body {
     height: 15px;
     margin-bottom: 175px; }
 /* line 40, ../app/views/css/constitucion.scss */
+.constitucion h3 {
+  margin: 50px 0;
+  text-align: center; }
+  /* line 44, ../app/views/css/constitucion.scss */
+  .constitucion h3 span {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4db9df;
+    border: 2px solid #4db9df;
+    padding: 13px 35px 10px 35px;
+    text-transform: uppercase;
+    line-height: 25px; }
+/* line 58, ../app/views/css/constitucion.scss */
+.constitucion h4 {
+  font-size: 40px;
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+  color: #4db9df;
+  text-align: center;
+  margin-bottom: 50px; }
+/* line 66, ../app/views/css/constitucion.scss */
+.constitucion h5 {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+  font-size: 20px;
+  color: #999;
+  text-align: center;
+  margin: 75px 0 10px 0; }
+/* line 74, ../app/views/css/constitucion.scss */
 .constitucion section {
   max-width: 960px;
   margin: 0 auto; }
-  /* line 44, ../app/views/css/constitucion.scss */
+  /* line 78, ../app/views/css/constitucion.scss */
   .constitucion section article {
     font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-    font-size: 24px;
-    line-height: 44px;
-    color: #666;
-    text-align: center; }
-    /* line 51, ../app/views/css/constitucion.scss */
-    .constitucion section article h3 {
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-      border-radius: 30px;
-      font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      font-size: 18px;
-      font-weight: 700;
-      color: #4db9df;
-      margin-bottom: 50px;
-      border: 2px solid #4db9df;
-      padding: 13px 35px 10px 35px;
-      display: inline-block;
-      text-transform: uppercase;
-      line-height: 25px; }
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 100px; }
+    /* line 84, ../app/views/css/constitucion.scss */
+    .constitucion section article aside {
+      font-weight: 700; }
+    /* line 88, ../app/views/css/constitucion.scss */
+    .constitucion section article.preambulo {
+      text-align: center;
+      font-size: 24px;
+      line-height: 44px;
+      color: #666; }
