@@ -20,35 +20,49 @@
   }
 
   .hero {
-    font-size: 65px;
-    line-height: 55px;
-    letter-spacing: -0.05em;
-    font-weight: 700;
-    color: #6B8795;
+    @include serif;
     text-align: center;
-    //margin-bottom: 150px;
-    padding: 0 0 175px 0;
-    //border-bottom: 1px solid #e2e2e2;
+
+    h1 {
+      color: #264f64;
+      font-weight: 700;
+      font-size: 70px;
+      line-height: 80px;
+      letter-spacing: -0.05em;
+      padding-bottom: 25px;
+    }
+
+    p {
+      font-style: italic;
+      font-size: 15px;
+      padding-bottom: 125px;
+      color: #666;
+
+      em {
+        font-weight: 700;
+      }
+    }
 
     img {
       width: 250px;
       height: 15px;
-      margin-bottom: 175px;
+      margin-bottom: 225px;
+
     }
   }
 
   h3 {
-    margin: 50px 0;
+    margin: 150px 0 65px 0;
     text-align: center;
 
     span {
       @include border-radius(30px);
       font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      font-size: 18px;
-      font-weight: 700;
+      font-size: 16px;
+      font-weight: 600;
       color: #4db9df;
       border: 2px solid #4db9df;
-      padding: 13px 35px 10px 35px;
+      padding: 13px 35px 11px 35px;
       text-transform: uppercase;
       line-height: 25px;
 
@@ -58,7 +72,8 @@
   h4 {
     font-size: 40px;
     font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-    color: #4db9df;
+    color: #264f64;
+    font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
   }
@@ -66,30 +81,103 @@
   h5 {
     font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
     font-size: 20px;
-    color: #999;
+    color: #264f64;
     text-align: center;
     margin: 75px 0 10px 0;
+    font-style: italic;
   }
 
   section {
-    max-width: 960px;
-    margin: 0 auto;
+    border-bottom: 1px solid #eaeaea;
+
+    a {
+      color: #264f64;
+      text-decoration: none;
+      border-bottom: 1px dotted;
+    }
 
     article {
+      max-width: 960px;
+      margin: 0 auto;
       font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-      font-size: 16px;
       line-height: 25px;
-      margin-bottom: 100px;
+      padding: 75px 0 50px 0;
 
-      aside {
-        font-weight: 700;
+      &:after {
+        clear: both;
+        content: ' ';
+        display: block;
       }
 
-      &.preambulo {
-        text-align: center;
-        font-size: 24px;
-        line-height: 44px;
-        color: #666;
+      p {
+        width: 760px;
+        float: right;
+        font-size: 20px;
+        line-height: 33px;
+        padding-bottom: 25px;
+      }
+
+      aside {
+        color: #333;
+        font-weight: 900;
+        width: 200px;
+        float: left;
+        font-size: 17px;
+
+        dfn {
+          display: block;
+          font-size: 13px;
+          color: #999;
+          font-style: italic;
+          font-weight: 300;
+        }
+      }
+
+      ul {
+        display: none;
+        clear: both;
+        padding: 50px 0 0 200px;
+
+        li {
+          @include sans-serif;
+          display: inline-block;
+          margin-right: 25px;
+          font-size: 14px;
+          color: #c0c0c0;
+          line-height: 20px;
+
+          a {
+            color: #c0c0c0;
+          }
+
+          span {
+            //min-width: 85px;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 11px;
+            padding-right: 5px;
+            display: inline-block;
+            letter-spacing: 0.05em;
+          }
+        }
+      }
+    }
+
+    &.preambulo {
+      border: none;
+
+      article {
+        max-width: 720px;
+        padding: 0;
+
+        p {
+          color: #666;
+          float: none;
+          width: 100%;
+          font-size: 24px;
+          line-height: 45px;
+          text-align: center;
+        }
       }
     }
   }

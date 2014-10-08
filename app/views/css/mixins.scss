@@ -15,3 +15,11 @@
      -moz-border-radius: $string;
           border-radius: $string;
 }
+
+@mixin sans-serif {
+  font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin serif {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+}

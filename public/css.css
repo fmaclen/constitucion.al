@@ -73,65 +73,140 @@ body {
     float: right; }
 /* line 22, ../app/views/css/constitucion.scss */
 .constitucion .hero {
-  font-size: 65px;
-  line-height: 55px;
-  letter-spacing: -0.05em;
-  font-weight: 700;
-  color: #6B8795;
-  text-align: center;
-  padding: 0 0 175px 0; }
-  /* line 33, ../app/views/css/constitucion.scss */
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+  text-align: center; }
+  /* line 26, ../app/views/css/constitucion.scss */
+  .constitucion .hero h1 {
+    color: #264f64;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: -0.05em;
+    padding-bottom: 25px; }
+  /* line 35, ../app/views/css/constitucion.scss */
+  .constitucion .hero p {
+    font-style: italic;
+    font-size: 15px;
+    padding-bottom: 125px;
+    color: #666; }
+    /* line 41, ../app/views/css/constitucion.scss */
+    .constitucion .hero p em {
+      font-weight: 700; }
+  /* line 46, ../app/views/css/constitucion.scss */
   .constitucion .hero img {
     width: 250px;
     height: 15px;
-    margin-bottom: 175px; }
-/* line 40, ../app/views/css/constitucion.scss */
+    margin-bottom: 225px; }
+/* line 54, ../app/views/css/constitucion.scss */
 .constitucion h3 {
-  margin: 50px 0;
+  margin: 150px 0 65px 0;
   text-align: center; }
-  /* line 44, ../app/views/css/constitucion.scss */
+  /* line 58, ../app/views/css/constitucion.scss */
   .constitucion h3 span {
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     border-radius: 30px;
     font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 600;
     color: #4db9df;
     border: 2px solid #4db9df;
-    padding: 13px 35px 10px 35px;
+    padding: 13px 35px 11px 35px;
     text-transform: uppercase;
     line-height: 25px; }
-/* line 58, ../app/views/css/constitucion.scss */
+/* line 72, ../app/views/css/constitucion.scss */
 .constitucion h4 {
   font-size: 40px;
   font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-  color: #4db9df;
+  color: #264f64;
+  font-weight: 700;
   text-align: center;
   margin-bottom: 50px; }
-/* line 66, ../app/views/css/constitucion.scss */
+/* line 81, ../app/views/css/constitucion.scss */
 .constitucion h5 {
   font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
   font-size: 20px;
-  color: #999;
+  color: #264f64;
   text-align: center;
-  margin: 75px 0 10px 0; }
-/* line 74, ../app/views/css/constitucion.scss */
+  margin: 75px 0 10px 0;
+  font-style: italic; }
+/* line 90, ../app/views/css/constitucion.scss */
 .constitucion section {
-  max-width: 960px;
-  margin: 0 auto; }
-  /* line 78, ../app/views/css/constitucion.scss */
+  border-bottom: 1px solid #eaeaea; }
+  /* line 93, ../app/views/css/constitucion.scss */
+  .constitucion section a {
+    color: #264f64;
+    text-decoration: none;
+    border-bottom: 1px dotted; }
+  /* line 99, ../app/views/css/constitucion.scss */
   .constitucion section article {
+    max-width: 960px;
+    margin: 0 auto;
     font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-    font-size: 16px;
     line-height: 25px;
-    margin-bottom: 100px; }
-    /* line 84, ../app/views/css/constitucion.scss */
+    padding: 75px 0 50px 0; }
+    /* line 106, ../app/views/css/constitucion.scss */
+    .constitucion section article:after {
+      clear: both;
+      content: ' ';
+      display: block; }
+    /* line 112, ../app/views/css/constitucion.scss */
+    .constitucion section article p {
+      width: 760px;
+      float: right;
+      font-size: 20px;
+      line-height: 33px;
+      padding-bottom: 25px; }
+    /* line 120, ../app/views/css/constitucion.scss */
     .constitucion section article aside {
-      font-weight: 700; }
-    /* line 88, ../app/views/css/constitucion.scss */
-    .constitucion section article.preambulo {
-      text-align: center;
-      font-size: 24px;
-      line-height: 44px;
-      color: #666; }
+      color: #333;
+      font-weight: 900;
+      width: 200px;
+      float: left;
+      font-size: 17px; }
+      /* line 127, ../app/views/css/constitucion.scss */
+      .constitucion section article aside dfn {
+        display: block;
+        font-size: 13px;
+        color: #999;
+        font-style: italic;
+        font-weight: 300; }
+    /* line 136, ../app/views/css/constitucion.scss */
+    .constitucion section article ul {
+      display: none;
+      clear: both;
+      padding: 50px 0 0 200px; }
+      /* line 141, ../app/views/css/constitucion.scss */
+      .constitucion section article ul li {
+        font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        display: inline-block;
+        margin-right: 25px;
+        font-size: 14px;
+        color: #c0c0c0;
+        line-height: 20px; }
+        /* line 149, ../app/views/css/constitucion.scss */
+        .constitucion section article ul li a {
+          color: #c0c0c0; }
+        /* line 153, ../app/views/css/constitucion.scss */
+        .constitucion section article ul li span {
+          font-weight: 700;
+          text-transform: uppercase;
+          font-size: 11px;
+          padding-right: 5px;
+          display: inline-block;
+          letter-spacing: 0.05em; }
+  /* line 166, ../app/views/css/constitucion.scss */
+  .constitucion section.preambulo {
+    border: none; }
+    /* line 169, ../app/views/css/constitucion.scss */
+    .constitucion section.preambulo article {
+      max-width: 720px;
+      padding: 0; }
+      /* line 173, ../app/views/css/constitucion.scss */
+      .constitucion section.preambulo article p {
+        color: #666;
+        float: none;
+        width: 100%;
+        font-size: 24px;
+        line-height: 45px;
+        text-align: center; }
