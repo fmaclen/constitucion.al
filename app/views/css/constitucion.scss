@@ -88,7 +88,7 @@
   }
 
   section {
-    border-bottom: 1px solid #eaeaea;
+    border-bottom: 1px dashed #ccc;
 
     a {
       color: #264f64;
@@ -97,11 +97,11 @@
     }
 
     article {
-      max-width: 960px;
+      max-width: 875px;
       margin: 0 auto;
       font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
       line-height: 25px;
-      padding: 75px 0 50px 0;
+      padding: 100px 0 75px 0;
 
       &:after {
         clear: both;
@@ -117,12 +117,14 @@
         padding-bottom: 25px;
       }
 
-      aside {
+      header {
+        width: 760px;
+        float: right;
         color: #333;
         font-weight: 900;
-        width: 200px;
-        float: left;
         font-size: 17px;
+        text-align: left;
+        margin-bottom: 25px;
 
         dfn {
           display: block;
@@ -133,6 +135,36 @@
         }
       }
 
+      aside {
+        @include border-radius(50px);
+        margin-top: -10px;
+        //width: 70px;
+        //height: 70px;
+        float: left;
+        //background: url(/images/ribbons/fondo.svg) no-repeat;
+        //background-size: 65px;
+        padding: 17px;
+
+        &.uno {
+          background-color: #51a2ce;
+        }
+        &.dos {
+          background-color: #ffde76;
+        }
+        &.tres {
+          background-color: #bde2ef;
+        }
+        &.cuatro {
+          background-color: #51a2ce;
+        }
+
+        img {
+          //@include border-radius(50px);
+          display: block;
+        }
+
+      }
+
       ul {
         display: none;
         clear: both;
@@ -140,7 +172,7 @@
 
         li {
           @include sans-serif;
-          display: inline-block;
+          //display: inline-block;
           margin-right: 25px;
           font-size: 14px;
           color: #c0c0c0;
