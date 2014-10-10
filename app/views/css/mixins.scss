@@ -16,6 +16,12 @@
           border-radius: $string;
 }
 
+@mixin transition($string) {
+  -webkit-transition: $string;
+     -moz-transition: $string;
+          transition: $string;
+}
+
 @mixin sans-serif {
   font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }

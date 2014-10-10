@@ -22,6 +22,7 @@
   .hero {
     @include serif;
     text-align: center;
+    //background: url(/images/ribbons/argentina.svg) no-repeat center top;
 
     h1 {
       color: #264f64;
@@ -35,7 +36,7 @@
     p {
       font-style: italic;
       font-size: 15px;
-      padding-bottom: 125px;
+      padding-bottom: 175px;
       color: #666;
 
       em {
@@ -44,10 +45,7 @@
     }
 
     img {
-      width: 250px;
-      height: 15px;
-      margin-bottom: 225px;
-
+      margin: 300px 0 50px 0;
     }
   }
 
@@ -96,12 +94,26 @@
       border-bottom: 1px dotted;
     }
 
+    &:nth-of-type(1n) aside {
+      background-color: #ffde76;
+    }
+    &:nth-of-type(2n) aside {
+      background-color: #51a2ce;
+    }
+    &:nth-of-type(3n) aside {
+      background-color: #bde2ef;
+    }
+    &:nth-of-type(4n) aside {
+      background-color: #51a2ce;
+    }
+
     article {
       max-width: 875px;
       margin: 0 auto;
       font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
       line-height: 25px;
       padding: 100px 0 75px 0;
+      position: relative;
 
       &:after {
         clear: both;
@@ -138,58 +150,99 @@
       aside {
         @include border-radius(50px);
         margin-top: -10px;
-        //width: 70px;
-        //height: 70px;
         float: left;
-        //background: url(/images/ribbons/fondo.svg) no-repeat;
-        //background-size: 65px;
         padding: 17px;
 
-        &.uno {
-          background-color: #51a2ce;
-        }
-        &.dos {
-          background-color: #ffde76;
-        }
-        &.tres {
-          background-color: #bde2ef;
-        }
-        &.cuatro {
-          background-color: #51a2ce;
-        }
-
         img {
-          //@include border-radius(50px);
           display: block;
         }
+      }
 
+      button {
+        @include border-radius(25px);
+        background: url('/images/icons/puntos.svg') no-repeat center -28px;
+        display: inline-block;
+        height: 25px;
+        width: 65px;
+        border: 1px solid #e2e2e2;
+        background-color: #e2e2e2;
+        padding: 3px 0;
+        cursor: pointer;
+        position: absolute;
+        bottom: 107px;
+        left: 0px;
+        opacity: .35;
+        outline: none;
+        text-indent: -9999px;
+
+        &:hover, &:active {
+          opacity: .85;
+          border-color: #ccc;
+          background-color: #ccc;
+        }
+
+        &.expanded {
+          border-color: #e2e2e2;
+          background-color: transparent;
+          opacity: 1;
+          background-position: center 4px;
+          bottom: 245px;
+        }
       }
 
       ul {
         display: none;
         clear: both;
-        padding: 50px 0 0 200px;
+        padding: 15px 0 0;
+        margin-left: 120px;
+        border-top: 1px solid #e2e2e2;
 
         li {
           @include sans-serif;
-          //display: inline-block;
-          margin-right: 25px;
-          font-size: 14px;
-          color: #c0c0c0;
-          line-height: 20px;
+          margin: 10px 0 0;
+          font-size: 15px;
+          color: #999;
+          line-height: 30px;
 
           a {
-            color: #c0c0c0;
+            color: #264f64;
           }
 
           span {
-            //min-width: 85px;
-            font-weight: 700;
+            min-width: 150px;
+            font-weight: 100;
             text-transform: uppercase;
-            font-size: 11px;
+            font-size: 13px;
             padding-right: 5px;
             display: inline-block;
             letter-spacing: 0.05em;
+            color: #999;
+            letter-spacing: 1px;
+            height: 30px;
+            line-height: 32px;
+            float: left;
+          }
+
+          textarea, input {
+            @include border-radius(5px);
+            @include sans-serif;
+            border: 1px solid #e2e2e2;
+            width: 350px;
+            height: 60px;
+            font-size: 15px;
+            line-height: 20px;
+            display: inline-block;
+            padding: 8px 7px;
+            outline: none;
+
+            &:focus {
+              @include box-shadow(0 0 15px #eaeaea);
+              border-color: #d1d1d1;
+            }
+          }
+
+          input {
+            height: 30px;
           }
         }
       }
