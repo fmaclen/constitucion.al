@@ -127,6 +127,10 @@
         font-size: 20px;
         line-height: 33px;
         padding-bottom: 25px;
+
+        &:last-child {
+          padding-bottom: 50px;
+        }
       }
 
       header {
@@ -160,12 +164,12 @@
 
       button {
         @include border-radius(25px);
-        background: url('/images/icons/puntos.svg') no-repeat center -28px;
+        background: url('/images/icons/puntos.svg') no-repeat center 4px;
         display: inline-block;
         height: 25px;
         width: 65px;
-        border: 1px solid #e2e2e2;
-        background-color: #e2e2e2;
+        border: 1px solid #ccc;
+        background-color: #FFF;
         padding: 3px 0;
         cursor: pointer;
         position: absolute;
@@ -177,16 +181,14 @@
 
         &:hover, &:active {
           opacity: .85;
-          border-color: #ccc;
-          background-color: #ccc;
         }
 
         &.expanded {
           border-color: #e2e2e2;
           background-color: transparent;
           opacity: 1;
-          background-position: center 4px;
-          bottom: 245px;
+          background-position: center -28px;
+          bottom: 244px;
         }
       }
 
@@ -195,7 +197,7 @@
         clear: both;
         padding: 15px 0 0;
         margin-left: 120px;
-        border-top: 1px solid #e2e2e2;
+        //border-top: 1px solid #e2e2e2;
 
         li {
           @include sans-serif;

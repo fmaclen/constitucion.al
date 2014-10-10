@@ -184,7 +184,10 @@ body {
       font-size: 20px;
       line-height: 33px;
       padding-bottom: 25px; }
-    /* line 132, ../app/views/css/constitucion.scss */
+      /* line 131, ../app/views/css/constitucion.scss */
+      .constitucion section article p:last-child {
+        padding-bottom: 50px; }
+    /* line 136, ../app/views/css/constitucion.scss */
     .constitucion section article header {
       width: 760px;
       float: right;
@@ -193,14 +196,14 @@ body {
       font-size: 17px;
       text-align: left;
       margin-bottom: 25px; }
-      /* line 141, ../app/views/css/constitucion.scss */
+      /* line 145, ../app/views/css/constitucion.scss */
       .constitucion section article header dfn {
         display: block;
         font-size: 13px;
         color: #999;
         font-style: italic;
         font-weight: 300; }
-    /* line 150, ../app/views/css/constitucion.scss */
+    /* line 154, ../app/views/css/constitucion.scss */
     .constitucion section article aside {
       -webkit-border-radius: 50px;
       -moz-border-radius: 50px;
@@ -208,20 +211,20 @@ body {
       margin-top: -10px;
       float: left;
       padding: 17px; }
-      /* line 156, ../app/views/css/constitucion.scss */
+      /* line 160, ../app/views/css/constitucion.scss */
       .constitucion section article aside img {
         display: block; }
-    /* line 161, ../app/views/css/constitucion.scss */
+    /* line 165, ../app/views/css/constitucion.scss */
     .constitucion section article button {
       -webkit-border-radius: 25px;
       -moz-border-radius: 25px;
       border-radius: 25px;
-      background: url("/images/icons/puntos.svg") no-repeat center -28px;
+      background: url("/images/icons/puntos.svg") no-repeat center 4px;
       display: inline-block;
       height: 25px;
       width: 65px;
-      border: 1px solid #e2e2e2;
-      background-color: #e2e2e2;
+      border: 1px solid #ccc;
+      background-color: #FFF;
       padding: 3px 0;
       cursor: pointer;
       position: absolute;
@@ -230,36 +233,33 @@ body {
       opacity: .35;
       outline: none;
       text-indent: -9999px; }
-      /* line 178, ../app/views/css/constitucion.scss */
+      /* line 182, ../app/views/css/constitucion.scss */
       .constitucion section article button:hover, .constitucion section article button:active {
-        opacity: .85;
-        border-color: #ccc;
-        background-color: #ccc; }
-      /* line 184, ../app/views/css/constitucion.scss */
+        opacity: .85; }
+      /* line 186, ../app/views/css/constitucion.scss */
       .constitucion section article button.expanded {
         border-color: #e2e2e2;
         background-color: transparent;
         opacity: 1;
-        background-position: center 4px;
-        bottom: 245px; }
-    /* line 193, ../app/views/css/constitucion.scss */
+        background-position: center -28px;
+        bottom: 244px; }
+    /* line 195, ../app/views/css/constitucion.scss */
     .constitucion section article ul {
       display: none;
       clear: both;
       padding: 15px 0 0;
-      margin-left: 120px;
-      border-top: 1px solid #e2e2e2; }
-      /* line 200, ../app/views/css/constitucion.scss */
+      margin-left: 120px; }
+      /* line 202, ../app/views/css/constitucion.scss */
       .constitucion section article ul li {
         font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
         margin: 10px 0 0;
         font-size: 15px;
         color: #999;
         line-height: 30px; }
-        /* line 207, ../app/views/css/constitucion.scss */
+        /* line 209, ../app/views/css/constitucion.scss */
         .constitucion section article ul li a {
           color: #264f64; }
-        /* line 211, ../app/views/css/constitucion.scss */
+        /* line 213, ../app/views/css/constitucion.scss */
         .constitucion section article ul li span {
           min-width: 150px;
           font-weight: 100;
@@ -273,7 +273,7 @@ body {
           height: 30px;
           line-height: 32px;
           float: left; }
-        /* line 226, ../app/views/css/constitucion.scss */
+        /* line 228, ../app/views/css/constitucion.scss */
         .constitucion section article ul li textarea, .constitucion section article ul li input {
           -webkit-border-radius: 5px;
           -moz-border-radius: 5px;
@@ -287,23 +287,23 @@ body {
           display: inline-block;
           padding: 8px 7px;
           outline: none; }
-          /* line 238, ../app/views/css/constitucion.scss */
+          /* line 240, ../app/views/css/constitucion.scss */
           .constitucion section article ul li textarea:focus, .constitucion section article ul li input:focus {
             -webkit-box-shadow: 0 0 15px #eaeaea;
             -moz-box-shadow: 0 0 15px #eaeaea;
             box-shadow: 0 0 15px #eaeaea;
             border-color: #d1d1d1; }
-        /* line 244, ../app/views/css/constitucion.scss */
+        /* line 246, ../app/views/css/constitucion.scss */
         .constitucion section article ul li input {
           height: 30px; }
-  /* line 251, ../app/views/css/constitucion.scss */
+  /* line 253, ../app/views/css/constitucion.scss */
   .constitucion section.preambulo {
     border: none; }
-    /* line 254, ../app/views/css/constitucion.scss */
+    /* line 256, ../app/views/css/constitucion.scss */
     .constitucion section.preambulo article {
       max-width: 720px;
       padding: 0; }
-      /* line 258, ../app/views/css/constitucion.scss */
+      /* line 260, ../app/views/css/constitucion.scss */
       .constitucion section.preambulo article p {
         color: #666;
         float: none;
