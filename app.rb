@@ -32,7 +32,7 @@ get '/argentina/?' do
 end
 
 get'/argentina/embed/?' do
-  url = "http://192.168.33.10:5000/argentina/" # Cual es la URL?
+  url = "http://constitucion.al/argentina/" # Cual es la URL?
   data = Nokogiri::HTML(open(url), nil, 'UTF-8') # Parsear documento con Nokogiri
   data.search('//ul').remove # Remover el tag <ul>
   data.search('//button').remove # Remover el tag <button>
