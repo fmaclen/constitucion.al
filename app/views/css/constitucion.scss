@@ -87,6 +87,8 @@
 
   section {
     border-bottom: 1px dashed #ccc;
+    padding: 100px 0 75px 0;
+    position: relative;
 
     a {
       color: #264f64;
@@ -94,17 +96,8 @@
       border-bottom: 1px dotted;
     }
 
-    &:nth-of-type(1n) aside {
-      background-color: #ffde76;
-    }
-    &:nth-of-type(2n) aside {
-      background-color: #51a2ce;
-    }
-    &:nth-of-type(3n) aside {
-      background-color: #bde2ef;
-    }
-    &:nth-of-type(4n) aside {
-      background-color: #51a2ce;
+    &.resaltado {
+      @include linear-gradient(#FFF, #FFFEF1);
     }
 
     article {
@@ -112,139 +105,150 @@
       margin: 0 auto;
       font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
       line-height: 25px;
-      padding: 100px 0 75px 0;
-      position: relative;
+
 
       &:after {
         clear: both;
-        content: ' ';
-        display: block;
-      }
-
-      p {
-        width: 760px;
-        float: right;
-        font-size: 20px;
-        line-height: 33px;
-        padding-bottom: 25px;
-
-        &:last-child {
-          padding-bottom: 50px;
-        }
-      }
-
-      header {
-        width: 760px;
-        float: right;
-        color: #333;
-        font-weight: 900;
-        font-size: 17px;
-        text-align: left;
-        margin-bottom: 25px;
-
-        dfn {
-          display: block;
-          font-size: 13px;
-          color: #999;
-          font-style: italic;
-          font-weight: 300;
-        }
+        content: '';
+        display: table;
       }
 
       aside {
-        @include border-radius(50px);
-        margin-top: -10px;
+        width: 110px;
         float: left;
-        padding: 17px;
+        margin-top: -10px;
 
-        img {
+        span {
+          @include border-radius(50px);
+          padding: 17px;
           display: block;
+          width: 65px;
+          height: 65px;
         }
       }
 
-      button {
-        @include border-radius(25px);
-        background: url('/images/icons/puntos.svg') no-repeat center 4px;
-        display: inline-block;
-        height: 25px;
-        width: 65px;
-        border: 1px solid #ccc;
-        background-color: #FFF;
-        padding: 3px 0;
-        cursor: pointer;
-        position: absolute;
-        bottom: 107px;
-        left: 0px;
-        opacity: .35;
-        outline: none;
-        text-indent: -9999px;
+      main {
+        width: 760px;
+        float: right;
 
-        &:hover, &:active {
-          opacity: .85;
-        }
+        p {
+          width: 760px;
+          font-size: 20px;
+          line-height: 33px;
+          padding-bottom: 25px;
 
-        &.expanded {
-          border-color: #e2e2e2;
-          background-color: transparent;
-          opacity: 1;
-          background-position: center -28px;
-          bottom: 244px;
-        }
-      }
-
-      ul {
-        display: none;
-        clear: both;
-        padding: 15px 0 0;
-        margin-left: 120px;
-        //border-top: 1px solid #e2e2e2;
-
-        li {
-          @include sans-serif;
-          margin: 10px 0 0;
-          font-size: 15px;
-          color: #999;
-          line-height: 30px;
-
-          a {
-            color: #264f64;
+          &:last-child {
+            padding-bottom: 0;
           }
+        }
 
-          span {
-            min-width: 150px;
-            font-weight: 100;
-            text-transform: uppercase;
+        header {
+          width: 760px;
+          color: #333;
+          font-weight: 900;
+          font-size: 17px;
+          text-align: left;
+          margin-bottom: 25px;
+
+          dfn {
+            display: block;
             font-size: 13px;
-            padding-right: 5px;
-            display: inline-block;
-            letter-spacing: 0.05em;
             color: #999;
-            letter-spacing: 1px;
-            height: 30px;
-            line-height: 32px;
-            float: left;
+            font-style: italic;
+            font-weight: 300;
+          }
+        }
+      }
+
+      footer {
+        clear: both;
+
+        button {
+          @include border-radius(25px);
+          @include transition(all 300ms);
+          background: url('/images/icons/puntos.svg') no-repeat center 4px;
+          display: inline-block;
+          height: 25px;
+          width: 63px;
+          border: 1px solid #ccc;
+          background-color: #FFF;
+          padding: 3px 0;
+          cursor: pointer;
+          position: relative;
+          top: -29px;
+          left: 0;
+          opacity: .35;
+          outline: none;
+          text-indent: -9999px;
+          float: left;
+
+
+          &:hover, &:active {
+            opacity: .85;
           }
 
-          textarea, input {
-            @include border-radius(5px);
+          &.expanded {
+            border-color: #e2e2e2;
+            background-color: transparent;
+            opacity: 1;
+            background-position: center -28px;
+          }
+        }
+
+        ul {
+          display: none;
+          float:right;
+          clear: both;
+          width: 760px;
+          margin-top: 50px;
+
+          li {
             @include sans-serif;
-            border: 1px solid #e2e2e2;
-            width: 350px;
-            height: 60px;
+            margin: 10px 0 0;
             font-size: 15px;
-            line-height: 20px;
-            display: inline-block;
-            padding: 8px 7px;
-            outline: none;
+            color: #999;
+            line-height: 30px;
 
-            &:focus {
-              @include box-shadow(0 0 15px #eaeaea);
-              border-color: #d1d1d1;
+            a {
+              color: #264f64;
             }
-          }
 
-          input {
-            height: 30px;
+            span {
+              min-width: 150px;
+              font-weight: 100;
+              text-transform: uppercase;
+              font-size: 13px;
+              padding-right: 5px;
+              display: inline-block;
+              letter-spacing: 0.05em;
+              color: #999;
+              letter-spacing: 1px;
+              height: 30px;
+              line-height: 32px;
+              float: left;
+            }
+
+            textarea, input {
+              @include border-radius(5px);
+              @include sans-serif;
+              border: 1px solid #e2e2e2;
+              width: 350px;
+              height: 60px;
+              font-size: 15px;
+              line-height: 20px;
+              display: inline-block;
+              padding: 8px 7px;
+              outline: none;
+
+              &:focus {
+                @include box-shadow(0 0 15px #eaeaea);
+                border-color: #d1d1d1;
+              }
+            }
+
+            input {
+              height: 30px;
+            }
           }
         }
       }
@@ -270,3 +274,41 @@
   }
 }
 
+// Estilos por cada constitución
+
+.argentina {
+  section {
+    &:nth-of-type(4n+2) aside span {
+      background-color: #FFE900; // Amarillo
+    }
+    &:nth-of-type(4n+3) aside span {
+      background-color: #9FD9F3; // Celeste
+    }
+    &:nth-of-type(4n+4) aside span {
+      background-color: #0093E0; // Celeste Oscuro
+    }
+    &:nth-of-type(4n+1) aside span {
+      background-color: #0068AD; // Azul
+    }
+  }
+}
+
+.buenos_aires {
+  section {
+    &:nth-of-type(5n+1) aside span {
+      background-color: #f4d13b;
+    }
+    &:nth-of-type(5n+2) aside span {
+      background-color: #8cd9ed;
+    }
+    &:nth-of-type(5n+3) aside span {
+      background-color: #2e8db7;
+    }
+    &:nth-of-type(5n+4) aside span {
+      background-color: #47B179;
+    }
+    &:nth-of-type(5n+5) aside span {
+      background-color: #3B4E99;
+    }
+  }
+}
