@@ -1,3 +1,4 @@
+
 .constitucion {
   header {
     //@include box-shadow(0 0 10px rgba(0,0,0,.1));
@@ -22,21 +23,23 @@
   .hero {
     @include serif;
     text-align: center;
+    width: 65%;
+    margin: 14% auto 17% auto;
     //background: url(/images/ribbons/argentina.svg) no-repeat center top;
 
     h1 {
       color: #264f64;
       font-weight: 700;
-      font-size: 70px;
-      line-height: 80px;
+      font-size: 4.3em;
+      line-height: 1.2em;
       letter-spacing: -0.05em;
-      padding-bottom: 25px;
+      padding-bottom: 2%;
     }
 
     p {
       font-style: italic;
-      font-size: 15px;
-      padding-bottom: 175px;
+      font-size: 0.938em;
+      //padding-bottom: 25%;
       color: #666;
 
       em {
@@ -45,49 +48,51 @@
     }
 
     img {
-      margin: 300px 0 50px 0;
+      width: 13%;
+      margin-bottom: 2%;
     }
   }
 
   h3 {
-    margin: 150px 0 65px 0;
     text-align: center;
+    margin: 5% 0 0 0;
 
     span {
       @include border-radius(30px);
       font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      font-size: 16px;
+      font-size: 1em;
+      line-height: 2em;
       font-weight: 600;
       color: #4db9df;
       border: 2px solid #4db9df;
       padding: 13px 35px 11px 35px;
       text-transform: uppercase;
-      line-height: 25px;
-
     }
   }
 
   h4 {
-    font-size: 40px;
+    font-size: 2.5em;
     font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
     color: #264f64;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 4%;
+
+    + a + section { border-top: none !important; }
   }
 
   h5 {
     font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-    font-size: 20px;
+    font-size: 1.25em;
     color: #264f64;
     text-align: center;
-    margin: 75px 0 10px 0;
+    margin: 5% 0 1% 0;
     font-style: italic;
   }
 
   section {
-    border-bottom: 1px dashed #ccc;
-    padding: 100px 0 75px 0;
+    border-top: 1px dashed #ccc;
+    padding: 5% 0 5% 0;
     position: relative;
 
     a {
@@ -97,13 +102,14 @@
     }
 
     &.resaltado {
-      @include linear-gradient(#FFF, #FFFEF1);
+      @include linear-gradient(#FCFBF6, #FFF);
     }
 
     article {
-      max-width: 875px;
+      @include serif;
+      width: 65%;
+      max-width: 1280px;
       margin: 0 auto;
-      font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
       line-height: 25px;
 
 
@@ -114,25 +120,29 @@
       }
 
       aside {
-        width: 110px;
+        width: 10%;
         float: left;
         margin-top: -10px;
+        max-width: 80px;
 
         span {
           @include border-radius(50px);
-          padding: 17px;
+          padding: 15%;
           display: block;
-          width: 65px;
-          height: 65px;
+          width: 75%;
+
+          img {
+            width: 100%;
+          }
         }
       }
 
       main {
-        width: 760px;
+        width: 87%;
         float: right;
 
         p {
-          width: 760px;
+          //width: 760px;
           font-size: 20px;
           line-height: 33px;
           padding-bottom: 25px;
@@ -143,16 +153,15 @@
         }
 
         header {
-          width: 760px;
           color: #333;
           font-weight: 900;
-          font-size: 17px;
+          font-size: 1.063em;
           text-align: left;
-          margin-bottom: 25px;
+          margin-bottom: 2%;
 
           dfn {
             display: block;
-            font-size: 13px;
+            font-size: 0.813em;
             color: #999;
             font-style: italic;
             font-weight: 300;
@@ -166,7 +175,7 @@
         button {
           @include border-radius(25px);
           @include transition(all 300ms);
-          background: url('/images/icons/puntos.svg') no-repeat center 4px;
+          background: url('/images/iconos/puntos.svg') no-repeat center 4px;
           display: inline-block;
           height: 25px;
           width: 63px;
@@ -188,7 +197,7 @@
           }
 
           &.expanded {
-            border-color: #e2e2e2;
+            border-color: #51a2ce;
             background-color: transparent;
             opacity: 1;
             background-position: center -28px;
@@ -258,15 +267,15 @@
       border: none;
 
       article {
-        max-width: 720px;
+        width: 50%;
         padding: 0;
 
         p {
           color: #666;
           float: none;
           width: 100%;
-          font-size: 24px;
-          line-height: 45px;
+          font-size: 1.5em;
+          line-height: 1.75em;
           text-align: center;
         }
       }

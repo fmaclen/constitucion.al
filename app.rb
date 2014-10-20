@@ -19,8 +19,8 @@ get "/css.css" do
   scss :css, style: :expanded
 end
 
-get '/test' do
-  erb :test, { :layout => :'constitucion/layout.html' }
+get '/test/?' do
+  erb :test, :layout => false
 end
 
 get '/toast' do
