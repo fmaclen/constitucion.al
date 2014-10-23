@@ -1,4 +1,3 @@
-
 .constitucion {
   header {
     //@include box-shadow(0 0 10px rgba(0,0,0,.1));
@@ -53,8 +52,7 @@
     }
   }
 
-  h3 {
-    text-align: center;
+  h2 {
     margin: 5% 0 0 0;
 
     span {
@@ -67,32 +65,79 @@
       border: 2px solid #4db9df;
       padding: 13px 35px 11px 35px;
       text-transform: uppercase;
+
+      em {
+        font-weight: 200;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  h3 {
+    @include serif;
+    font-size: 2.5em;
+    color: #264f64;
+    font-weight: 700;
+    margin-bottom: 4%;
+
+    span {
+      display: block;
+      font-style: italic;
+      font-size: 0.55em;
+      color: #264f64;
+      margin: 5% 0 1% 0;
+      font-weight: 300;
     }
   }
 
   h4 {
-    font-size: 2.5em;
-    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-    color: #264f64;
+    @include serif;
+    font-size: 1.75em;
+    color: #333;
     font-weight: 700;
-    text-align: center;
     margin-bottom: 4%;
+
+    span {
+      display: block;
+      font-style: italic;
+      font-size: 0.65em;
+      color: #666;
+      margin: 5% 0 1% 0;
+      font-weight: 300;
+    }
+  }
+
+  h5 {
+    @include serif;
+    font-size: 1.65em;
+    font-weight: 300;
+    color: #264f64;
+    font-style: italic;
+
+    span {
+      font-size: 0.6em;
+      width: 25%;
+      display: block;
+      border-bottom: 1px solid #eaeaea;
+      padding: 0 5%;
+      line-height: 2em;
+      margin: 3% auto 1% auto;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-style: normal;
+    }
+  }
+
+  h1, h2, h3, h4, h5 {
+    text-align: center;
 
     + a + section { border-top: none !important; }
   }
 
-  h5 {
-    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
-    font-size: 1.25em;
-    color: #264f64;
-    text-align: center;
-    margin: 5% 0 1% 0;
-    font-style: italic;
-  }
-
   section {
     border-top: 1px dashed #ccc;
-    padding: 5% 0 5% 0;
+    padding: 7% 0 7% 0;
     position: relative;
 
     a {
