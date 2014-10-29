@@ -250,9 +250,9 @@ body {
       float: right; }
       /* line 189, ../app/views/css/constitucion.scss */
       .constitucion section article main p {
-        font-size: 20px;
-        line-height: 33px;
-        padding-bottom: 25px; }
+        font-size: 1.429em;
+        line-height: 1.5em;
+        padding-bottom: 2%; }
         /* line 195, ../app/views/css/constitucion.scss */
         .constitucion section article main p:last-child {
           padding-bottom: 0; }
@@ -360,14 +360,14 @@ body {
           .constitucion section article footer ul li input {
             height: 30px; }
   /* line 311, ../app/views/css/constitucion.scss */
-  .constitucion section.preambulo {
+  .constitucion section.destacado {
     border: none; }
     /* line 314, ../app/views/css/constitucion.scss */
-    .constitucion section.preambulo article {
+    .constitucion section.destacado article {
       width: 50%;
       padding: 0; }
       /* line 318, ../app/views/css/constitucion.scss */
-      .constitucion section.preambulo article p {
+      .constitucion section.destacado article p {
         color: #666;
         float: none;
         width: 100%;
@@ -403,3 +403,20 @@ body {
 /* line 364, ../app/views/css/constitucion.scss */
 .buenos_aires section:nth-of-type(5n+5) aside span {
   background-color: #3B4E99; }
+
+@media (max-width: 1279px) {
+  /* line 2, ../app/views/css/media-queries.scss */
+  body {
+    font-size: 13px; } }
+@media (max-width: 1023px) {
+  /* line 8, ../app/views/css/media-queries.scss */
+  body {
+    font-size: 12px; } }
+@media (max-width: 639px) {
+  /* line 14, ../app/views/css/media-queries.scss */
+  body {
+    font-size: 10px; } }
+@media (max-width: 329px) {
+  /* line 20, ../app/views/css/media-queries.scss */
+  body {
+    font-size: 8px; } }

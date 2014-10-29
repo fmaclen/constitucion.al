@@ -188,9 +188,9 @@
 
         p {
           //width: 760px;
-          font-size: 20px;
-          line-height: 33px;
-          padding-bottom: 25px;
+          font-size: 1.429em;
+          line-height: 1.5em;
+          padding-bottom: 2%;
 
           &:last-child {
             padding-bottom: 0;
@@ -308,7 +308,7 @@
       }
     }
 
-    &.preambulo {
+    &.destacado {
       border: none;
 
       article {
