@@ -188,7 +188,7 @@
 
         p {
           //width: 760px;
-          font-size: 1.429em;
+          font-size: 1.25em;
           line-height: 1.5em;
           padding-bottom: 2%;
 
@@ -326,7 +326,39 @@
       }
     }
   }
+
+  #lateral {
+    @include box-shadow (0 5px 15px rgba(0,0,0,.15));
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: scroll;
+    width: 280px;
+
+    h1, h2, h3, h4, h5 {
+      border: none;
+      border-bottom: 1px solid #eaeaea;
+      color: #333;
+      font-size: 1em;
+      padding: 0;
+      margin: 0;
+    }
+
+    ul {
+      li {
+        border-bottom: 1px dashed #eaeaea;
+        padding: 1% 25px;
+      }
+    }
+
+    a {
+      color: #0068AD;
+      text-decoration: none;
+    }
+  }
 }
+
+
 
 // Estilos por cada constitución
 

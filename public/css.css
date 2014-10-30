@@ -250,7 +250,7 @@ body {
       float: right; }
       /* line 189, ../app/views/css/constitucion.scss */
       .constitucion section article main p {
-        font-size: 1.429em;
+        font-size: 1.25em;
         line-height: 1.5em;
         padding-bottom: 2%; }
         /* line 195, ../app/views/css/constitucion.scss */
@@ -374,33 +374,59 @@ body {
         font-size: 1.5em;
         line-height: 1.75em;
         text-align: center; }
+/* line 330, ../app/views/css/constitucion.scss */
+.constitucion #lateral {
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+  width: 280px; }
+  /* line 338, ../app/views/css/constitucion.scss */
+  .constitucion #lateral h1, .constitucion #lateral h2, .constitucion #lateral h3, .constitucion #lateral h4, .constitucion #lateral h5 {
+    border: none;
+    border-bottom: 1px solid #eaeaea;
+    color: #333;
+    font-size: 1em;
+    padding: 0;
+    margin: 0; }
+  /* line 348, ../app/views/css/constitucion.scss */
+  .constitucion #lateral ul li {
+    border-bottom: 1px dashed #eaeaea;
+    padding: 1% 25px; }
+  /* line 354, ../app/views/css/constitucion.scss */
+  .constitucion #lateral a {
+    color: #0068AD;
+    text-decoration: none; }
 
-/* line 335, ../app/views/css/constitucion.scss */
+/* line 367, ../app/views/css/constitucion.scss */
 .argentina section:nth-of-type(4n+2) aside span {
   background-color: #FFE900; }
-/* line 338, ../app/views/css/constitucion.scss */
+/* line 370, ../app/views/css/constitucion.scss */
 .argentina section:nth-of-type(4n+3) aside span {
   background-color: #9FD9F3; }
-/* line 341, ../app/views/css/constitucion.scss */
+/* line 373, ../app/views/css/constitucion.scss */
 .argentina section:nth-of-type(4n+4) aside span {
   background-color: #0093E0; }
-/* line 344, ../app/views/css/constitucion.scss */
+/* line 376, ../app/views/css/constitucion.scss */
 .argentina section:nth-of-type(4n+1) aside span {
   background-color: #0068AD; }
 
-/* line 352, ../app/views/css/constitucion.scss */
+/* line 384, ../app/views/css/constitucion.scss */
 .buenos_aires section:nth-of-type(5n+1) aside span {
   background-color: #f4d13b; }
-/* line 355, ../app/views/css/constitucion.scss */
+/* line 387, ../app/views/css/constitucion.scss */
 .buenos_aires section:nth-of-type(5n+2) aside span {
   background-color: #8cd9ed; }
-/* line 358, ../app/views/css/constitucion.scss */
+/* line 390, ../app/views/css/constitucion.scss */
 .buenos_aires section:nth-of-type(5n+3) aside span {
   background-color: #2e8db7; }
-/* line 361, ../app/views/css/constitucion.scss */
+/* line 393, ../app/views/css/constitucion.scss */
 .buenos_aires section:nth-of-type(5n+4) aside span {
   background-color: #47B179; }
-/* line 364, ../app/views/css/constitucion.scss */
+/* line 396, ../app/views/css/constitucion.scss */
 .buenos_aires section:nth-of-type(5n+5) aside span {
   background-color: #3B4E99; }
 
