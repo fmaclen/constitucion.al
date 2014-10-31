@@ -1,4 +1,6 @@
 .constitucion {
+  background-color: #f4f4f4;
+
   header {
     //@include box-shadow(0 0 10px rgba(0,0,0,.1));
 //    height: 65px;
@@ -21,15 +23,17 @@
 
   .hero {
     @include serif;
+    //@include linear-gradient(#FFF,#f4f4f4);
+    background-color: #FFF;
     text-align: center;
-    width: 65%;
-    margin: 14% auto 17% auto;
+    margin: 0 auto;
+    padding: 10% 0 22% 0;
     //background: url(/images/ribbons/argentina.svg) no-repeat center top;
 
     h1 {
       color: #264f64;
       font-weight: 700;
-      font-size: 4.3em;
+      font-size: 4em;
       line-height: 1.2em;
       letter-spacing: -0.05em;
       padding-bottom: 2%;
@@ -53,22 +57,24 @@
   }
 
   h2 {
-    margin: 5% 0 0 0;
+    margin: 9% auto 9% auto;
+
 
     span {
-      @include border-radius(30px);
+      border-bottom: 3px solid rgba(0,0,0,.045);
+      padding: 2.5% 2% 2.5% 2%;
+      //@include border-radius(30px);
       font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      font-size: 1em;
+      font-size: 1.1em;
       line-height: 2em;
-      font-weight: 600;
-      color: #4db9df;
-      border: 2px solid #4db9df;
-      padding: 13px 35px 11px 35px;
+      font-weight: 300;
+      color: rgba(0,0,0,.45);
+      letter-spacing: 0.25em;
+
       text-transform: uppercase;
 
       em {
-        font-weight: 200;
-        margin-left: 10px;
+        margin-left: 2%;
       }
     }
   }
@@ -78,7 +84,7 @@
     font-size: 2.5em;
     color: #264f64;
     font-weight: 700;
-    margin-bottom: 4%;
+    margin: 10% 0 10% 0;
 
     span {
       display: block;
@@ -88,14 +94,19 @@
       margin: 5% 0 1% 0;
       font-weight: 300;
     }
+
+    + h4 {
+      margin-top: -5%;
+      //border: 1px solid red;
+    }
   }
 
   h4 {
     @include serif;
-    font-size: 1.75em;
+    font-size: 1.5em;
     color: #333;
     font-weight: 700;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 
     span {
       display: block;
@@ -113,18 +124,20 @@
     font-weight: 300;
     color: #264f64;
     font-style: italic;
+    margin: 6% 0;
 
     span {
-      font-size: 0.6em;
+      @include sans-serif;
+      font-size: 0.5em;
       width: 25%;
       display: block;
       border-bottom: 1px solid #eaeaea;
       padding: 0 5%;
       line-height: 2em;
-      margin: 3% auto 1% auto;
+      margin: 0 auto 1% auto;
       color: #999;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.15em;
       font-style: normal;
     }
   }
@@ -136,8 +149,6 @@
   }
 
   section {
-    border-top: 1px dashed #ccc;
-    padding: 7% 0 7% 0;
     position: relative;
 
     a {
@@ -152,11 +163,13 @@
 
     article {
       @include serif;
-      width: 65%;
+      @include box-shadow(0 1px 1px rgba(0,0,0,.1));
+      background-color: #FFF;
+      width: 70%;
       max-width: 1280px;
-      margin: 0 auto;
+      margin: 3% auto;
       line-height: 25px;
-
+      padding: 5% 6% 5% 0;
 
       &:after {
         clear: both;
@@ -164,36 +177,75 @@
         display: table;
       }
 
+      &:first-child {
+        margin-top: 0;
+      }
+
       aside {
-        width: 10%;
+        width: 100px;
         float: left;
-        margin-top: -10px;
-        max-width: 80px;
+        padding: 0;
+        margin: 0;
 
         span {
-          @include border-radius(50px);
-          padding: 15%;
+          @include border-radius(0 3px 3px 0);
           display: block;
-          width: 75%;
+          width: 70%;
 
           img {
             width: 100%;
+            padding: 15% 15% 15% 45%;
           }
         }
       }
 
       main {
-        width: 87%;
+        width: calc(100% - 125px);
         float: right;
 
         p {
           //width: 760px;
-          font-size: 1.25em;
-          line-height: 1.5em;
+          font-size: 1.15em;
+          line-height: 1.75em;
           padding-bottom: 2%;
 
           &:last-child {
             padding-bottom: 0;
+          }
+        }
+
+        ol {
+          li {
+            counter-increment: item;
+            margin: 3% 0 5% 40px;
+
+            &:before {
+              content: counter(item);
+              float: left;
+              margin-left: -40px;
+
+              @include border-radius (20px);
+              @include sans-serif;
+              @include box-sizing(border-box);
+              font-size: 0.75em;
+              line-height: 1em;
+              color: #FFF;
+              background-color: #4db9df;
+              padding: 7px 7px 5px 7px;
+              min-width: 25px;
+              font-weight: 600;
+              text-align: center;
+            }
+
+            &:last-child {
+              margin-bottom: 0;
+            }
+
+            p {
+              font-size: 1em;
+              line-height: 1.7em;
+              //color: #444;
+            }
           }
         }
 
@@ -218,19 +270,20 @@
         clear: both;
 
         button {
-          @include border-radius(25px);
+          @include border-radius(3px);
           @include transition(all 300ms);
-          background: url('/images/iconos/puntos.svg') no-repeat center 4px;
+          background: url('/images/iconos/puntos.svg') no-repeat center 3px;
+          background-size: 75%;
           display: inline-block;
-          height: 25px;
-          width: 63px;
+          height: 20px;
+          width: 45px;
           border: 1px solid #ccc;
           background-color: #FFF;
-          padding: 3px 0;
+          padding: 5px 0;
           cursor: pointer;
           position: relative;
-          top: -29px;
-          left: 0;
+          top: -25px;
+          left: 25px;
           opacity: .35;
           outline: none;
           text-indent: -9999px;
@@ -245,7 +298,7 @@
             border-color: #51a2ce;
             background-color: transparent;
             opacity: 1;
-            background-position: center -28px;
+            background-position: center -19px;
           }
         }
 
@@ -253,8 +306,9 @@
           display: none;
           float:right;
           clear: both;
-          width: 760px;
           margin-top: 50px;
+          width: calc(100% - 125px);
+
 
           li {
             @include sans-serif;
@@ -309,14 +363,28 @@
     }
 
     &.destacado {
+      padding: 0;
+      margin: 0;
       border: none;
+      background-color: #4db9df;
 
       article {
-        width: 50%;
-        padding: 0;
+        @include box-shadow(none);
+        width: 70%;
+        padding: 10% 0;
+        background: none;
+        color: #FFF;
+
+        h2 {
+          margin-top: 0;
+
+          span {
+            color: #FFF;
+            border-color: rgba(255,255,255,.35);
+          }
+        }
 
         p {
-          color: #666;
           float: none;
           width: 100%;
           font-size: 1.5em;
@@ -328,12 +396,16 @@
   }
 
   #lateral {
+    display: none;
+
     @include box-shadow (0 5px 15px rgba(0,0,0,.15));
     position: absolute;
+    z-index: 9999;
     top: 0;
     left: 0;
     overflow: scroll;
     width: 280px;
+    background-color: #FFF;
 
     h1, h2, h3, h4, h5 {
       border: none;
@@ -365,7 +437,7 @@
 .argentina {
   section {
     &:nth-of-type(4n+2) aside span {
-      background-color: #FFE900; // Amarillo
+      background-color: #FFD500; // Amarillo
     }
     &:nth-of-type(4n+3) aside span {
       background-color: #9FD9F3; // Celeste
