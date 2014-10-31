@@ -306,16 +306,16 @@
           display: none;
           float:right;
           clear: both;
-          margin-top: 50px;
+          margin-top: 5%;
           width: calc(100% - 125px);
-
+          border-top: 1px dashed #eaeaea;
+          padding-top: 4%;
 
           li {
             @include sans-serif;
             margin: 10px 0 0;
             font-size: 15px;
             color: #999;
-            line-height: 30px;
 
             a {
               color: #264f64;
@@ -325,14 +325,14 @@
               min-width: 150px;
               font-weight: 100;
               text-transform: uppercase;
-              font-size: 13px;
+              font-size: 0.65em;
               padding-right: 5px;
               display: inline-block;
               letter-spacing: 0.05em;
               color: #999;
               letter-spacing: 1px;
-              height: 30px;
-              line-height: 32px;
+              //height: 30px;
+              line-height: 1.5em;
               float: left;
             }
 
@@ -342,8 +342,8 @@
               border: 1px solid #e2e2e2;
               width: 350px;
               height: 60px;
-              font-size: 15px;
-              line-height: 20px;
+              font-size: .75em;
+              line-height: 1.5em;
               display: inline-block;
               padding: 8px 7px;
               outline: none;

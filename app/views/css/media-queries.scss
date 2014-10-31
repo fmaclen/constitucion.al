@@ -13,6 +13,83 @@
 @media (max-width: 639px) {
   body {
     font-size: 10px;
+
+    &.constitucion {
+      h3 {
+        width: 80%;
+        margin: 15% auto;
+      }
+
+      section {
+        article {
+          margin: 10% auto 10% auto;
+          width: 90%;
+          padding-left: 6%;
+          padding-bottom: 13%;
+        }
+
+        &.destacado {
+          article {
+            padding: 13% 0;
+          }
+        }
+
+        main {
+          width: 100%;
+
+          dfn {
+            line-height: 1em;
+            margin: -3px 0 15px 0;
+          }
+        }
+
+        aside {
+          float: none;
+          width: 100%;
+          margin-top: -12%;
+
+          span {
+            margin: 0 auto;
+            @include border-radius(50px);
+            width: 13%;
+
+            img {
+              padding: 15%;
+            }
+          }
+        }
+
+        footer {
+          button {
+            left: 0;
+            top: 15px;
+            width: 35px;
+            height: 15px;
+
+            &.expanded {
+              background-position: center -14px;
+            }
+          }
+
+          ul {
+            width: 100%;
+            margin-top: 8%;
+            padding-top: 2%;
+
+            li {
+              input, textarea {
+                width: 100%;
+                margin-top: 3%;
+              }
+
+              &:last-child {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 
