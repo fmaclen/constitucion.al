@@ -12,12 +12,17 @@
 
 @media (max-width: 639px) {
   body {
-    font-size: 10px;
+    font-size: 11px;
 
     &.constitucion {
       h3 {
         width: 80%;
         margin: 15% auto;
+      }
+
+      h5 {
+        margin: 6% auto 12% auto;
+        width: 80%;
       }
 
       section {
