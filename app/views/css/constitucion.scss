@@ -153,13 +153,24 @@
     position: relative;
 
     a {
-      color: #264f64;
+      color: #333;
       text-decoration: none;
-      border-bottom: 1px dotted;
+      border-bottom: 2px solid #9FD9F3;
+
+      &:visited {
+        border-color: #ccc;
+      }
+
+      &:hover, &:active {
+        border-color: #9FD9F3;
+      }
     }
 
     &.resaltado {
-      @include linear-gradient(#FCFBF6, #FFF);
+      article {
+        @include box-shadow(0 15px 35px rgba(0,0,0,.20));
+      }
+      //@include linear-gradient(#FCFBF6, #FFF);
     }
 
     article {
@@ -228,7 +239,7 @@
               @include border-radius (3px);
               @include sans-serif;
               @include box-sizing(border-box);
-              font-size: 0.65em;
+              font-size: 0.85em;
               line-height: 1em;
               color: #666;
               border: 1px solid #e2e2e2;
