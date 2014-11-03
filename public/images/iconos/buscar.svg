@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>buscar</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="buscar" sketch:type="MSArtboardGroup" fill="#000000">
+            <path d="M94.83125,81.375 L76.9875,63.5375 C80.325,57.65 82.25,50.85625 82.25,43.61875 C82.25,21.21875 64.025,3 41.625,3 C19.225,3 1,21.21875 1,43.61875 C1,66.01875 19.225,84.25 41.625,84.25 C50,84.25 57.79375,81.6875 64.2625,77.33125 L81.56875,94.6375 C83.4,96.4625 85.80625,97.38125 88.2,97.38125 C90.6,97.38125 93,96.4625 94.83125,94.6375 C98.4875,90.975 98.4875,85.04375 94.83125,81.375 L94.83125,81.375 Z M13.5,43.61875 C13.5,28.1125 26.1125,15.5 41.625,15.5 C57.13125,15.5 69.75,28.1125 69.75,43.61875 C69.75,59.125 57.13125,71.74375 41.625,71.74375 C26.1125,71.74375 13.5,59.125 13.5,43.61875 L13.5,43.61875 Z" id="Imported-Layers" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

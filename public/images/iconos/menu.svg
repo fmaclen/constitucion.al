@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>menu</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="menu" sketch:type="MSArtboardGroup" fill="#000000">
+            <path d="M90.5,42 L10.5,42 C6.355,42 3,45.36 3,49.5 C3,53.64 6.355,57 10.5,57 L90.5,57 C94.645,57 98,53.64 98,49.5 C98,45.36 94.645,42 90.5,42 L90.5,42 Z M10.5,27 L90.5,27 C94.645,27 98,23.64 98,19.5 C98,15.36 94.645,12 90.5,12 L10.5,12 C6.355,12 3,15.36 3,19.5 C3,23.64 6.355,27 10.5,27 L10.5,27 Z M90.5,72 L10.5,72 C6.355,72 3,75.36 3,79.5 C3,83.64 6.355,87 10.5,87 L90.5,87 C94.645,87 98,83.64 98,79.5 C98,75.36 94.645,72 90.5,72 L90.5,72 Z" id="Imported-Layers" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

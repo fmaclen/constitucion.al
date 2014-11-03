@@ -1,34 +1,111 @@
 .constitucion {
   background-color: #f4f4f4;
 
-  header {
-    //@include box-shadow(0 0 10px rgba(0,0,0,.1));
-//    height: 65px;
-//    border-bottom: 1px solid #e2e2e2;
-    text-align: center;
+  &.lateral-activo {
+    @include transition(all 300ms);
 
+    a.btn-menu {
+      opacity: .5 !important;
+    }
+
+    #lateral {
+      left: 0 !important;
+    }
+  }
+
+
+  #principal {
+    @include box-shadow(0 0 10px rgba(0,0,0,.1));
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #FFF;
+    text-align: center;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+
+    ul {
+      @include transition(all 300ms);
+      position: absolute;
+      top: 11px;
+      right: 60px;
+      opacity: 0;
+
+      li {
+        @include border-radius(5px);
+        border: 1px solid #e2e2e2;
+        border-bottom: 3px solid #e2e2e2;
+        display: inline-block;
+        height: 40px;
+        font-size: .9em;
+        line-height: 38px;
+        font-weight: 700;
+        color: #666;
+        padding: 0 15px;
+        float: left;
+        margin-left: 7px;
+        //text-transform: uppercase;
+        letter-spacing: 0.05em;
+        background-color: #FFF;
+
+        &:nth-child(even) {
+          border: none;
+          padding: 0;
+          color: #c0c0c0;
+          font-weight: 300;
+          background: transparent;
+        }
+      }
+    }
 
     a {
-       padding: 20px;
-    }
+      @include transition(all 300ms);
+      padding: 5px;
+      text-indent: -9999px;
+      display: block;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 10px;
+      opacity: .15;
+      z-index: 9999;
+      cursor: pointer;
 
-    a:first-child {
-      float: left;
-    }
+      &:hover {
+        opacity: .5;
+      }
 
-    a:last-child {
-      float: right;
+      &.btn-menu {
+        background: url('/images/iconos/menu.svg') no-repeat center;
+        background-size: 55%;
+        left: 10px;
+      }
+
+      &.btn-buscar {
+        background: url('/images/iconos/buscar.svg') no-repeat center;
+        background-size: 55%;
+        right: 10px;
+
+        &:hover {
+          @include border-radius(5px);
+          @include box-sizing(border-box);
+          opacity: 1;
+          background-color: #FFF;
+
+          ~ ul {
+            opacity: 1;
+          }
+        }
+      }
     }
   }
 
   .hero {
     @include serif;
-    //@include linear-gradient(#FFF,#f4f4f4);
     background-color: #FFF;
     text-align: center;
     margin: 0 auto;
     padding: 10% 0 22% 0;
-    //background: url(/images/ribbons/argentina.svg) no-repeat center top;
 
     h1 {
       color: #264f64;
@@ -51,7 +128,7 @@
     }
 
     img {
-      width: 13%;
+      width: 11.5%;
       margin-bottom: 2%;
     }
   }
@@ -408,31 +485,96 @@
     }
   }
 
-  #lateral {
-    display: none;
+// Menu Lateral
 
-    @include box-shadow (0 5px 15px rgba(0,0,0,.15));
-    position: absolute;
+  #lateral {
+    //display: none;
+
+    @include transition(all 300ms);
+    @include box-shadow (0 5px 15px rgba(0,0,0,.1));
+    border-right: 1px solid #d9d9d9;
+    position: fixed;
     z-index: 9999;
     top: 0;
-    left: 0;
+    left: -25%;
+    padding-top: 65px;
     overflow: scroll;
-    width: 280px;
+    width: 25%;
+    max-width: 375px;
+    height: 100%;
     background-color: #FFF;
 
     h1, h2, h3, h4, h5 {
+      @include serif;
       border: none;
       border-bottom: 1px solid #eaeaea;
       color: #333;
-      font-size: 1em;
-      padding: 0;
+      font-size: .95em;
+      padding: 25px;
       margin: 0;
+      text-align: left;
+      font-weight: 600;
+      background-color: #f9f9f9;
+      font-style: none;
+
+      span {
+        @include serif;
+        font-style: italic;
+        color: #999;
+        display: block;
+        border: none;
+        padding: 0;
+        margin: 0;
+        text-transform: none;
+        letter-spacing: 0em;
+        line-height: 1.75em;
+        color: #333;
+        font-size: 0.75em;
+      }
+    }
+
+    + h2 {
+      padding: 0;
+      background-color: #FFF;
+
+      a {
+        @include transition(all 300ms);
+        padding: 25px;
+        display: block;
+
+        &:hover {
+          color: #FFF;
+          background-color: #0068AD;
+        }
+      }
     }
 
     ul {
+
       li {
+        font-size: .9em;
         border-bottom: 1px dashed #eaeaea;
-        padding: 1% 25px;
+
+
+        a {
+          @include transition(all 300ms);
+          padding: 20px 25px;
+          display: block;
+          line-height: 1.15em;
+
+          &:hover {
+            color: #FFF;
+            background-color: #0068AD;
+          }
+
+          span {
+            @include serif;
+            display: block;
+            font-size: .85em;
+            //color: #999;
+            font-style: italic;
+          }
+        }
       }
     }
 
