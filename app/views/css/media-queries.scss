@@ -30,7 +30,7 @@
           margin: 10% auto 10% auto;
           width: 90%;
           padding-left: 6%;
-          padding-bottom: 13%;
+          padding-bottom: 8%;
         }
 
         &.destacado {
@@ -55,8 +55,8 @@
 
           span {
             margin: 0 auto;
-            @include border-radius(50px);
-            width: 13%;
+            @include border-radius(3px);
+            width: 10%;
 
             img {
               padding: 15%;

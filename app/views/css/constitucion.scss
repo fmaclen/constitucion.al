@@ -15,9 +15,7 @@
 
 
   #principal {
-    @include box-shadow(0 0 10px rgba(0,0,0,.1));
-    border-bottom: 1px solid #e2e2e2;
-    background-color: #FFF;
+    @include transition(all 500ms);
     text-align: center;
     height: 65px;
     position: fixed;
@@ -33,8 +31,8 @@
 
       li {
         @include border-radius(5px);
+        @include box-shadow(inset 0 -4px 0 rgba(0,0,0,.05));
         border: 1px solid #e2e2e2;
-        border-bottom: 3px solid #e2e2e2;
         display: inline-block;
         height: 40px;
         font-size: .9em;
@@ -49,12 +47,37 @@
         background-color: #FFF;
 
         &:nth-child(even) {
+          @include box-shadow(none);
           border: none;
           padding: 0;
           color: #c0c0c0;
           font-weight: 300;
           background: transparent;
         }
+      }
+    }
+
+    p {
+      @include transition(all 300ms);
+      @include serif;
+      background: url('/images/ribbons/argentina.svg') no-repeat top center;
+      background-size: 125px;
+      color: #264f64;
+      opacity: 0;
+      line-height: 65px;
+      height: 65px;
+      font-size: 17px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    &.achicado {
+      @include box-shadow(0 0 10px rgba(0,0,0,.1));
+      border-bottom: 1px solid #e2e2e2;
+      background-color: #FFF;
+
+      p {
+        opacity: 1;
       }
     }
 
@@ -82,6 +105,7 @@
       }
 
       &.btn-buscar {
+        cursor: default;
         background: url('/images/iconos/buscar.svg') no-repeat center;
         background-size: 55%;
         right: 10px;
@@ -105,7 +129,7 @@
     background-color: #FFF;
     text-align: center;
     margin: 0 auto;
-    padding: 10% 0 22% 0;
+    padding: 15% 0 22% 0;
 
     h1 {
       color: #264f64;
