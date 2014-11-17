@@ -22,7 +22,7 @@
         background-size: 113px !important;
         font-size: 13px !important;
         line-height: 1.25em !important;
-        padding: 23px 20%;
+        padding: 23px 17%;
       }
 
       .btn-buscar, ul {
@@ -39,8 +39,8 @@
     }
 
     #lateral {
-      width: 250px !important;
-      padding-top: 60px !important;
+      width: 200px !important;
+      padding-top: 0 !important;
       font-size: 12px;
 
       h3, h5 {
@@ -49,6 +49,12 @@
     }
 
     &.constitucion {
+      h1, h2, h3, h4, h5, section {
+        + a {
+          top: -85px !important;
+        }
+      }
+
       h3 {
         width: 80%;
         margin: 15% auto;
@@ -134,6 +140,27 @@
           }
         }
       }
+    }
+
+    &.lateral-activo {
+      @include transition(all 300ms);
+
+      &:after {
+        content: '';
+        background: rgba(0,0,0,.35);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+      }
+
+      &.achicado {
+        #lateral {
+          padding-top: 60px !important;
+        }
+      }
+
+      right: 0px !important;
     }
   }
 }
