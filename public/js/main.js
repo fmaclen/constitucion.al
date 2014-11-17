@@ -55,7 +55,7 @@ $(function() {
 function init() {
     window.addEventListener('scroll', function(e){
         var distanceY = window.pageYOffset || document.documentElement.scrollTop,
-            shrinkOn = 500,
+            shrinkOn = 350,
             header = document.querySelector("body");
         if (distanceY > shrinkOn) {
             classie.add(header,"achicado");

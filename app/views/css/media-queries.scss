@@ -4,7 +4,7 @@
   }
 }
 
-@media (max-width: 1281px) {
+@media (max-width: 1023px) {
   body {
     font-size: 12px;
   }
@@ -13,6 +13,40 @@
 @media (max-width: 639px) {
   body {
     font-size: 11px;
+
+    #principal {
+      height: 60px !important;
+
+      p {
+        background-position: center -2px !important;
+        background-size: 113px !important;
+        font-size: 13px !important;
+        line-height: 1.25em !important;
+        padding: 23px 20%;
+      }
+
+      .btn-buscar, ul {
+        display: none;
+      }
+
+      .btn-menu:before {
+        border-left: none !important;
+      }
+
+      .btn-constitucional {
+        width: 40px !important;
+      }
+    }
+
+    #lateral {
+      width: 250px !important;
+      padding-top: 60px !important;
+      font-size: 12px;
+
+      h3, h5 {
+        width: 100% !important;
+      }
+    }
 
     &.constitucion {
       h3 {
@@ -29,8 +63,7 @@
         article {
           margin: 10% auto 10% auto;
           width: 90%;
-          padding-left: 6%;
-          padding-bottom: 8%;
+          padding: 8% 6% 10% 6%;
         }
 
         &.destacado {
@@ -51,10 +84,10 @@
         aside {
           float: none;
           width: 100%;
-          margin-top: -12%;
+          margin: -15% 0 4% 0;
 
           span {
-            margin: 0 auto;
+            margin: 0;
             @include border-radius(3px);
             width: 10%;
 
@@ -67,7 +100,7 @@
         footer {
           button {
             left: 0;
-            top: 15px;
+            top: 10px;
             width: 35px;
             height: 15px;
 
@@ -78,10 +111,17 @@
 
           ul {
             width: 100%;
-            margin-top: 8%;
-            padding-top: 2%;
+            margin-top: 4%;
+            padding: 2% 0 1% 0;
 
             li {
+              margin-top: 5px;
+
+              span {
+                line-height: 1.5em;
+                font-size: .57em;
+              }
+
               input, textarea {
                 width: 100%;
                 margin-top: 3%;
@@ -101,5 +141,9 @@
 @media (max-width: 329px) {
   body {
     font-size: 8px;
+
+    #principal p {
+      padding: 15px 31%;
+    }
   }
 }

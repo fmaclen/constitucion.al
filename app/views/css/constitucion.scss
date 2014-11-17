@@ -17,7 +17,7 @@
       @include transition(all 300ms);
       position: absolute;
       top: 11px;
-      right: 110px;
+      right: 105px;
       opacity: 0;
 
       li {
@@ -103,7 +103,7 @@
         cursor: default;
         background: url('/images/iconos/buscar.svg') no-repeat center;
         background-size: 55%;
-        right: 70px;
+        right: 65px;
 
         &:hover {
           @include border-radius(5px);
@@ -133,7 +133,7 @@
     background-color: #FFF;
     text-align: center;
     margin: 0 auto;
-    padding: 9% 0 14% 0;
+    padding: 9% 5% 14% 5%;
 
     h1 {
       color: #264f64;
@@ -448,14 +448,14 @@
               min-width: 150px;
               font-weight: 100;
               text-transform: uppercase;
-              font-size: 0.65em;
+              font-size: 0.75em;
               padding-right: 5px;
               display: inline-block;
               letter-spacing: 0.05em;
               color: #999;
               letter-spacing: 1px;
               //height: 30px;
-              line-height: 1.5em;
+              line-height: 2.5em;
               float: left;
             }
 
@@ -490,6 +490,10 @@
       margin: 0;
       border: none;
       background-color: #4db9df;
+
+      &:last-child {
+        margin-top: 10%;
+      }
 
       article {
         @include box-shadow(none);
