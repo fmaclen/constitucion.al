@@ -5,6 +5,10 @@ require 'open-uri'
 
 # Settings
 
+configure do
+    set :protection, except: [:frame_options]
+end
+
 Tilt.register Tilt::ERBTemplate, 'html.erb'
 set :views, settings.root + '/app/views'
 set :bind, "0.0.0.0"

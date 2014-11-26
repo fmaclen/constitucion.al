@@ -96,4 +96,17 @@ section a {
   border-bottom: 2px solid #9FD9F3;
 }
 
+section ol {
+  font-size: 11px;
+  color: #999;
+}
+
+section ol li {
+  margin-bottom: 15px;
+}
+
+section ol li p {
+  margin-bottom: 13px;
+  font-size: 15px;
+}
 
