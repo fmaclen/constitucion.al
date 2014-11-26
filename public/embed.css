@@ -1,0 +1,99 @@
+body {
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+  margin: 5px;
+  border: 1px solid #d1d1d1;
+  background-color: #FFF;
+  box-shadow: 0 3px 7px rgba(0,0,0,.1);
+  border-radius: 5px;
+}
+
+.cabecera {
+  border-bottom: 1px solid #e2e2e2;
+  padding: 25px;
+}
+
+.cabecera h1 {
+  font-size: 19px;
+  color: #264f64;
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+.cabecera p a {
+  color: #999;
+}
+
+.cabecera p {
+  font-size: 12px;
+  color: #999;
+  padding: 0;
+  margin: 0;
+}
+
+.cabecera .logo {
+  text-indent: -9999px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  float: right;
+  background: url('/images/constitucional_iso.svg') no-repeat center right;
+  margin-top: -10px;
+}
+
+section {
+  padding: 25px;
+}
+
+section dfn {
+  display: none;
+}
+
+section aside {
+  width: 65px;
+  float: left;
+}
+
+section aside span {
+  border-radius: 3px;
+  background-color: #4db9df;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-align: center;
+}
+
+section aside span img {
+  width: 30px;
+  margin-top: 5px;
+}
+
+section main {
+  margin-left: 65px;
+}
+
+section header {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+  line-height: 1.5em;
+  padding: 0;
+  margin: 0 0 17px 0;
+}
+
+section a {
+  color: #333;
+  text-decoration: none;
+  border-bottom: 2px solid #9FD9F3;
+}
+
+

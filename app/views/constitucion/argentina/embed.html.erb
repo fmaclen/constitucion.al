@@ -1,1 +1,28 @@
-<%= @articulo %>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Constitucion.al</title>
+    <link rel="stylesheet" href="/embed.css">
+  </head>
+  <body>
+    <div class='wrapper'>
+      <header class='cabecera'>
+        <a href='http://constitucion.al/argentina/' target="_blank" title='Ver la Constitución de la Nación Argentina completa' class="logo">Ver la Constitución Completa</a>
+        <h1>Constitucion de la Nación Argentina</h1>
+        <p>Facilitada por <a href="http://constitucion.al" target="_blank">Constitucion.al</a></p>
+      </header>
+      <%= @articulo %>
+    </div>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-1560276-22', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </body>
+</html>
