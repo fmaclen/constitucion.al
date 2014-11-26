@@ -6,7 +6,7 @@ require 'open-uri'
 # Settings
 
 configure do
-    set :protection, except: [:frame_options]
+  set :protection, except: [:frame_options]
 end
 
 Tilt.register Tilt::ERBTemplate, 'html.erb'

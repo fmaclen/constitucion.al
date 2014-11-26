@@ -745,10 +745,10 @@ body {
       padding: 13% 0; }
     /* line 81, ../app/views/css/media-queries.scss */
     body.constitucion section main {
-      width: 100%; }
-      /* line 84, ../app/views/css/media-queries.scss */
+      width: 100%;
+      line-height: 2.75em; }
+      /* line 85, ../app/views/css/media-queries.scss */
       body.constitucion section main dfn {
-        line-height: 1em;
         margin: -3px 0 15px 0; }
     /* line 90, ../app/views/css/media-queries.scss */
     body.constitucion section aside {
