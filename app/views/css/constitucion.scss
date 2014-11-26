@@ -374,12 +374,13 @@
         header {
           @include sans-serif;
           color: #333;
-          font-size: 0.85em;
+          font-size: 0.95em;
           text-align: left;
-          margin-bottom: 2%;
+          margin-bottom: 3%;
           letter-spacing: .1em;
           text-transform: uppercase;
           font-weight: 700;
+          line-height: 1.75em;
 
           dfn {
             @include serif;

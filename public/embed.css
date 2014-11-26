@@ -97,16 +97,17 @@ section a {
 }
 
 section ol {
-  font-size: 11px;
-  color: #999;
+  font-size: 13px;
 }
 
 section ol li {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  color: #999;
 }
 
 section ol li p {
-  margin-bottom: 13px;
+  margin-bottom: 10px;
   font-size: 15px;
+  color: #333;
 }
 
