@@ -52,12 +52,12 @@
       @include transition(all 300ms);
       background: url('/images/ribbons/argentina.svg') no-repeat top center;
       background-size: 125px;
-      color: #264f64;
+      color: #61757B;
       opacity: 0;
-      line-height: 4em;
+      line-height: 4.1em;
       height: 100%;
       font-size: 17px;
-      font-weight: bold;
+      font-weight: 600;
       text-align: center;
     }
 
@@ -76,7 +76,6 @@
 
       &.btn-menu {
         background: url('/images/iconos/menu.svg') no-repeat center;
-        background-size: 55%;
         right: 10px;
 
         &:before {
@@ -101,13 +100,12 @@
       &.btn-buscar {
         cursor: default;
         background: url('/images/iconos/buscar.svg') no-repeat center;
-        background-size: 55%;
         right: 65px;
 
         &:hover {
           @include border-radius(5px);
           @include box-sizing(border-box);
-          opacity: 1;
+          opacity: .5;
           background-color: #FFF;
 
           ~ ul {
@@ -639,8 +637,9 @@
     right: 140px;
     overflow-x: hidden;
 
-    a.btn-menu {
-      opacity: .5;
+    #principal a.btn-menu {
+      background: url('/images/iconos/menu-activo.svg') no-repeat center;
+      opacity: 1;
 
       &:before {
         border-left: 1px solid rgba(0,0,0,.15);
@@ -656,9 +655,8 @@
 
   &.achicado {
     #principal {
-      @include box-shadow(0 0 10px rgba(0,0,0,.1));
-      border-bottom: 1px solid #e2e2e2;
-      background-color: #FFF;
+      @include box-shadow(0 0 10px rgba(0,0,0,.15));
+      background-color: rgba(255, 255, 255, .97);
 
       p {
         opacity: 1;
