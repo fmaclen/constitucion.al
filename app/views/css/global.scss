@@ -1,3 +1,149 @@
 body {
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.home {
+  a {
+    text-decoration: none;
+
+    &.button {
+      @include sans-serif;
+      @include border-radius(25px);
+      @include transition(all 300ms);
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: 1.1em;
+      font-weight: 100;
+      letter-spacing: .35em;
+      padding: 15px 25px 13px 35px;
+      border: 2px solid #FFF;
+      margin-right: 25px;
+
+      &:hover {
+        background-color: rgba(255,255,255,.25);
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  header, .wrapper {
+    display: block;
+    width: 70%;
+    min-width: 960px;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  header {
+    @include box-sizing(border-box);
+    position: relative;
+    height: 80%;
+    max-height: 1300px;
+    min-height: 550px;
+    background: #FFF url('/images/republica_argentina.svg') no-repeat center;
+    background-size: 60%;
+
+    .logo, nav {
+      margin-top: 7%;
+      display: block;
+    }
+
+    .logo {
+      width: 300px;
+      float: left;
+    }
+
+    nav {
+      float: right;
+      text-align: right;
+    }
+
+    h1 {
+      top: 33%;
+      clear: both;
+      position: absolute;
+      font-size: 4.25em;
+      text-transform: uppercase;
+      color: #4db8de;
+      font-weight: 100;
+      line-height: 1.45em;
+
+      a {
+        @include transition(all 300ms);
+        font-weight: 700;
+        color: #4db8de;
+        border-bottom: 2px double;
+
+        &:hover {
+          color: #264f64;
+          border-bottom: 3px solid rgba(0,0,0,0.1);
+        }
+      }
+    }
+  }
+
+  .constitucion-nacion, .constitucion-caba {
+    @include serif;
+    text-align: center;
+
+    span {
+      margin-top: 3%;
+      display: block;
+      font-size: 1.75em;
+      font-weight: 700;
+    }
+
+    .cinta {
+      max-width: 30%;
+      display: block;
+    }
+  }
+
+  .constitucion-nacion {
+    background-color: #264f64;
+    color: #FFF;
+    padding-bottom: 10%;
+
+    .cinta {
+      margin: 0 auto 15% auto;
+    }
+
+    .escudo {
+      width: 20%;
+      opacity: .95;
+    }
+
+    a {
+      color: #FFF;
+      margin-top: 7%;
+    }
+
+    span {
+      font-size: 3.5em;
+    }
+  }
+
+  .constitucion-caba {
+    background-color: #FFF;
+    padding-bottom: 6%;
+
+    .cinta {
+      margin: 0 auto 7% auto;
+    }
+
+    a {
+      color: #333;
+    }
+
+    .escudo {
+      width: 12%;
+    }
+  }
+
+  .constitucion-provincias {
+    background-color: #eaeaea;
+  }
+}
