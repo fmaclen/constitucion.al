@@ -1,9 +1,11 @@
 <%
-  @title = 'Constitución de la Nación Argentina'
-  @body_class = 'argentina'
+  @title = 'Constitución.al'
+  @body_class = 'homepage'
   @keywords = ''
   @description = ''
 %>
+
+<script src="/js/main.js"></script>
 
 <header>
   <a href="/" class="logo"><img src="/images/constitucional_logo.svg" title="Constitucion.al" alt="Logo"></a>
@@ -11,12 +13,17 @@
     <a href="http://twitter.com/constitucion_al" target="_blank" title="Seguinos en Twitter">@constitucion_al</a>
     <a href="https://twitter.com/search?src=typd&q=%23constitucional" target="_blank" title="Tweets con el hashtag #constitucional">#constitucional</a>
   </nav>
-  <h1>La <a href="/argentina/">Constitución de la Nación Argentina</a>, <wbr>de la <a href="#caba">Ciudad de Buenos Aires</a> <wbr>y las <a href="#provincias">23 Provincias</a> de la república.</h1>
+  <h1>La Constitución<br>
+   de la
+      <span class="rotativos">nación <br><a href="/argentina/">Argentina</a></span>
+      <span class="rotativos">ciudad de <br><a href="/ciudad-de-buenos-aires/">Buenos Aires</a></span>
+      <span class="rotativos">provincia de <br><a href="/provincia-de-buenos-aires/">Buenos Aires</a></span>
+      <span class="rotativos">provincia de <br><a href="/provncia-de-catamarca/">Catamarca</a></span>
+  </h1>
 </header>
 
 <section class="constitucion-nacion">
   <div class="wrapper">
-    <img class="cinta" src="/images/cintas/argentina.svg">
     <img src="/images/escudos/argentina-blanco.svg" class="escudo" alt="Escudo de armas de la República Argentina" title="Escudo de armas de la República Argentina">
     <span>Constitución <br>de la Nación Argentina</span>
     <a href="#historia" class="button" title="Historia la Constitución de la Nación Argentina">Historia</a>
@@ -24,22 +31,17 @@
   </div>
 </section>
 
-<a name="caba"></a>
-
-<section class="constitucion-caba">
-  <div class="wrapper">
-    <img class="cinta" src="/images/cintas/ciudad-buenos-aires.svg">
-    <img src="/images/escudos/ciudad-buenos-aires.svg" class="escudo" alt="Escudo de armas de la Ciudad Autónoma de Buenos Aires" title="Escudo de armas de la Ciudad Autónoma de Buenos Aires">
-    <span>Constitución de la Ciudad <br>Autónoma de Buenos Aires</span>
-  </div>
-</section>
-
 <a name="provincias"></a>
 
 <section class="constitucion-provincias">
   <div class="wrapper">
-    <h2><span>Constituciones Provinciales</span></h2>
     <ul>
+      <li>
+        <a href="/ciudad-autonoma-de-buenos-aires/" title="Constitución de la Ciudad Autónoma de Buenos Aires">
+          <img src="/images/escudos/ciudad-buenos-aires.svg" alt="Escudo de armas de la Ciudad Autónoma de Buenos Aires" title="Escudo de armas de la Ciudad Autónoma de Buenos Aires">
+          <span>Provincia de Buenos Aires</span>
+        </a>
+      </li>
       <li>
         <a href="/provincia-de-buenos-aires/" title="Constitución de la Provincia de Buenos Aires">
           <img src="/images/escudos/argentina1.svg" alt="Escudo de armas de la Provincia de Buenos Aires" title="Escudo de armas de la Provincia de Buenos Aires">

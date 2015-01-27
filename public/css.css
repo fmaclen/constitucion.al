@@ -57,7 +57,7 @@ table {
 
 /* line 1, ../app/views/css/global.scss */
 body {
-  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "Brandon Grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 /* line 6, ../app/views/css/global.scss */
 .home a {
@@ -137,53 +137,56 @@ body {
       .home header h1 a:hover {
         color: #264f64;
         border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
-/* line 88, ../app/views/css/global.scss */
+  /* line 87, ../app/views/css/global.scss */
+  .home header .rotativos {
+    display: none; }
+/* line 92, ../app/views/css/global.scss */
 .home .constitucion-nacion, .home .constitucion-caba {
   font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
   text-align: center; }
-  /* line 92, ../app/views/css/global.scss */
+  /* line 96, ../app/views/css/global.scss */
   .home .constitucion-nacion span, .home .constitucion-caba span {
     margin-top: 3%;
     display: block;
     font-size: 1.75em;
     font-weight: 700; }
-  /* line 99, ../app/views/css/global.scss */
+  /* line 103, ../app/views/css/global.scss */
   .home .constitucion-nacion .cinta, .home .constitucion-caba .cinta {
     max-width: 30%;
     display: block; }
-/* line 105, ../app/views/css/global.scss */
+/* line 109, ../app/views/css/global.scss */
 .home .constitucion-nacion {
-  background-color: #264f64;
+  background-color: #4db8de;
   color: #FFF;
   padding-bottom: 10%; }
-  /* line 110, ../app/views/css/global.scss */
+  /* line 114, ../app/views/css/global.scss */
   .home .constitucion-nacion .cinta {
     margin: 0 auto 15% auto; }
-  /* line 114, ../app/views/css/global.scss */
+  /* line 118, ../app/views/css/global.scss */
   .home .constitucion-nacion .escudo {
     width: 20%;
     opacity: .95; }
-  /* line 119, ../app/views/css/global.scss */
+  /* line 123, ../app/views/css/global.scss */
   .home .constitucion-nacion a {
     color: #FFF;
     margin-top: 7%; }
-  /* line 124, ../app/views/css/global.scss */
+  /* line 128, ../app/views/css/global.scss */
   .home .constitucion-nacion span {
     font-size: 3.5em; }
-/* line 129, ../app/views/css/global.scss */
+/* line 133, ../app/views/css/global.scss */
 .home .constitucion-caba {
   background-color: #FFF;
   padding-bottom: 6%; }
-  /* line 133, ../app/views/css/global.scss */
+  /* line 137, ../app/views/css/global.scss */
   .home .constitucion-caba .cinta {
     margin: 0 auto 7% auto; }
-  /* line 137, ../app/views/css/global.scss */
+  /* line 141, ../app/views/css/global.scss */
   .home .constitucion-caba a {
     color: #333; }
-  /* line 141, ../app/views/css/global.scss */
+  /* line 145, ../app/views/css/global.scss */
   .home .constitucion-caba .escudo {
     width: 12%; }
-/* line 146, ../app/views/css/global.scss */
+/* line 150, ../app/views/css/global.scss */
 .home .constitucion-provincias {
   background-color: #eaeaea; }
 

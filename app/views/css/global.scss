@@ -1,5 +1,5 @@
 body {
-  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Brandon Grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .home {
@@ -83,6 +83,10 @@ body {
         }
       }
     }
+
+    .rotativos {
+      display: none;
+    }
   }
 
   .constitucion-nacion, .constitucion-caba {
@@ -103,7 +107,7 @@ body {
   }
 
   .constitucion-nacion {
-    background-color: #264f64;
+    background-color: #4db8de;
     color: #FFF;
     padding-bottom: 10%;
 

@@ -15,6 +15,24 @@ $(function ($) {
   });
 });
 
+// Header Rotativo
+
+$(function() {
+
+    var quotes = $(".rotativos");
+    var quoteIndex = -1;
+
+    function showNextQuote() {
+        ++quoteIndex;
+        quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(500)
+            .delay(2000)
+            .fadeOut(500, showNextQuote);
+    }
+
+    showNextQuote();
+
+})();
 
 // Resaltar Articulo
 
