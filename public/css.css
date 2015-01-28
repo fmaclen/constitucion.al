@@ -85,7 +85,7 @@ body {
     text-transform: uppercase;
     font-size: .85em;
     font-weight: 700;
-    letter-spacing: .25em;
+    letter-spacing: .1em;
     padding: 15px 25px 13px 35px;
     border: 2px solid #FFF;
     margin-right: 25px; }
@@ -115,20 +115,43 @@ body {
   background-size: 60%; }
   /* line 63, ../app/views/css/global.scss */
   .home header .logo, .home header nav {
-    margin-top: 7%;
     display: block; }
-  /* line 68, ../app/views/css/global.scss */
+  /* line 67, ../app/views/css/global.scss */
   .home header .logo {
+    margin-top: 5.5%;
     width: 250px;
     float: left;
     margin-left: -13px; }
   /* line 74, ../app/views/css/global.scss */
   .home header nav {
+    margin-top: 7%;
     float: right;
     text-align: right; }
-  /* line 79, ../app/views/css/global.scss */
+    /* line 80, ../app/views/css/global.scss */
+    .home header nav a img {
+      -webkit-transition: all 100ms;
+      -moz-transition: all 100ms;
+      transition: all 100ms;
+      opacity: .5;
+      width: 40px;
+      filter: saturate(0%);
+      -webkit-filter: saturate(0%); }
+    /* line 89, ../app/views/css/global.scss */
+    .home header nav a:hover img {
+      opacity: 1;
+      transform: scale(1.1);
+      filter: saturate(100%);
+      -webkit-filter: saturate(100%); }
+    /* line 96, ../app/views/css/global.scss */
+    .home header nav a:active img {
+      opacity: 1;
+      margin: 0;
+      width: 40px;
+      filter: saturate(100%);
+      -webkit-filter: saturate(100%); }
+  /* line 105, ../app/views/css/global.scss */
   .home header h1 {
-    top: 33%;
+    top: 37%;
     clear: both;
     position: absolute;
     font-size: 4.15em;
@@ -136,74 +159,114 @@ body {
     color: #4db8de;
     line-height: 1.25em;
     font-weight: 100; }
-    /* line 89, ../app/views/css/global.scss */
+    /* line 115, ../app/views/css/global.scss */
     .home header h1 a {
-      -webkit-transition: all 300ms;
-      -moz-transition: all 300ms;
-      transition: all 300ms;
+      -webkit-transition: all 200ms;
+      -moz-transition: all 200ms;
+      transition: all 200ms;
       font-weight: 700;
       color: #4db8de;
       border-bottom: 2px double; }
-      /* line 95, ../app/views/css/global.scss */
+      /* line 121, ../app/views/css/global.scss */
       .home header h1 a:hover {
         color: #264f64;
         border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
-  /* line 102, ../app/views/css/global.scss */
+  /* line 128, ../app/views/css/global.scss */
   .home header .rotativos {
     display: none; }
-/* line 107, ../app/views/css/global.scss */
-.home .constitucion-nacion {
+/* line 133, ../app/views/css/global.scss */
+.home section.twitter {
+  clear: both;
+  background-color: #FFD500;
+  text-align: center; }
+  /* line 138, ../app/views/css/global.scss */
+  .home section.twitter a {
+    -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
+    transition: all 100ms;
+    vertical-align: center;
+    padding: 5% 0;
+    color: #FFF;
+    font-size: 4.5em;
+    font-weight: 700; }
+    /* line 146, ../app/views/css/global.scss */
+    .home section.twitter a:hover {
+      transform: scale(1.05); }
+/* line 152, ../app/views/css/global.scss */
+.home section.constitucion-nacion {
   background-color: #4db8de;
   color: #FFF;
-  padding: 10% 0;
+  padding: 7% 0;
   text-align: center; }
-  /* line 113, ../app/views/css/global.scss */
-  .home .constitucion-nacion span {
+  /* line 158, ../app/views/css/global.scss */
+  .home section.constitucion-nacion span {
     margin-top: 3%;
     display: block;
     font-size: 1.75em;
     font-weight: 700; }
-  /* line 120, ../app/views/css/global.scss */
-  .home .constitucion-nacion .escudo {
+  /* line 165, ../app/views/css/global.scss */
+  .home section.constitucion-nacion .escudo {
     width: 20%;
     opacity: .95; }
-  /* line 125, ../app/views/css/global.scss */
-  .home .constitucion-nacion a {
-    color: #4db8de;
+  /* line 170, ../app/views/css/global.scss */
+  .home section.constitucion-nacion a {
+    position: relative;
+    color: #FFF;
     margin-top: 7%;
-    background-color: #FFF; }
-    /* line 130, ../app/views/css/global.scss */
-    .home .constitucion-nacion a:hover {
-      background-color: #FFF;
-      color: #264f64; }
-  /* line 136, ../app/views/css/global.scss */
-  .home .constitucion-nacion span {
+    padding: 15px 50px 13px 50px; }
+    /* line 176, ../app/views/css/global.scss */
+    .home section.constitucion-nacion a:after {
+      -webkit-transition: all 200ms;
+      -moz-transition: all 200ms;
+      transition: all 200ms;
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      content: '';
+      background: url("/images/iconos/flecha-blanca.svg") no-repeat;
+      background-size: 10px;
+      opacity: 0;
+      top: 14px;
+      right: 0px; }
+    /* line 189, ../app/views/css/global.scss */
+    .home section.constitucion-nacion a:hover {
+      background-position: 85% 49%; }
+      /* line 193, ../app/views/css/global.scss */
+      .home section.constitucion-nacion a:hover:after {
+        opacity: 1;
+        top: 13px;
+        right: -13px; }
+  /* line 201, ../app/views/css/global.scss */
+  .home section.constitucion-nacion span {
     font-size: 4.25em;
     font-weight: 100; }
-    /* line 140, ../app/views/css/global.scss */
-    .home .constitucion-nacion span strong {
+    /* line 205, ../app/views/css/global.scss */
+    .home section.constitucion-nacion span strong {
       font-weight: 700; }
-/* line 146, ../app/views/css/global.scss */
-.home .constitucion-provincias {
-  padding: 7% 0;
+/* line 211, ../app/views/css/global.scss */
+.home section.constitucion-provincias {
+  padding: 5% 0;
   background-color: #f4f4f4; }
-  /* line 150, ../app/views/css/global.scss */
-  .home .constitucion-provincias ul {
-    margin-left: -3%;
-    clear: both;
-    overflow: hidden; }
-    /* line 155, ../app/views/css/global.scss */
-    .home .constitucion-provincias ul li {
+  /* line 215, ../app/views/css/global.scss */
+  .home section.constitucion-provincias ul {
+    margin-left: -3%; }
+    /* line 218, ../app/views/css/global.scss */
+    .home section.constitucion-provincias ul:after {
+      display: block;
+      clear: both;
+      content: ''; }
+    /* line 224, ../app/views/css/global.scss */
+    .home section.constitucion-provincias ul li {
       height: 375px;
       width: 30.333%;
       margin: 3% 0;
       float: left;
       margin-left: 3%; }
-      /* line 162, ../app/views/css/global.scss */
-      .home .constitucion-provincias ul li a {
-        -webkit-transition: all 100ms;
-        -moz-transition: all 100ms;
-        transition: all 100ms;
+      /* line 231, ../app/views/css/global.scss */
+      .home section.constitucion-provincias ul li a {
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        transition: all 200ms;
         -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
         -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
         box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
@@ -216,20 +279,23 @@ body {
         display: block;
         background-color: #FFF;
         overflow: hidden; }
-        /* line 173, ../app/views/css/global.scss */
-        .home .constitucion-provincias ul li a:hover {
-          -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
-          -moz-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
-          box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15); }
-          /* line 176, ../app/views/css/global.scss */
-          .home .constitucion-provincias ul li a:hover img {
+        /* line 242, ../app/views/css/global.scss */
+        .home section.constitucion-provincias ul li a:hover {
+          -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1); }
+          /* line 245, ../app/views/css/global.scss */
+          .home section.constitucion-provincias ul li a:hover img {
             filter: saturate(100%);
             -webkit-filter: saturate(100%); }
-          /* line 181, ../app/views/css/global.scss */
-          .home .constitucion-provincias ul li a:hover span {
-            color: #4db8de; }
-        /* line 186, ../app/views/css/global.scss */
-        .home .constitucion-provincias ul li a img {
+          /* line 250, ../app/views/css/global.scss */
+          .home section.constitucion-provincias ul li a:hover span {
+            color: #4db8de;
+            background-position: 10% 49%;
+            filter: saturate(100%);
+            -webkit-filter: saturate(100%); }
+        /* line 258, ../app/views/css/global.scss */
+        .home section.constitucion-provincias ul li a img {
           position: absolute;
           top: 7%;
           left: 10%;
@@ -237,11 +303,11 @@ body {
           max-height: 80px;
           filter: saturate(0%);
           -webkit-filter: saturate(0%); }
-        /* line 196, ../app/views/css/global.scss */
-        .home .constitucion-provincias ul li a span {
-          -webkit-transition: all 300ms;
-          -moz-transition: all 300ms;
-          transition: all 300ms;
+        /* line 268, ../app/views/css/global.scss */
+        .home section.constitucion-provincias ul li a .provincia {
+          -webkit-transition: all 200ms;
+          -moz-transition: all 200ms;
+          transition: all 200ms;
           position: absolute;
           bottom: 80px;
           font-size: 1.65em;
@@ -249,10 +315,186 @@ body {
           text-align: left;
           padding: 0 10%;
           color: #666; }
-          /* line 206, ../app/views/css/global.scss */
-          .home .constitucion-provincias ul li a span strong {
+          /* line 278, ../app/views/css/global.scss */
+          .home section.constitucion-provincias ul li a .provincia strong {
             font-weight: 700;
             display: block; }
+        /* line 284, ../app/views/css/global.scss */
+        .home section.constitucion-provincias ul li a .boton {
+          -webkit-transition: all 200ms;
+          -moz-transition: all 200ms;
+          transition: all 200ms;
+          position: absolute;
+          width: 900%;
+          bottom: 0;
+          border-top: 1px solid #e2e2e2;
+          line-height: 50px;
+          padding-left: 10%;
+          text-transform: uppercase;
+          color: #999;
+          font-size: .75em;
+          letter-spacing: 0.05em;
+          background: url("/images/iconos/flecha.svg") no-repeat;
+          background-size: 10px;
+          background-position: 10% 190%;
+          filter: saturate(0%);
+          -webkit-filter: saturate(0%); }
+/* line 307, ../app/views/css/global.scss */
+.home section.acerca-constitucion {
+  padding: 15% 0 5% 0;
+  position: relative; }
+  /* line 311, ../app/views/css/global.scss */
+  .home section.acerca-constitucion:before {
+    top: 0;
+    content: '';
+    position: absolute;
+    display: block;
+    opacity: .10;
+    background: url("/images/escudos/argentina.svg") no-repeat center bottom;
+    background-size: 30%;
+    z-index: -1;
+    display: block;
+    border: 1px solid red;
+    width: 100%;
+    height: 175px;
+    border: none; }
+  /* line 330, ../app/views/css/global.scss */
+  .home section.acerca-constitucion .wrapper:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  /* line 336, ../app/views/css/global.scss */
+  .home section.acerca-constitucion .wrapper aside {
+    width: 35%;
+    float: left; }
+    /* line 340, ../app/views/css/global.scss */
+    .home section.acerca-constitucion .wrapper aside a {
+      display: none; }
+    /* line 342, ../app/views/css/global.scss */
+    .home section.acerca-constitucion .wrapper aside h2 {
+      font-size: 3.25em;
+      color: #264f64; }
+      /* line 346, ../app/views/css/global.scss */
+      .home section.acerca-constitucion .wrapper aside h2 strong {
+        font-weight: 700; }
+  /* line 350, ../app/views/css/global.scss */
+  .home section.acerca-constitucion .wrapper p {
+    width: 55%;
+    float: right;
+    line-height: 1.5em;
+    margin-bottom: 1.5%;
+    font-size: 1.25em; }
+    /* line 357, ../app/views/css/global.scss */
+    .home section.acerca-constitucion .wrapper p strong {
+      display: inline-block;
+      margin-top: 3%;
+      font-weight: 700; }
+    /* line 363, ../app/views/css/global.scss */
+    .home section.acerca-constitucion .wrapper p:last-child {
+      font-size: 1em;
+      color: #999; }
+      /* line 367, ../app/views/css/global.scss */
+      .home section.acerca-constitucion .wrapper p:last-child a {
+        color: #4db8de;
+        border-bottom: 1px dotted; }
+        /* line 371, ../app/views/css/global.scss */
+        .home section.acerca-constitucion .wrapper p:last-child a:hover {
+          color: #264f64; }
+/* line 380, ../app/views/css/global.scss */
+.home section.acerca-nosotros {
+  padding: 7% 0; }
+  /* line 384, ../app/views/css/global.scss */
+  .home section.acerca-nosotros .wrapper:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  /* line 390, ../app/views/css/global.scss */
+  .home section.acerca-nosotros .wrapper aside {
+    width: 35%;
+    float: left; }
+    /* line 394, ../app/views/css/global.scss */
+    .home section.acerca-nosotros .wrapper aside a {
+      display: none; }
+    /* line 396, ../app/views/css/global.scss */
+    .home section.acerca-nosotros .wrapper aside h2 {
+      color: #264f64;
+      font-size: 3.25em; }
+      /* line 400, ../app/views/css/global.scss */
+      .home section.acerca-nosotros .wrapper aside h2 strong {
+        font-weight: 700; }
+  /* line 404, ../app/views/css/global.scss */
+  .home section.acerca-nosotros .wrapper p {
+    width: 55%;
+    float: right;
+    line-height: 1.5em;
+    margin-bottom: 1.5%;
+    font-size: 1.25em; }
+    /* line 411, ../app/views/css/global.scss */
+    .home section.acerca-nosotros .wrapper p a {
+      color: #4db8de;
+      border-bottom: 1px dotted; }
+      /* line 415, ../app/views/css/global.scss */
+      .home section.acerca-nosotros .wrapper p a:hover {
+        color: #264f64; }
+    /* line 420, ../app/views/css/global.scss */
+    .home section.acerca-nosotros .wrapper p strong {
+      font-weight: 700; }
+    /* line 424, ../app/views/css/global.scss */
+    .home section.acerca-nosotros .wrapper p:last-child {
+      margin-top: 3%; }
+/* line 431, ../app/views/css/global.scss */
+.home footer {
+  position: relative;
+  padding: 7% 0 3% 0;
+  background-color: #fafafa; }
+  /* line 436, ../app/views/css/global.scss */
+  .home footer:after {
+    bottom: 0;
+    content: '';
+    position: absolute;
+    display: block;
+    background: url("/images/constitucional_iso.svg") no-repeat right top;
+    background-size: 350px;
+    display: block;
+    border: 1px solid red;
+    width: 100%;
+    height: 150px;
+    border: none; }
+  /* line 453, ../app/views/css/global.scss */
+  .home footer nav {
+    display: block;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 3%; }
+    /* line 459, ../app/views/css/global.scss */
+    .home footer nav a {
+      cursor: pointer;
+      font-size: .9em;
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-right: 3%;
+      color: #999;
+      line-height: 37px; }
+      /* line 469, ../app/views/css/global.scss */
+      .home footer nav a:hover {
+        color: #264f64; }
+      /* line 473, ../app/views/css/global.scss */
+      .home footer nav a.cc {
+        float: left;
+        padding-top: 0;
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        transition: all 200ms;
+        display: inline-block;
+        opacity: .1;
+        margin-right: 5%; }
+        /* line 481, ../app/views/css/global.scss */
+        .home footer nav a.cc:hover {
+          opacity: .5; }
+        /* line 483, ../app/views/css/global.scss */
+        .home footer nav a.cc img {
+          height: 35px; }
 
 /* line 1, ../app/views/css/constitucion.scss */
 .constitucion {
