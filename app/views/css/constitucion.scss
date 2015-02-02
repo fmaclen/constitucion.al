@@ -49,14 +49,13 @@
     }
 
     p {
-      @include transition(all 300ms);
-      background: url('/images/cintas/argentina.svg') no-repeat top center;
-      background-size: 125px;
-      color: #61757B;
+      @include transition(all 200ms);
+      //background-size: 125px;
+      color: #264f64;
       opacity: 0;
-      line-height: 4.1em;
+      line-height: 65px;
       height: 100%;
-      font-size: 17px;
+      font-size: 20px;
       font-weight: 600;
       text-align: center;
     }
@@ -115,12 +114,21 @@
       }
 
       &.btn-constitucional {
-        background: url('/images/constitucional_iso.svg') no-repeat center right;
-        background-size: 90%;
-        width: 50px;
-        left: 13px;
-
+        @include transition(all 200ms);
+        text-indent: 0;
+        width: 35px;
+        top: 10px;
+        left: 15px;
         opacity: 1;
+        overflow: hidden;
+
+        &:hover {
+          width: 175px;
+        }
+
+        img {
+          width: 175px;
+        }
       }
     }
   }
@@ -370,25 +378,24 @@
         }
 
         header {
-          @include sans-serif;
+          @include serif;
           color: #333;
-          font-size: 0.95em;
+          font-size: 1.2em;
           text-align: left;
-          margin-bottom: 3%;
-          letter-spacing: .1em;
-          text-transform: uppercase;
           font-weight: 700;
-          line-height: 1.75em;
+          line-height: 1.5em;
+          margin-bottom: 3%;
 
           dfn {
-            @include serif;
+            @include sans-serif;
             display: block;
-            font-size: 1em;
+            font-size: .55em;
             color: #999;
-            font-style: italic;
             font-weight: 300;
             text-transform: initial;
             letter-spacing: normal;
+            letter-spacing: .1em;
+            text-transform: uppercase;
           }
         }
       }
@@ -661,6 +668,14 @@
       p {
         opacity: 1;
       }
+    }
+  }
+
+  footer {
+    margin-top: -3%;
+
+    a {
+      text-decoration: none;
     }
   }
 }

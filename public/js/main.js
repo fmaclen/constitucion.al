@@ -32,10 +32,13 @@ $(function() {
 
     showNextQuote();
 
-})();
+});
 
 // Resaltar Articulo
 
+$(function() {
+  $('a[name="' + window.location.hash.replace(/#/, '') + '"]').next('section').addClass('resaltado')
+});
 
 // Animacion al cambiar de articulo
 

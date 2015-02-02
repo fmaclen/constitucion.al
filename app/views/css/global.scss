@@ -16,6 +16,8 @@ body {
   font-family: "BrandonGrtsq", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Pagina Principal */
+
 .home {
   a {
     text-decoration: none;
@@ -65,14 +67,25 @@ body {
     }
 
     .logo {
+      @include transition(all 200ms);
+      display: block;
       margin-top: 5.5%;
-      width: 250px;
+      width: 45px;
       float: left;
       margin-left: -13px;
+      overflow: hidden;
+
+      img {
+        width: 250px;
+      }
+
+      &:hover {
+        width: 250px;
+      }
     }
 
     nav {
-      margin-top: 7%;
+      margin-top: calc(5.5% + 5px);
       float: right;
       text-align: right;
 
@@ -192,7 +205,7 @@ body {
 
         &:after {
           opacity: 1;
-          top: 13px;
+          top: 14px;
           right: -13px;
         }
       }
@@ -259,8 +272,8 @@ body {
             position: absolute;
             top: 7%;
             left: 10%;
-            max-width: 60px;
-            max-height: 80px;
+            max-width: 100px;
+            max-height: 100px;
             filter: saturate(0%);
             -webkit-filter: saturate(0%);
           }
@@ -408,9 +421,16 @@ body {
         margin-bottom: 1.5%;
         font-size: 1.25em;
 
+        &:last-child {
+          margin-top: 3%;
+        }
+
         a {
+          display: inline-block;
           color: #4db8de;
-          border-bottom: 1px dotted;
+          border-bottom: 1px solid #e2e2e2;
+          min-width: 26%;
+          margin-bottom: 2%;
 
           &:hover {
             color: #264f64;
@@ -421,70 +441,92 @@ body {
           font-weight: 700;
         }
 
-        &:last-child {
-          margin-top: 3%;
+        span {
+          @include border-radius(5px);
+          margin-left: 1%;
+          display: inline-block;
+          text-transform: uppercase;
+          font-size: .6em;
+          letter-spacing: 0.05em;
+          font-weight: bold;
+          background-color: #f4f4f4;
+          padding: 0 2%;
+          color: #999;
         }
       }
     }
   }
+}
 
-  footer {
+footer {
+  position: relative;
+  background-color: #fafafa;
+
+  nav {
+    padding: 6% 0 6% 0;
+    display: block;
     position: relative;
-    padding: 7% 0 3% 0;
-    background-color: #fafafa;
+    z-index: 1;
+
+    &.wrapper {
+      display: block;
+      width: 70%;
+      min-width: 960px;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
 
     &:after {
       bottom: 0;
       content: '';
       position: absolute;
       display: block;
-      //opacity: .25;
       background: url("/images/constitucional_iso.svg") no-repeat right top;
-      background-size: 350px;
-      //filter: saturate(0%);
-      //-webkit-filter: saturate(0%);
+      background-size: 240px;
       display: block;
       border: 1px solid red;
       width: 100%;
       height: 150px;
       border: none;
+      z-index: -1;
     }
 
-    nav {
-      display: block;
-      position: relative;
-      z-index: 1;
-      padding-bottom: 3%;
+    a {
+      cursor: pointer;
+      font-size: .9em;
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-right: 3%;
+      color: #999;
+      line-height: 37px;
 
-      a {
-        cursor: pointer;
-        font-size: .9em;
-        letter-spacing: 0.1em;
-        font-weight: 700;
-        text-transform: uppercase;
-        margin-right: 3%;
-        color: #999;
-        line-height: 37px;
+      &:hover {
+        color: #264f64;
+      }
 
-        &:hover {
-          color: #264f64;
-        }
+      &.cc {
+        float: left;
+        padding-top: 0;
+        @include transition(all 200ms);
+        display: inline-block;
+        opacity: .1;
+        margin-right: 5%;
 
-        &.cc {
-          float: left;
-          padding-top: 0;
-          @include transition(all 200ms);
-          display: inline-block;
-          opacity: .1;
-          margin-right: 5%;
+        &:hover { opacity: .5; }
 
-          &:hover { opacity: .5; }
-
-          img {
-            height: 35px;
-          }
+        img {
+          height: 35px;
         }
       }
+    }
+
+    p {
+      position: absolute;
+      top: 65%;
+      left: calc(118px + 5%);
+      font-size: .9em;
+      color: #c0c0c0;
     }
   }
 }
