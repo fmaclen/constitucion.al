@@ -123,7 +123,7 @@
         overflow: hidden;
 
         &:hover {
-          width: 175px;
+          width: 18 5px;
         }
 
         img {
@@ -267,6 +267,77 @@
   section {
     position: relative;
 
+    header {
+      @include box-shadow(0 3px 25px rgba(0,0,0,.07));
+      @include box-sizing(border-box);
+      @include transition(all 300ms);
+      min-height: 50px;
+      max-height: 50px;
+      background-color: #F6F9FA;
+      width: 70%;
+      max-width: 1280px;
+      margin: 3% auto 0 auto;
+      line-height: 25px;
+      position: relative;
+      z-index: 2;
+      overflow: visible;
+
+      aside {
+        @include border-radius(10%);
+        position: absolute;
+        top: -13px;
+        left: 25px;
+
+        img {
+          @include box-sizing(border-box);
+          padding: 5px;
+          width: 45px;
+          height: 45px;
+        }
+      }
+
+      dfn {
+        position: absolute;
+        top: 12px;
+        left: 100px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: .65em;
+        color: #9EAEB5;
+        letter-spacing: .1em;
+      }
+
+      button {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+
+        @include transition(all 300ms);
+        background: url('/images/iconos/puntos.svg') no-repeat center 14px;
+        background-size: 75%;
+        display: inline-block;
+        border: none;
+        height: 40px;
+        width: 45px;
+        padding: 5px 0;
+        cursor: pointer;
+        opacity: .35;
+        outline: none;
+        text-indent: -9999px;
+        float: left;
+
+        &:hover, &:active {
+          opacity: .85;
+        }
+      }
+
+      ul {
+        @include transition(all 300ms);
+        opacity: 0;
+        display: none;
+      }
+    }
+
     a {
       color: #333;
       text-decoration: none;
@@ -283,20 +354,70 @@
 
     &.resaltado {
       article {
+        @include transition(all 300ms);
         @include box-shadow(0 15px 35px rgba(0,0,0,.20));
       }
-      //@include linear-gradient(#FCFBF6, #FFF);
     }
 
     article {
+      @include box-shadow(0 3px 25px rgba(0,0,0,.07));
       @include serif;
-      @include box-shadow(0 1px 1px rgba(0,0,0,.1));
       background-color: #FFF;
       width: 70%;
       max-width: 1280px;
       margin: 3% auto;
       line-height: 25px;
       padding: 5% 6% 5% 0;
+      padding: 5% 100px;
+      margin: 0 auto 5% auto;
+      z-index: 99;
+      position: relative;
+
+      p {
+        font-size: 1.15em;
+        line-height: 1.75em;
+        padding-bottom: 2%;
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+
+      ol {
+        li {
+          counter-increment: item;
+          margin: 3% 0 5% 40px;
+
+          &:before {
+            content: counter(item);
+            float: left;
+            margin-left: -40px;
+
+            @include border-radius (3px);
+            @include sans-serif;
+            @include box-sizing(border-box);
+            font-size: 0.85em;
+            line-height: 1em;
+            color: #666;
+            border: 1px solid #e2e2e2;
+            padding: 5px 0 3px 0;
+            min-width: 20px;
+            font-weight: 600;
+            text-align: center;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          p {
+            //font-size: 1.25em;
+            line-height: 1.75em;
+            //color: #444;
+            font-weight: 300;
+          }
+        }
+      }
 
       &:after {
         clear: both;
@@ -325,131 +446,40 @@
           }
         }
       }
+    }
 
-      main {
-        width: calc(100% - 125px);
-        float: right;
+    h6 {
+      @include serif;
+      color: #333;
+      font-size: 1.2em;
+      text-align: left;
+      font-weight: 700;
+      line-height: 1.5em;
+      margin-bottom: 3%;
+    }
 
-        p {
-          //width: 760px;
-          font-size: 1.15em;
-          line-height: 1.75em;
-          padding-bottom: 2%;
+    &.expandido {
+      header{
+        @include transition(all 300ms);
+        min-height: 200px;
+        max-height: 250px;
 
-          &:last-child {
-            padding-bottom: 0;
-          }
-        }
-
-        ol {
-          li {
-            counter-increment: item;
-            margin: 3% 0 5% 40px;
-
-            &:before {
-              content: counter(item);
-              float: left;
-              margin-left: -40px;
-
-              @include border-radius (3px);
-              @include sans-serif;
-              @include box-sizing(border-box);
-              font-size: 0.85em;
-              line-height: 1em;
-              color: #666;
-              border: 1px solid #e2e2e2;
-              padding: 5px 0 3px 0;
-              min-width: 20px;
-              font-weight: 600;
-              text-align: center;
-            }
-
-            &:last-child {
-              margin-bottom: 0;
-            }
-
-            p {
-              //font-size: 1.25em;
-              line-height: 1.75em;
-              //color: #444;
-              font-weight: 300;
-            }
-          }
-        }
-
-        header {
-          @include serif;
-          color: #333;
-          font-size: 1.2em;
-          text-align: left;
-          font-weight: 700;
-          line-height: 1.5em;
-          margin-bottom: 3%;
-
-          dfn {
-            @include sans-serif;
-            display: block;
-            font-size: .55em;
-            color: #999;
-            font-weight: 300;
-            text-transform: initial;
-            letter-spacing: normal;
-            letter-spacing: .1em;
-            text-transform: uppercase;
-          }
-        }
-      }
-
-      footer {
-        clear: both;
-
-        button {
-          @include border-radius(3px);
-          @include transition(all 300ms);
-          background: url('/images/iconos/puntos.svg') no-repeat center 3px;
-          background-size: 75%;
-          display: inline-block;
-          height: 20px;
-          width: 45px;
-          border: 1px solid #ccc;
-          background-color: #FFF;
-          padding: 5px 0;
-          cursor: pointer;
-          position: relative;
-          top: -25px;
-          left: 25px;
-          opacity: .35;
-          outline: none;
-          text-indent: -9999px;
-          float: left;
-
-
-          &:hover, &:active {
-            opacity: .85;
-          }
-
-          &.expanded {
-            border-color: #51a2ce;
-            background-color: transparent;
-            opacity: 1;
-            background-position: center -19px;
-          }
-        }
-
-        ul {
-          display: none;
-          float:right;
-          clear: both;
-          margin-top: 5%;
-          width: calc(100% - 125px);
-          border-top: 1px dashed #eaeaea;
-          padding-top: 4%;
+        ul{
+          opacity: 1;
+          display: block;
+          padding: 40px 0 20px 0;
 
           li {
             @include sans-serif;
+            padding: 0 50px 0 100px;
             margin: 10px 0 0;
             font-size: 15px;
             color: #999;
+
+            &:first-child {
+              border-top: 1px dashed rgba(0,0,0,.10);
+              padding-top: 25px;
+            }
 
             a {
               color: #264f64;
@@ -474,7 +504,7 @@
               @include border-radius(5px);
               @include sans-serif;
               border: 1px solid #e2e2e2;
-              width: 350px;
+              width: 70%;
               height: 60px;
               font-size: .75em;
               line-height: 1.5em;
@@ -537,6 +567,7 @@
       top: -95px;
     }
   }
+
 
 // Menu Lateral
 
@@ -672,7 +703,7 @@
   }
 
   footer {
-    margin-top: -3%;
+    margin-top: -5%;
 
     a {
       text-decoration: none;
@@ -685,16 +716,16 @@
 
 .argentina {
   section {
-    &:nth-of-type(4n+2) aside span {
+    &:nth-of-type(4n+2) aside {
       background-color: #FFD500; // Amarillo
     }
-    &:nth-of-type(4n+3) aside span {
+    &:nth-of-type(4n+3) aside {
       background-color: #9FD9F3; // Celeste
     }
-    &:nth-of-type(4n+4) aside span {
+    &:nth-of-type(4n+4) aside {
       background-color: #0093E0; // Celeste Oscuro
     }
-    &:nth-of-type(4n+1) aside span {
+    &:nth-of-type(4n+1) aside {
       background-color: #0068AD; // Azul
     }
   }
@@ -702,19 +733,19 @@
 
 .buenos_aires {
   section {
-    &:nth-of-type(5n+1) aside span {
+    &:nth-of-type(5n+1) aside {
       background-color: #f4d13b;
     }
-    &:nth-of-type(5n+2) aside span {
+    &:nth-of-type(5n+2) aside {
       background-color: #8cd9ed;
     }
-    &:nth-of-type(5n+3) aside span {
+    &:nth-of-type(5n+3) aside {
       background-color: #2e8db7;
     }
-    &:nth-of-type(5n+4) aside span {
+    &:nth-of-type(5n+4) aside {
       background-color: #47B179;
     }
-    &:nth-of-type(5n+5) aside span {
+    &:nth-of-type(5n+5) aside {
       background-color: #3B4E99;
     }
   }
