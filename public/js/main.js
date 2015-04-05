@@ -9,9 +9,8 @@ $(function ($) {
 // Expandir Detalles de Articulo
 
 $(function ($) {
-  $('footer button').click(function () {
-    $(this).prev('ul').slideToggle();
-    $(this).toggleClass('expanded');
+  $('header button').click(function () {
+    $(this).closest('section').toggleClass('expandido');
   });
 });
 
