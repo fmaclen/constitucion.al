@@ -192,7 +192,7 @@ body {
         background: url('/images/iconos/flecha-blanca.svg') no-repeat;
         background-size: 10px;
         opacity: 0;
-        top: 14px;
+        top: 12px;
         right: 0px;
       }
 
@@ -202,7 +202,7 @@ body {
 
         &:after {
           opacity: 1;
-          top: 14px;
+          top: 12px;
           right: -13px;
         }
       }
@@ -414,19 +414,22 @@ body {
         margin-bottom: 1.5%;
         font-size: 1.25em;
 
-        &:last-child {
-          margin-top: 3%;
-        }
-
         a {
-          display: inline-block;
           color: #4db8de;
           border-bottom: 1px solid #e2e2e2;
-          min-width: 26%;
-          margin-bottom: 2%;
 
           &:hover {
             color: #264f64;
+          }
+        }
+
+        &:last-child {
+          margin-top: 3%;
+
+          a {
+            display: inline-block;
+            min-width: 26%;
+            margin-bottom: 2%;
           }
         }
 

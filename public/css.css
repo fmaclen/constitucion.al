@@ -240,7 +240,7 @@ body {
       background: url("/images/iconos/flecha-blanca.svg") no-repeat;
       background-size: 10px;
       opacity: 0;
-      top: 14px;
+      top: 12px;
       right: 0px; }
     /* line 199, ../app/views/css/global.scss */
     .home section.constitucion-nacion a:hover {
@@ -248,7 +248,7 @@ body {
       /* line 203, ../app/views/css/global.scss */
       .home section.constitucion-nacion a:hover:after {
         opacity: 1;
-        top: 14px;
+        top: 12px;
         right: -13px; }
   /* line 211, ../app/views/css/global.scss */
   .home section.constitucion-nacion span {
@@ -442,22 +442,24 @@ body {
     margin-bottom: 1.5%;
     font-size: 1.25em; }
     /* line 417, ../app/views/css/global.scss */
-    .home section.acerca-nosotros .wrapper p:last-child {
-      margin-top: 3%; }
-    /* line 421, ../app/views/css/global.scss */
     .home section.acerca-nosotros .wrapper p a {
-      display: inline-block;
       color: #4db8de;
-      border-bottom: 1px solid #e2e2e2;
-      min-width: 26%;
-      margin-bottom: 2%; }
-      /* line 428, ../app/views/css/global.scss */
+      border-bottom: 1px solid #e2e2e2; }
+      /* line 421, ../app/views/css/global.scss */
       .home section.acerca-nosotros .wrapper p a:hover {
         color: #264f64; }
-    /* line 433, ../app/views/css/global.scss */
+    /* line 426, ../app/views/css/global.scss */
+    .home section.acerca-nosotros .wrapper p:last-child {
+      margin-top: 3%; }
+      /* line 429, ../app/views/css/global.scss */
+      .home section.acerca-nosotros .wrapper p:last-child a {
+        display: inline-block;
+        min-width: 26%;
+        margin-bottom: 2%; }
+    /* line 436, ../app/views/css/global.scss */
     .home section.acerca-nosotros .wrapper p strong {
       font-weight: 700; }
-    /* line 437, ../app/views/css/global.scss */
+    /* line 440, ../app/views/css/global.scss */
     .home section.acerca-nosotros .wrapper p span {
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -472,24 +474,24 @@ body {
       padding: 0 2%;
       color: #999; }
 
-/* line 454, ../app/views/css/global.scss */
+/* line 457, ../app/views/css/global.scss */
 footer {
   position: relative;
   background-color: #fafafa; }
-  /* line 458, ../app/views/css/global.scss */
+  /* line 461, ../app/views/css/global.scss */
   footer nav {
     padding: 6% 0 6% 0;
     display: block;
     position: relative;
     z-index: 1;
     overflow: hidden; }
-    /* line 465, ../app/views/css/global.scss */
+    /* line 468, ../app/views/css/global.scss */
     footer nav.wrapper {
       display: block;
       width: 90%;
       max-width: 1280px;
       margin: 0 auto; }
-    /* line 472, ../app/views/css/global.scss */
+    /* line 475, ../app/views/css/global.scss */
     footer nav:after {
       bottom: -40%;
       content: '';
@@ -501,7 +503,7 @@ footer {
       width: 100%;
       height: 100%;
       z-index: -1; }
-    /* line 485, ../app/views/css/global.scss */
+    /* line 488, ../app/views/css/global.scss */
     footer nav a {
       cursor: pointer;
       font-size: .9em;
@@ -511,10 +513,10 @@ footer {
       margin-right: 3%;
       color: #999;
       line-height: 37px; }
-      /* line 495, ../app/views/css/global.scss */
+      /* line 498, ../app/views/css/global.scss */
       footer nav a:hover {
         color: #264f64; }
-      /* line 499, ../app/views/css/global.scss */
+      /* line 502, ../app/views/css/global.scss */
       footer nav a.cc {
         float: left;
         padding-top: 0;
@@ -524,13 +526,13 @@ footer {
         display: inline-block;
         opacity: .1;
         margin-right: 5%; }
-        /* line 507, ../app/views/css/global.scss */
+        /* line 510, ../app/views/css/global.scss */
         footer nav a.cc:hover {
           opacity: .5; }
-        /* line 509, ../app/views/css/global.scss */
+        /* line 512, ../app/views/css/global.scss */
         footer nav a.cc img {
           height: 35px; }
-    /* line 515, ../app/views/css/global.scss */
+    /* line 518, ../app/views/css/global.scss */
     footer nav p {
       position: absolute;
       top: 65%;
