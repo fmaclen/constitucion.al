@@ -268,7 +268,7 @@
         <ul>
           <li class="url"><span>Link Permanente</span> <input type="text" value="http://bit.ly/ZBvO1S" ></li>
           <li class="embeber"><span>Embeber HTML</span>
-            <textarea ><iframe name="Constitucion_al" src="http://constitucion.al/argentina/embed/?art=art1" width="100%" frameborder="0" scrolling="no" id="iframe" onload="javascript:resizeIframe(this);"/></textarea>
+            <textarea><script type="text/javascript" src="/js/iframeResizer.min.js"></script><iframe name="Constitucion_al" src="http://constitucion.al/argentina/embed/?art=art1" width="100%" frameborder="0" scrolling="no" id="iframe"/><script type="text/javascript">iFrameResize({log : false,enablePublicMethods : true,enableInPageLinks : true,resizedCallback : function(messageData){$('p#callback').html('<b>Frame ID:</b> ' + messageData.iframe.id +' <b>Height:</b> ' + messageData.height +' <b>Width:</b> ' + messageData.width +' <b>Event type:</b> ' + messageData.type);},messageCallback : function(messageData){$('p#callback').html('<b>Frame ID:</b> ' + messageData.iframe.id +' <b>Message:</b> ' + messageData.message);alert(messageData.message);},closedCallback : function(id){$('p#callback').html('<b>IFrame (</b>' + id +'<b>) removed from page.</b>');}});</script></textarea>
           </li>
         </ul>
       </header>
