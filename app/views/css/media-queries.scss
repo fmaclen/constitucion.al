@@ -62,7 +62,7 @@
         h1 {
           font-size: 2.85em;
           width: 85%;
-          margin-top: -65px;
+          margin-top: -40px;
         }
 
         .logo img { width: 175px; }
@@ -193,7 +193,13 @@
           width: 90%;
 
           aside { left: 21px; }
-          dfn { left: 85px; }
+          dfn {
+            left: 85px;
+            width: calc(100% - 150px);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
           ul li {
             &:first-child {
               padding: 16px 7% 0 7% !important;
