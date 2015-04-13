@@ -53,7 +53,7 @@ body {
 
   header, .wrapper {
     display: block;
-    width: 90%;
+    width: 80%;
     max-width: 1280px;
     margin: 0 auto;
   }
@@ -121,6 +121,11 @@ body {
       color: #4db8de;
       line-height: 1.25em;
       font-weight: 100;
+
+      p {
+        margin-top: 4%;
+        font-weight: 700;
+      }
 
       a {
         @include transition(all 200ms);
@@ -308,6 +313,27 @@ body {
             background-position: 10% 190%;
             filter: saturate(0%);
             -webkit-filter: saturate(0%);
+          }
+        }
+
+        &.desactivado {
+          a {
+            cursor: default;
+            opacity: .65;
+
+            &:hover {
+              opacity: 1;
+
+              img {
+                filter: saturate(0%);
+                -webkit-filter: saturate(0%);
+              }
+
+              .boton, .provincia {
+                background-position: 10% 190%;
+                color: #666;
+              }
+            }
           }
         }
       }
