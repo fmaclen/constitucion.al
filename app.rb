@@ -40,6 +40,7 @@ get'/argentina/embed/?' do
   data = Nokogiri::HTML(open(url), nil, 'UTF-8') # Parsear documento con Nokogiri
   data.search('//ul').remove # Remover el tag <ul>
   data.search('//button').remove # Remover el tag <button>
+  data.search('//header').remove # Remover el tag <header>
   art = "." + params[:art] # Leer el parametro "art" de la URL
 
   @articulo = data.css(art) # Poner todo junto en @articulo

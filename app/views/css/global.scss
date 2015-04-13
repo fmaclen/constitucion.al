@@ -119,12 +119,12 @@ body {
       a {
         @include transition(all 200ms);
         font-weight: 700;
-        color: #4db8de;
-        border-bottom: 2px double;
+        color: #264f64;
+        border-bottom: 3px solid rgba(0,0,0,0.1);
 
         &:hover {
-          color: #264f64;
-          border-bottom: 3px solid rgba(0,0,0,0.1);
+          color: #4db8de;
+          border-bottom: 2px double #4db8de;
         }
       }
     }

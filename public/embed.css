@@ -1,5 +1,6 @@
 body {
   font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
 }
 
 .wrapper {
@@ -16,10 +17,14 @@ body {
 }
 
 .cabecera h1 {
-  font-size: 19px;
-  color: #264f64;
   margin: 0 0 5px 0;
   padding: 0;
+}
+
+.cabecera h1 a {
+  font-size: 15px;
+  color: #264f64;
+  text-decoration: none;
 }
 
 .cabecera p a {
@@ -39,53 +44,37 @@ body {
   width: 50px;
   height: 50px;
   float: right;
-  background: url('/images/constitucional_iso.svg') no-repeat center right;
+  background: url('/images/constitucional_iso.svg') no-repeat center left;
+  background-size: 30px;
   margin-top: -10px;
-}
-
-section {
-  padding: 25px;
-}
-
-section dfn {
-  display: none;
-}
-
-section aside {
-  width: 65px;
   float: left;
 }
 
-section aside span {
-  border-radius: 3px;
-  background-color: #4db9df;
-  width: 40px;
-  height: 40px;
-  display: block;
-  text-align: center;
-}
-
-section aside span img {
-  width: 25px;
-  margin-top: 8px;
+section {
+  padding: 25px 25px 15px 75px;
 }
 
 section main {
   margin-left: 65px;
 }
 
-section header {
-  font-weight: bold;
-  text-transform: uppercase;
-  font-size: 13px;
-  letter-spacing: 0.1em;
+section {
+  font-family: 'Merriweather', 'Georgia', 'Times New Roman', Times, serif;
+}
+
+section h6 {
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-size: 1.15em;
+  text-align: left;
+  font-weight: 700;
   line-height: 1.5em;
-  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 section p {
-  font-family: 'Georgia', 'Times New Roman', Times, serif;
-  line-height: 1.5em;
+  line-height: 1.75em;
+  font-size: 1em;
   padding: 0;
   margin: 0 0 17px 0;
 }
@@ -97,7 +86,8 @@ section a {
 }
 
 section ol {
-  font-size: 13px;
+  font-size: 1em;
+  margin-left: -20px;
 }
 
 section ol li {
@@ -107,7 +97,7 @@ section ol li {
 
 section ol li p {
   margin-bottom: 10px;
-  font-size: 15px;
+  font-size: 1em;
   color: #333;
 }
 

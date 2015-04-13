@@ -173,12 +173,12 @@ body {
       -moz-transition: all 200ms;
       transition: all 200ms;
       font-weight: 700;
-      color: #4db8de;
-      border-bottom: 2px double; }
+      color: #264f64;
+      border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
       /* line 125, ../app/views/css/global.scss */
       .home header h1 a:hover {
-        color: #264f64;
-        border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
+        color: #4db8de;
+        border-bottom: 2px double #4db8de; }
   /* line 132, ../app/views/css/global.scss */
   .home header .rotativos {
     display: none; }
