@@ -67,13 +67,19 @@ table {
   src: url("/fonts/BrandonGrtsqBold.otf") format("opentype"); }
 /* line 15, ../app/views/css/global.scss */
 body {
-  font-family: "BrandonGrtsq", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  font-family: "BrandonGrtsq", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
 
 /* Pagina Principal */
-/* line 22, ../app/views/css/global.scss */
+/* line 28, ../app/views/css/global.scss */
 .home a {
   text-decoration: none; }
-  /* line 25, ../app/views/css/global.scss */
+  /* line 31, ../app/views/css/global.scss */
   .home a.button {
     font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     -webkit-border-radius: 25px;
@@ -90,19 +96,19 @@ body {
     padding: 15px 25px 13px 35px;
     border: 2px solid #FFF;
     margin-right: 25px; }
-    /* line 38, ../app/views/css/global.scss */
+    /* line 44, ../app/views/css/global.scss */
     .home a.button:hover {
       background-color: rgba(255, 255, 255, 0.25); }
-    /* line 42, ../app/views/css/global.scss */
+    /* line 48, ../app/views/css/global.scss */
     .home a.button:last-child {
       margin-right: 0; }
-/* line 48, ../app/views/css/global.scss */
+/* line 54, ../app/views/css/global.scss */
 .home header, .home .wrapper {
   display: block;
   width: 90%;
   max-width: 1280px;
   margin: 0 auto; }
-/* line 55, ../app/views/css/global.scss */
+/* line 61, ../app/views/css/global.scss */
 .home header {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -113,12 +119,12 @@ body {
   min-height: 550px;
   background: #FFF url("/images/republica_argentina.svg") no-repeat 100% 50%;
   background-size: 60%; }
-  /* line 64, ../app/views/css/global.scss */
+  /* line 70, ../app/views/css/global.scss */
   .home header .logo, .home header .social {
     display: block;
     position: absolute;
     top: 10%; }
-  /* line 70, ../app/views/css/global.scss */
+  /* line 76, ../app/views/css/global.scss */
   .home header .logo {
     -webkit-transition: all 200ms;
     -moz-transition: all 200ms;
@@ -127,14 +133,14 @@ body {
     width: 250px;
     margin-left: -13px;
     overflow: hidden; }
-    /* line 77, ../app/views/css/global.scss */
+    /* line 83, ../app/views/css/global.scss */
     .home header .logo img {
       width: 250px; }
-  /* line 80, ../app/views/css/global.scss */
+  /* line 86, ../app/views/css/global.scss */
   .home header .social {
     margin-top: 5px;
     right: 0; }
-    /* line 84, ../app/views/css/global.scss */
+    /* line 90, ../app/views/css/global.scss */
     .home header .social img {
       -webkit-transition: all 100ms;
       -moz-transition: all 100ms;
@@ -143,20 +149,20 @@ body {
       width: 40px;
       filter: saturate(0%);
       -webkit-filter: saturate(0%); }
-    /* line 92, ../app/views/css/global.scss */
+    /* line 98, ../app/views/css/global.scss */
     .home header .social:hover img {
       opacity: 1;
       transform: scale(1.1);
       filter: saturate(100%);
       -webkit-filter: saturate(100%); }
-    /* line 99, ../app/views/css/global.scss */
+    /* line 105, ../app/views/css/global.scss */
     .home header .social:active img {
       opacity: 1;
       margin: 0;
       width: 40px;
       filter: saturate(100%);
       -webkit-filter: saturate(100%); }
-  /* line 108, ../app/views/css/global.scss */
+  /* line 114, ../app/views/css/global.scss */
   .home header h1 {
     top: 50%;
     margin-top: -110px;
@@ -167,27 +173,27 @@ body {
     color: #4db8de;
     line-height: 1.25em;
     font-weight: 100; }
-    /* line 119, ../app/views/css/global.scss */
+    /* line 125, ../app/views/css/global.scss */
     .home header h1 a {
       -webkit-transition: all 200ms;
       -moz-transition: all 200ms;
       transition: all 200ms;
       font-weight: 700;
-      color: #4db8de;
-      border-bottom: 2px double; }
-      /* line 125, ../app/views/css/global.scss */
+      color: #264f64;
+      border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
+      /* line 131, ../app/views/css/global.scss */
       .home header h1 a:hover {
-        color: #264f64;
-        border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
-  /* line 132, ../app/views/css/global.scss */
+        color: #4db8de;
+        border-bottom: 2px double #4db8de; }
+  /* line 138, ../app/views/css/global.scss */
   .home header .rotativos {
     display: none; }
-/* line 137, ../app/views/css/global.scss */
+/* line 143, ../app/views/css/global.scss */
 .home section.twitter {
   clear: both;
   background-color: #FFD500;
   text-align: center; }
-  /* line 142, ../app/views/css/global.scss */
+  /* line 148, ../app/views/css/global.scss */
   .home section.twitter a {
     -webkit-transition: all 100ms;
     -moz-transition: all 100ms;
@@ -197,32 +203,32 @@ body {
     color: #FFF;
     font-size: 4.5em;
     font-weight: 700; }
-    /* line 150, ../app/views/css/global.scss */
+    /* line 156, ../app/views/css/global.scss */
     .home section.twitter a:hover {
       transform: scale(1.05); }
-/* line 156, ../app/views/css/global.scss */
+/* line 162, ../app/views/css/global.scss */
 .home section.constitucion-nacion {
   background-color: #4db8de;
   color: #FFF;
   padding: 7% 0;
   text-align: center; }
-  /* line 162, ../app/views/css/global.scss */
+  /* line 168, ../app/views/css/global.scss */
   .home section.constitucion-nacion span {
     margin-top: 3%;
     display: block;
     font-size: 1.75em;
     font-weight: 700; }
-  /* line 169, ../app/views/css/global.scss */
+  /* line 175, ../app/views/css/global.scss */
   .home section.constitucion-nacion .escudo {
     width: 20%;
     opacity: .95; }
-  /* line 174, ../app/views/css/global.scss */
+  /* line 180, ../app/views/css/global.scss */
   .home section.constitucion-nacion a {
     position: relative;
     color: #FFF;
     margin-top: 7%;
     padding: 15px 50px 13px 50px; }
-    /* line 180, ../app/views/css/global.scss */
+    /* line 186, ../app/views/css/global.scss */
     .home section.constitucion-nacion a:after {
       -webkit-transition: all 200ms;
       -moz-transition: all 200ms;
@@ -234,43 +240,43 @@ body {
       background: url("/images/iconos/flecha-blanca.svg") no-repeat;
       background-size: 10px;
       opacity: 0;
-      top: 14px;
+      top: 12px;
       right: 0px; }
-    /* line 193, ../app/views/css/global.scss */
+    /* line 199, ../app/views/css/global.scss */
     .home section.constitucion-nacion a:hover {
       background-position: 85% 49%; }
-      /* line 197, ../app/views/css/global.scss */
+      /* line 203, ../app/views/css/global.scss */
       .home section.constitucion-nacion a:hover:after {
         opacity: 1;
-        top: 14px;
+        top: 12px;
         right: -13px; }
-  /* line 205, ../app/views/css/global.scss */
+  /* line 211, ../app/views/css/global.scss */
   .home section.constitucion-nacion span {
     font-size: 4.25em;
     font-weight: 100; }
-    /* line 209, ../app/views/css/global.scss */
+    /* line 215, ../app/views/css/global.scss */
     .home section.constitucion-nacion span strong {
       font-weight: 700; }
-/* line 215, ../app/views/css/global.scss */
+/* line 221, ../app/views/css/global.scss */
 .home section.constitucion-provincias {
   padding: 5% 0;
   background-color: #f4f4f4; }
-  /* line 219, ../app/views/css/global.scss */
+  /* line 225, ../app/views/css/global.scss */
   .home section.constitucion-provincias ul {
     margin-left: -3%; }
-    /* line 222, ../app/views/css/global.scss */
+    /* line 228, ../app/views/css/global.scss */
     .home section.constitucion-provincias ul:after {
       display: block;
       clear: both;
       content: ''; }
-    /* line 228, ../app/views/css/global.scss */
+    /* line 234, ../app/views/css/global.scss */
     .home section.constitucion-provincias ul li {
       height: 375px;
       width: 30.333%;
       margin: 3% 0;
       float: left;
       margin-left: 3%; }
-      /* line 235, ../app/views/css/global.scss */
+      /* line 241, ../app/views/css/global.scss */
       .home section.constitucion-provincias ul li a {
         -webkit-transition: all 200ms;
         -moz-transition: all 200ms;
@@ -287,22 +293,22 @@ body {
         display: block;
         background-color: #FFF;
         overflow: hidden; }
-        /* line 246, ../app/views/css/global.scss */
+        /* line 252, ../app/views/css/global.scss */
         .home section.constitucion-provincias ul li a:hover {
           -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
           -moz-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1); }
-          /* line 249, ../app/views/css/global.scss */
+          /* line 255, ../app/views/css/global.scss */
           .home section.constitucion-provincias ul li a:hover img {
             filter: saturate(100%);
             -webkit-filter: saturate(100%); }
-          /* line 254, ../app/views/css/global.scss */
+          /* line 260, ../app/views/css/global.scss */
           .home section.constitucion-provincias ul li a:hover span {
             color: #4db8de;
             background-position: 10% 49%;
             filter: saturate(100%);
             -webkit-filter: saturate(100%); }
-        /* line 262, ../app/views/css/global.scss */
+        /* line 268, ../app/views/css/global.scss */
         .home section.constitucion-provincias ul li a img {
           position: absolute;
           top: 7%;
@@ -311,7 +317,7 @@ body {
           max-height: 100px;
           filter: saturate(0%);
           -webkit-filter: saturate(0%); }
-        /* line 272, ../app/views/css/global.scss */
+        /* line 278, ../app/views/css/global.scss */
         .home section.constitucion-provincias ul li a .provincia {
           -webkit-transition: all 200ms;
           -moz-transition: all 200ms;
@@ -323,11 +329,11 @@ body {
           text-align: left;
           padding: 0 10%;
           color: #666; }
-          /* line 282, ../app/views/css/global.scss */
+          /* line 288, ../app/views/css/global.scss */
           .home section.constitucion-provincias ul li a .provincia strong {
             font-weight: 700;
             display: block; }
-        /* line 288, ../app/views/css/global.scss */
+        /* line 294, ../app/views/css/global.scss */
         .home section.constitucion-provincias ul li a .boton {
           -webkit-transition: all 200ms;
           -moz-transition: all 200ms;
@@ -347,11 +353,11 @@ body {
           background-position: 10% 190%;
           filter: saturate(0%);
           -webkit-filter: saturate(0%); }
-/* line 311, ../app/views/css/global.scss */
+/* line 317, ../app/views/css/global.scss */
 .home section.acerca-constitucion {
   padding: 10% 0 7% 0;
   position: relative; }
-  /* line 315, ../app/views/css/global.scss */
+  /* line 321, ../app/views/css/global.scss */
   .home section.acerca-constitucion:before {
     top: 0;
     content: '';
@@ -364,94 +370,96 @@ body {
     display: block;
     width: 100%;
     height: 35%; }
-  /* line 330, ../app/views/css/global.scss */
+  /* line 336, ../app/views/css/global.scss */
   .home section.acerca-constitucion .wrapper:after {
     display: block;
     clear: both;
     content: ''; }
-  /* line 336, ../app/views/css/global.scss */
+  /* line 342, ../app/views/css/global.scss */
   .home section.acerca-constitucion .wrapper aside {
     width: 35%;
     float: left; }
-    /* line 340, ../app/views/css/global.scss */
+    /* line 346, ../app/views/css/global.scss */
     .home section.acerca-constitucion .wrapper aside a {
       display: none; }
-    /* line 342, ../app/views/css/global.scss */
+    /* line 348, ../app/views/css/global.scss */
     .home section.acerca-constitucion .wrapper aside h2 {
       font-size: 3.25em;
       color: #264f64; }
-      /* line 346, ../app/views/css/global.scss */
+      /* line 352, ../app/views/css/global.scss */
       .home section.acerca-constitucion .wrapper aside h2 strong {
         font-weight: 700; }
-  /* line 350, ../app/views/css/global.scss */
+  /* line 356, ../app/views/css/global.scss */
   .home section.acerca-constitucion .wrapper p {
     width: 55%;
     float: right;
     line-height: 1.5em;
     margin-bottom: 1.5%;
     font-size: 1.25em; }
-    /* line 357, ../app/views/css/global.scss */
+    /* line 363, ../app/views/css/global.scss */
     .home section.acerca-constitucion .wrapper p strong {
       display: inline-block;
       margin-top: 3%;
       font-weight: 700; }
-    /* line 363, ../app/views/css/global.scss */
+    /* line 369, ../app/views/css/global.scss */
     .home section.acerca-constitucion .wrapper p:last-child {
       font-size: 1em;
       color: #999; }
-      /* line 367, ../app/views/css/global.scss */
+      /* line 373, ../app/views/css/global.scss */
       .home section.acerca-constitucion .wrapper p:last-child a {
         color: #4db8de;
         border-bottom: 1px dotted; }
-        /* line 371, ../app/views/css/global.scss */
+        /* line 377, ../app/views/css/global.scss */
         .home section.acerca-constitucion .wrapper p:last-child a:hover {
           color: #264f64; }
-/* line 380, ../app/views/css/global.scss */
+/* line 386, ../app/views/css/global.scss */
 .home section.acerca-nosotros {
   padding: 7% 0; }
-  /* line 384, ../app/views/css/global.scss */
+  /* line 390, ../app/views/css/global.scss */
   .home section.acerca-nosotros .wrapper:after {
     display: block;
     clear: both;
     content: ''; }
-  /* line 390, ../app/views/css/global.scss */
+  /* line 396, ../app/views/css/global.scss */
   .home section.acerca-nosotros .wrapper aside {
     width: 35%;
     float: left; }
-    /* line 394, ../app/views/css/global.scss */
+    /* line 400, ../app/views/css/global.scss */
     .home section.acerca-nosotros .wrapper aside a {
       display: none; }
-    /* line 396, ../app/views/css/global.scss */
+    /* line 402, ../app/views/css/global.scss */
     .home section.acerca-nosotros .wrapper aside h2 {
       color: #264f64;
       font-size: 3.25em; }
-      /* line 400, ../app/views/css/global.scss */
+      /* line 406, ../app/views/css/global.scss */
       .home section.acerca-nosotros .wrapper aside h2 strong {
         font-weight: 700; }
-  /* line 404, ../app/views/css/global.scss */
+  /* line 410, ../app/views/css/global.scss */
   .home section.acerca-nosotros .wrapper p {
     width: 55%;
     float: right;
     line-height: 1.5em;
     margin-bottom: 1.5%;
     font-size: 1.25em; }
-    /* line 411, ../app/views/css/global.scss */
-    .home section.acerca-nosotros .wrapper p:last-child {
-      margin-top: 3%; }
-    /* line 415, ../app/views/css/global.scss */
+    /* line 417, ../app/views/css/global.scss */
     .home section.acerca-nosotros .wrapper p a {
-      display: inline-block;
       color: #4db8de;
-      border-bottom: 1px solid #e2e2e2;
-      min-width: 26%;
-      margin-bottom: 2%; }
-      /* line 422, ../app/views/css/global.scss */
+      border-bottom: 1px solid #e2e2e2; }
+      /* line 421, ../app/views/css/global.scss */
       .home section.acerca-nosotros .wrapper p a:hover {
         color: #264f64; }
-    /* line 427, ../app/views/css/global.scss */
+    /* line 426, ../app/views/css/global.scss */
+    .home section.acerca-nosotros .wrapper p:last-child {
+      margin-top: 3%; }
+      /* line 429, ../app/views/css/global.scss */
+      .home section.acerca-nosotros .wrapper p:last-child a {
+        display: inline-block;
+        min-width: 26%;
+        margin-bottom: 2%; }
+    /* line 436, ../app/views/css/global.scss */
     .home section.acerca-nosotros .wrapper p strong {
       font-weight: 700; }
-    /* line 431, ../app/views/css/global.scss */
+    /* line 440, ../app/views/css/global.scss */
     .home section.acerca-nosotros .wrapper p span {
       -webkit-border-radius: 5px;
       -moz-border-radius: 5px;
@@ -466,24 +474,24 @@ body {
       padding: 0 2%;
       color: #999; }
 
-/* line 448, ../app/views/css/global.scss */
+/* line 457, ../app/views/css/global.scss */
 footer {
   position: relative;
   background-color: #fafafa; }
-  /* line 452, ../app/views/css/global.scss */
+  /* line 461, ../app/views/css/global.scss */
   footer nav {
     padding: 6% 0 6% 0;
     display: block;
     position: relative;
     z-index: 1;
     overflow: hidden; }
-    /* line 459, ../app/views/css/global.scss */
+    /* line 468, ../app/views/css/global.scss */
     footer nav.wrapper {
       display: block;
       width: 90%;
       max-width: 1280px;
       margin: 0 auto; }
-    /* line 466, ../app/views/css/global.scss */
+    /* line 475, ../app/views/css/global.scss */
     footer nav:after {
       bottom: -40%;
       content: '';
@@ -495,7 +503,7 @@ footer {
       width: 100%;
       height: 100%;
       z-index: -1; }
-    /* line 479, ../app/views/css/global.scss */
+    /* line 488, ../app/views/css/global.scss */
     footer nav a {
       cursor: pointer;
       font-size: .9em;
@@ -505,10 +513,10 @@ footer {
       margin-right: 3%;
       color: #999;
       line-height: 37px; }
-      /* line 489, ../app/views/css/global.scss */
+      /* line 498, ../app/views/css/global.scss */
       footer nav a:hover {
         color: #264f64; }
-      /* line 493, ../app/views/css/global.scss */
+      /* line 502, ../app/views/css/global.scss */
       footer nav a.cc {
         float: left;
         padding-top: 0;
@@ -518,13 +526,13 @@ footer {
         display: inline-block;
         opacity: .1;
         margin-right: 5%; }
-        /* line 501, ../app/views/css/global.scss */
+        /* line 510, ../app/views/css/global.scss */
         footer nav a.cc:hover {
           opacity: .5; }
-        /* line 503, ../app/views/css/global.scss */
+        /* line 512, ../app/views/css/global.scss */
         footer nav a.cc img {
           height: 35px; }
-    /* line 509, ../app/views/css/global.scss */
+    /* line 518, ../app/views/css/global.scss */
     footer nav p {
       position: absolute;
       top: 65%;
@@ -703,7 +711,7 @@ footer {
       border-bottom: 3px solid rgba(0, 0, 0, 0.045);
       padding: 2.5% 2% 2.5% 2%;
       font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      font-size: 1.1em;
+      font-size: 1em;
       line-height: 2em;
       font-weight: 300;
       color: rgba(0, 0, 0, 0.45);
@@ -1263,7 +1271,7 @@ footer {
       body.homepage header h1 {
         font-size: 2.85em;
         width: 85%;
-        margin-top: -65px; }
+        margin-top: -40px; }
       /* line 68, ../app/views/css/media-queries.scss */
       body.homepage header .logo img {
         width: 175px; }
@@ -1370,52 +1378,56 @@ footer {
         left: 21px; }
       /* line 196, ../app/views/css/media-queries.scss */
       body.constitucion section header dfn {
-        left: 85px; }
-      /* line 198, ../app/views/css/media-queries.scss */
+        left: 85px;
+        width: calc(100% - 150px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      /* line 204, ../app/views/css/media-queries.scss */
       body.constitucion section header ul li:first-child {
         padding: 16px 7% 0 7% !important; }
-        /* line 201, ../app/views/css/media-queries.scss */
+        /* line 207, ../app/views/css/media-queries.scss */
         body.constitucion section header ul li:first-child input {
           width: 100%; }
-      /* line 203, ../app/views/css/media-queries.scss */
+      /* line 209, ../app/views/css/media-queries.scss */
       body.constitucion section header ul li.embeber {
         display: none; }
-    /* line 209, ../app/views/css/media-queries.scss */
+    /* line 215, ../app/views/css/media-queries.scss */
     body footer {
       position: relative;
       padding: 13% 7% 0 10%; }
-      /* line 213, ../app/views/css/media-queries.scss */
+      /* line 219, ../app/views/css/media-queries.scss */
       body footer nav {
         width: 100% !important;
         min-width: 100% !important;
         padding: 0 0 15% 0; }
-      /* line 219, ../app/views/css/media-queries.scss */
+      /* line 225, ../app/views/css/media-queries.scss */
       body footer a {
         display: block;
         margin: 0; }
-      /* line 224, ../app/views/css/media-queries.scss */
+      /* line 230, ../app/views/css/media-queries.scss */
       body footer a.cc {
         position: absolute;
         opacity: .25;
         display: block;
         right: 0;
         margin: 0; }
-        /* line 231, ../app/views/css/media-queries.scss */
+        /* line 237, ../app/views/css/media-queries.scss */
         body footer a.cc img {
           height: 20px; }
-      /* line 234, ../app/views/css/media-queries.scss */
+      /* line 240, ../app/views/css/media-queries.scss */
       body footer p {
         position: absolute;
         top: 40px;
         right: 0;
         text-align: right; }
-    /* line 242, ../app/views/css/media-queries.scss */
+    /* line 248, ../app/views/css/media-queries.scss */
     body.lateral-activo {
       -webkit-transition: all 300ms;
       -moz-transition: all 300ms;
       transition: all 300ms;
       right: 0px !important; }
-      /* line 245, ../app/views/css/media-queries.scss */
+      /* line 251, ../app/views/css/media-queries.scss */
       body.lateral-activo:after {
         content: '';
         background: rgba(0, 0, 0, 0.35);
@@ -1423,13 +1435,13 @@ footer {
         width: 100%;
         height: 100%;
         top: 0; }
-      /* line 255, ../app/views/css/media-queries.scss */
+      /* line 261, ../app/views/css/media-queries.scss */
       body.lateral-activo.achicado #lateral {
         padding-top: 60px !important; } }
 @media (max-width: 329px) {
-  /* line 266, ../app/views/css/media-queries.scss */
+  /* line 272, ../app/views/css/media-queries.scss */
   body {
     font-size: 8px; }
-    /* line 269, ../app/views/css/media-queries.scss */
+    /* line 275, ../app/views/css/media-queries.scss */
     body #principal p {
       padding: 15px 31%; } }

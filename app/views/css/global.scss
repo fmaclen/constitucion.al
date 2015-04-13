@@ -14,6 +14,12 @@
 
 body {
   font-family: "BrandonGrtsq", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust:none;
+  -moz-text-size-adjust:none;
+  -ms-text-size-adjust:none;
+  -webkit-text-size-adjust:100%;
+  -moz-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
 }
 
 /* Pagina Principal */
@@ -119,12 +125,12 @@ body {
       a {
         @include transition(all 200ms);
         font-weight: 700;
-        color: #4db8de;
-        border-bottom: 2px double;
+        color: #264f64;
+        border-bottom: 3px solid rgba(0,0,0,0.1);
 
         &:hover {
-          color: #264f64;
-          border-bottom: 3px solid rgba(0,0,0,0.1);
+          color: #4db8de;
+          border-bottom: 2px double #4db8de;
         }
       }
     }
@@ -186,7 +192,7 @@ body {
         background: url('/images/iconos/flecha-blanca.svg') no-repeat;
         background-size: 10px;
         opacity: 0;
-        top: 14px;
+        top: 12px;
         right: 0px;
       }
 
@@ -196,7 +202,7 @@ body {
 
         &:after {
           opacity: 1;
-          top: 14px;
+          top: 12px;
           right: -13px;
         }
       }
@@ -408,19 +414,22 @@ body {
         margin-bottom: 1.5%;
         font-size: 1.25em;
 
-        &:last-child {
-          margin-top: 3%;
-        }
-
         a {
-          display: inline-block;
           color: #4db8de;
           border-bottom: 1px solid #e2e2e2;
-          min-width: 26%;
-          margin-bottom: 2%;
 
           &:hover {
             color: #264f64;
+          }
+        }
+
+        &:last-child {
+          margin-top: 3%;
+
+          a {
+            display: inline-block;
+            min-width: 26%;
+            margin-bottom: 2%;
           }
         }
 
