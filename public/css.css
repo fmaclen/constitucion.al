@@ -1279,7 +1279,7 @@ footer {
     /* line 52, ../app/views/css/media-queries.scss */
     body.homepage header {
       width: 100%;
-      height: 60%;
+      height: 90%;
       max-height: initial;
       min-height: initial;
       padding: 0 10%;
@@ -1290,163 +1290,166 @@ footer {
       body.homepage header h1 {
         font-size: 2.85em;
         width: 85%;
-        margin-top: -40px; }
-      /* line 68, ../app/views/css/media-queries.scss */
+        margin-top: -20%; }
+        /* line 67, ../app/views/css/media-queries.scss */
+        body.homepage header h1 a {
+          border: none; }
+      /* line 70, ../app/views/css/media-queries.scss */
       body.homepage header .logo img {
         width: 175px; }
-      /* line 70, ../app/views/css/media-queries.scss */
+      /* line 72, ../app/views/css/media-queries.scss */
       body.homepage header .social {
         right: 7%; }
-        /* line 73, ../app/views/css/media-queries.scss */
+        /* line 75, ../app/views/css/media-queries.scss */
         body.homepage header .social img {
           width: 30px; }
-    /* line 77, ../app/views/css/media-queries.scss */
+    /* line 79, ../app/views/css/media-queries.scss */
     body.homepage .wrapper {
       width: 85%;
       min-width: initial;
       max-width: initial; }
-    /* line 83, ../app/views/css/media-queries.scss */
+    /* line 85, ../app/views/css/media-queries.scss */
     body.homepage .constitucion-nacion {
       padding: 15% 0; }
-      /* line 85, ../app/views/css/media-queries.scss */
+      /* line 87, ../app/views/css/media-queries.scss */
       body.homepage .constitucion-nacion span {
         font-size: 3em; }
-    /* line 89, ../app/views/css/media-queries.scss */
+    /* line 91, ../app/views/css/media-queries.scss */
     body.homepage .constitucion-provincias ul {
       margin: 25px 0; }
-      /* line 92, ../app/views/css/media-queries.scss */
+      /* line 94, ../app/views/css/media-queries.scss */
       body.homepage .constitucion-provincias ul li {
         float: none;
         width: 100%;
         margin: 35px 0;
         height: auto; }
-        /* line 98, ../app/views/css/media-queries.scss */
+        /* line 100, ../app/views/css/media-queries.scss */
         body.homepage .constitucion-provincias ul li:first-child {
           margin-top: 0; }
-        /* line 102, ../app/views/css/media-queries.scss */
+        /* line 104, ../app/views/css/media-queries.scss */
         body.homepage .constitucion-provincias ul li a {
           height: 255px; }
-        /* line 106, ../app/views/css/media-queries.scss */
+        /* line 108, ../app/views/css/media-queries.scss */
         body.homepage .constitucion-provincias ul li .boton {
           font-size: .95em !important; }
-    /* line 111, ../app/views/css/media-queries.scss */
+    /* line 113, ../app/views/css/media-queries.scss */
     body.homepage .acerca-constitucion, body.homepage .acerca-nosotros {
       padding: 15% 0 10% 0; }
-      /* line 114, ../app/views/css/media-queries.scss */
+      /* line 116, ../app/views/css/media-queries.scss */
       body.homepage .acerca-constitucion:before, body.homepage .acerca-nosotros:before {
         background-size: 60%; }
-      /* line 118, ../app/views/css/media-queries.scss */
+      /* line 120, ../app/views/css/media-queries.scss */
       body.homepage .acerca-constitucion aside, body.homepage .acerca-nosotros aside {
         width: 100% !important;
         float: none !important;
         margin-bottom: 10%; }
-      /* line 124, ../app/views/css/media-queries.scss */
+      /* line 126, ../app/views/css/media-queries.scss */
       body.homepage .acerca-constitucion p, body.homepage .acerca-nosotros p {
         width: 100% !important;
         font-size: 1.45em !important;
         float: none !important;
         margin-bottom: 5% !important; }
-        /* line 130, ../app/views/css/media-queries.scss */
+        /* line 132, ../app/views/css/media-queries.scss */
         body.homepage .acerca-constitucion p:last-child, body.homepage .acerca-nosotros p:last-child {
           font-size: 1em !important; }
-    /* line 136, ../app/views/css/media-queries.scss */
+    /* line 138, ../app/views/css/media-queries.scss */
     body.homepage .twitter a {
       padding: 10% 0;
       font-size: 4em; }
-    /* line 142, ../app/views/css/media-queries.scss */
+    /* line 144, ../app/views/css/media-queries.scss */
     body.homepage .acerca-nosotros p:last-child {
       margin-top: 10% !important;
       font-size: 1.35em !important; }
-      /* line 146, ../app/views/css/media-queries.scss */
+      /* line 148, ../app/views/css/media-queries.scss */
       body.homepage .acerca-nosotros p:last-child a {
         min-width: 35%; }
-    /* line 153, ../app/views/css/media-queries.scss */
+    /* line 155, ../app/views/css/media-queries.scss */
     body.constitucion h1 + a, body.constitucion h2 + a, body.constitucion h3 + a, body.constitucion h4 + a, body.constitucion h5 + a, body.constitucion section + a {
       top: -85px !important; }
-    /* line 158, ../app/views/css/media-queries.scss */
+    /* line 160, ../app/views/css/media-queries.scss */
     body.constitucion h3 {
       width: 80%;
       margin: 15% auto; }
-    /* line 163, ../app/views/css/media-queries.scss */
+    /* line 165, ../app/views/css/media-queries.scss */
     body.constitucion h5 {
       margin: 6% auto 12% auto;
       width: 80%; }
-    /* line 168, ../app/views/css/media-queries.scss */
+    /* line 170, ../app/views/css/media-queries.scss */
     body.constitucion .hero {
       padding: 13% 5% 19% 5%; }
-    /* line 172, ../app/views/css/media-queries.scss */
+    /* line 174, ../app/views/css/media-queries.scss */
     body.constitucion .destacado {
       padding: 10% 4% 7% 4%; }
-    /* line 177, ../app/views/css/media-queries.scss */
+    /* line 179, ../app/views/css/media-queries.scss */
     body.constitucion section article {
       margin: 0 auto 10% auto;
       width: 90%;
       padding: 7% 7% 6% 7%; }
-    /* line 184, ../app/views/css/media-queries.scss */
+    /* line 186, ../app/views/css/media-queries.scss */
     body.constitucion section.destacado article {
       width: 90%;
       padding: 10% 3% 9% 3%; }
-    /* line 190, ../app/views/css/media-queries.scss */
+    /* line 192, ../app/views/css/media-queries.scss */
     body.constitucion section.expandido header {
       min-height: 150px; }
-    /* line 192, ../app/views/css/media-queries.scss */
+    /* line 194, ../app/views/css/media-queries.scss */
     body.constitucion section header {
       width: 90%; }
-      /* line 195, ../app/views/css/media-queries.scss */
+      /* line 197, ../app/views/css/media-queries.scss */
       body.constitucion section header aside {
         left: 21px; }
-      /* line 196, ../app/views/css/media-queries.scss */
+      /* line 198, ../app/views/css/media-queries.scss */
       body.constitucion section header dfn {
         left: 85px;
         width: calc(100% - 150px);
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap; }
-      /* line 204, ../app/views/css/media-queries.scss */
+      /* line 206, ../app/views/css/media-queries.scss */
       body.constitucion section header ul li:first-child {
         padding: 16px 7% 0 7% !important; }
-        /* line 207, ../app/views/css/media-queries.scss */
+        /* line 209, ../app/views/css/media-queries.scss */
         body.constitucion section header ul li:first-child input {
           width: 100%; }
-      /* line 209, ../app/views/css/media-queries.scss */
+      /* line 211, ../app/views/css/media-queries.scss */
       body.constitucion section header ul li.embeber {
         display: none; }
-    /* line 215, ../app/views/css/media-queries.scss */
+    /* line 217, ../app/views/css/media-queries.scss */
     body footer {
       position: relative;
       padding: 13% 7% 0 10%; }
-      /* line 219, ../app/views/css/media-queries.scss */
+      /* line 221, ../app/views/css/media-queries.scss */
       body footer nav {
         width: 100% !important;
         min-width: 100% !important;
         padding: 0 0 15% 0; }
-      /* line 225, ../app/views/css/media-queries.scss */
+      /* line 227, ../app/views/css/media-queries.scss */
       body footer a {
         display: block;
         margin: 0; }
-      /* line 230, ../app/views/css/media-queries.scss */
+      /* line 232, ../app/views/css/media-queries.scss */
       body footer a.cc {
         position: absolute;
         opacity: .25;
         display: block;
         right: 0;
         margin: 0; }
-        /* line 237, ../app/views/css/media-queries.scss */
+        /* line 239, ../app/views/css/media-queries.scss */
         body footer a.cc img {
           height: 20px; }
-      /* line 240, ../app/views/css/media-queries.scss */
+      /* line 242, ../app/views/css/media-queries.scss */
       body footer p {
         position: absolute;
         top: 40px;
         right: 0;
         text-align: right; }
-    /* line 248, ../app/views/css/media-queries.scss */
+    /* line 250, ../app/views/css/media-queries.scss */
     body.lateral-activo {
       -webkit-transition: all 300ms;
       -moz-transition: all 300ms;
       transition: all 300ms;
       right: 0px !important; }
-      /* line 251, ../app/views/css/media-queries.scss */
+      /* line 253, ../app/views/css/media-queries.scss */
       body.lateral-activo:after {
         content: '';
         background: rgba(0, 0, 0, 0.35);
@@ -1454,13 +1457,13 @@ footer {
         width: 100%;
         height: 100%;
         top: 0; }
-      /* line 261, ../app/views/css/media-queries.scss */
+      /* line 263, ../app/views/css/media-queries.scss */
       body.lateral-activo.achicado #lateral {
         padding-top: 60px !important; } }
 @media (max-width: 329px) {
-  /* line 272, ../app/views/css/media-queries.scss */
+  /* line 274, ../app/views/css/media-queries.scss */
   body {
     font-size: 8px; }
-    /* line 275, ../app/views/css/media-queries.scss */
+    /* line 277, ../app/views/css/media-queries.scss */
     body #principal p {
       padding: 15px 31%; } }
