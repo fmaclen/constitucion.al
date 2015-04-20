@@ -1,4 +1,4 @@
 User-Agent: *
-Disallow:
+Disallow: /argentina/embed/
 
 Sitemap: http://www.constitucion.al/sitemap.xml
