@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>icono_locacion</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="icono_locacion" sketch:type="MSArtboardGroup" fill="#FFFFFF">
+            <path d="M24.476,8 C18.7,8 14,12.699 14,18.476 C14,24.035 23.524,38.521 23.93,39.135 C24.051,39.319 24.257,39.429 24.476,39.429 C24.696,39.429 24.902,39.319 25.023,39.135 C25.428,38.521 34.953,24.035 34.953,18.476 C34.953,12.699 30.253,8 24.476,8 L24.476,8 Z M24.476,23.06 C21.949,23.06 19.893,21.004 19.893,18.476 C19.893,15.949 21.949,13.893 24.476,13.893 C27.004,13.893 29.06,15.949 29.06,18.476 C29.06,21.004 27.004,23.06 24.476,23.06 L24.476,23.06 Z" id="Imported-Layers" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>
