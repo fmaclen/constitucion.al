@@ -1,0 +1,9 @@
+---
+title: Artículo 81&ordm;
+date: 2016-12-28 16:48 UTC
+art_id: 82
+icon: "icono_justicia"
+topic: "Proyectos Desechados y Corregidos"
+shortcode: "art_81"
+---
+Ningún proyecto de ley desechado totalmente por una de las Cámaras podrá repetirse en las sesiones de aquel año. Ninguna de las Cámaras puede desechar totalmente un proyecto que hubiera tenido origen en ella y luego hubiese sido adicionado o enmendado por la Cámara revisora. Si el proyecto fuere objeto de adiciones o correcciones por la Cámara revisora, deberá indicarse el resultado de la votación a fin de establecer si tales adiciones o correcciones fueron realizadas por mayoría absoluta de los presentes o por las dos terceras partes de los presentes. La Cámara de origen podrá por mayoría absoluta de los presentes aprobar el proyecto con las adiciones o correcciones introducidas o insistir en la redacción originaria, a menos que las adiciones o correcciones las haya realizado la revisora por dos terceras partes de los presentes. En este último caso, el proyecto pasará al Poder Ejecutivo con las adiciones o correcciones de la Cámara revisora, salvo que la Cámara de origen insista en su redacción originaria con el voto de las dos terceras partes de los presentes. La Cámara de origen no podrá introducir nuevas adiciones o correcciones a las realizadas por la Cámara revisora.

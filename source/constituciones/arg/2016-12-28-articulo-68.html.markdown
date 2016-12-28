@@ -1,0 +1,9 @@
+---
+title: Artículo 68&ordm;
+date: 2016-12-28 15:48 UTC
+art_id: 69
+icon: "icono_senado"
+topic: "Poderes de los Miembros"
+shortcode: "art_68"
+---
+Ninguno de los miembros del Congreso puede ser acusado, interrogado judicialmente, ni molestado por las opiniones o discursos que emita desempeñando su mandato de legislador.

@@ -1,0 +1,9 @@
+---
+title: Artículo 110&ordm;
+date: 2016-12-28 17:55 UTC
+art_id: 111
+icon: "icono_justicia"
+topic: "Jueces Nacionales"
+shortcode: "art_110"
+---
+Los jueces de la Corte Suprema y de los tribunales inferiores de la Nación conservarán sus empleos mientras dure su buena conducta, y recibirán por sus servicios una compensación que determinará la ley, y que no podrá ser disminuida en manera alguna, mientras permaneciesen en sus funciones.

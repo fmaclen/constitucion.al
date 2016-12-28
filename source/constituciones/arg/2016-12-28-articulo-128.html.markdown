@@ -1,0 +1,9 @@
+---
+title: Artículo 128&ordm;
+date: 2016-12-28 19:14 UTC
+art_id: 129
+icon: "icono_argentina"
+topic: "Función del Gobernador"
+shortcode: "art_128"
+---
+Los gobernadores de provincia son agentes naturales del Gobierno federal para hacer cumplir la Constitución y las leyes de la Nación.

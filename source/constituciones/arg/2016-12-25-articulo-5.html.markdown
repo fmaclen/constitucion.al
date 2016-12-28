@@ -1,7 +1,7 @@
 ---
 title: Artículo 5&ordm;
 date: 2016-12-25 22:14 UTC
-art_id: "5"
+art_id: 5
 icon: "icono_institucion"
 topic: "Constitución de las Provincias"
 shortcode: "art_5"

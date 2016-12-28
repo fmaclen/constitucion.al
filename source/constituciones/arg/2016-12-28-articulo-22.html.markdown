@@ -1,0 +1,10 @@
+---
+title: Artículo 22&ordm;
+date: 2016-12-28 14:28 UTC
+art_id: 23
+icon: "icono_institucion"
+topic: "Representantes y Autoridades"
+shortcode: "art_22"
+---
+
+El pueblo no delibera ni gobierna, sino por medio de sus representantes y autoridades creadas por esta Constitución. Toda fuerza armada o reunión de personas que se atribuya los derechos del pueblo y peticione a nombre de éste, comete delito de sedición.

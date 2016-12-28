@@ -1,0 +1,9 @@
+---
+title: Artículo 113&ordm;
+date: 2016-12-28 17:57 UTC
+art_id: 114
+icon: "icono_justicia"
+topic: "Reglamento y Nombramientos"
+shortcode: "art_113"
+---
+La Corte Suprema dictará su reglamento interior y nombrará a sus empleados.

@@ -1,0 +1,9 @@
+---
+title: Artículo 84&ordm;
+date: 2016-12-28 16:51 UTC
+art_id: 85
+icon: "icono_justicia"
+topic: "Formato de la Sanción de una Ley"
+shortcode: "art_84"
+---
+En la sanción de las leyes se usará de esta fórmula: El Senado y Cámara de Diputados de la Nación Argentina, reunidos en Congreso, decretan o sancionan con fuerza de ley. 

@@ -1,0 +1,9 @@
+---
+title: Artículo 82&ordm;
+date: 2016-12-28 16:48 UTC
+art_id: 83
+icon: "icono_senado"
+topic: "Voluntad de las Cámaras"
+shortcode: "art_82"
+---
+La voluntad de cada Cámara debe manifestarse expresamente; se excluye, en todos los casos, la sanción tácita o ficta.

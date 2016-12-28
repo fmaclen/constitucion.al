@@ -1,0 +1,9 @@
+---
+title: Artículo 27&ordm;
+date: 2016-12-28 14:31 UTC
+art_id: 28
+icon: "icono_productos"
+topic: "Potencias Extranjeras"
+shortcode: "art_27"
+---
+El Gobierno federal está obligado a afianzar sus relaciones de paz y comercio con las potencias extranjeras por medio de tratados que estén en conformidad con los principios de derecho público establecidos en esta Constitución.

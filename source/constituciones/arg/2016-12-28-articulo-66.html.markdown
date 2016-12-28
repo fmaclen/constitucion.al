@@ -1,0 +1,9 @@
+---
+title: Artículo 66&ordm;
+date: 2016-12-28 15:46 UTC
+art_id: 67
+icon: "icono_senado"
+topic: "Reglamento"
+shortcode: "art_66"
+---
+Cada Cámara hará su reglamento y podrá con dos tercios de votos, corregir a cualquiera de sus miembros por desorden de conducta en el ejercicio de sus funciones, o removerlo por inhabilidad física o moral sobreviniente a su incorporación, y hasta excluirle de su seno; pero bastará la mayoría de uno sobre la mitad de los presentes para decidir en las renuncias que voluntariamente hicieren de sus cargos.

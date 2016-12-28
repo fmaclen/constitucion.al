@@ -1,0 +1,9 @@
+---
+title: Artículo 64&ordm;
+date: 2016-12-28 15:39 UTC
+art_id: 65
+icon: "icono_institucion"
+topic: "Quórum en las Sesiones"
+shortcode: "art_64"
+---
+Cada Cámara es juez de las elecciones, derechos y títulos de sus miembros en cuanto a su validez. Ninguna de ellas entrará en sesión sin la mayoría absoluta de sus miembros; pero un número menor podrá compeler a los miembros ausentes a que concurran a las sesiones, en los términos y bajo las penas que cada Cámara establecerá.

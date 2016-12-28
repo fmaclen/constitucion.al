@@ -1,0 +1,9 @@
+---
+title: Artículo 60&ordm;
+date: 2016-12-28 15:17 UTC
+art_id: 61
+icon: "icono_senado"
+topic: "Deberes del Senado"
+shortcode: "art_60"
+---
+Su fallo no tendrá más efecto que destituir al acusado, y aun declararle incapaz de ocupar ningún empleo de honor, de confianza o a sueldo en la Nación. Pero la parte condenada quedará, no obstante, sujeta a acusación, juicio y castigo conforme a las leyes ante los [tribunales ordinarios](http://es.wikipedia.org/wiki/Tribunal_de_justicia).

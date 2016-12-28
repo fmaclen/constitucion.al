@@ -1,0 +1,9 @@
+---
+title: Artículo 46&ordm;
+date: 2016-12-28 15:07 UTC
+art_id: 47
+icon: "icono_senado"
+topic: "Proporción de Diputados de la Primera Legislatura"
+shortcode: "art_46"
+---
+Los diputados para la primera Legislatura se nombrarán en la proporción siguiente: por la provincia de [Buenos Aires](http://es.wikipedia.org/wiki/Provincia_de_Buenos_Aires) doce: por la de [Córdoba](http://es.wikipedia.org/wiki/Provincia_de_C%C3%B3rdoba_(Argentina)) seis: por la de [Catamarca](http://es.wikipedia.org/wiki/Provincia_de_Catamarca) tres: por la de [Corrientes](http://es.wikipedia.org/wiki/Provincia_de_Corrientes) cuatro: por la de [Entre Ríos](http://es.wikipedia.org/wiki/Provincia_de_Entre_R%C3%ADos) dos: por la de [Jujuy](http://es.wikipedia.org/wiki/Provincia_de_Jujuy) dos: por la de [Mendoza](http://es.wikipedia.org/wiki/Provincia_de_Mendoza) tres: por la de [La Rioja](http://es.wikipedia.org/wiki/Provincia_de_La_Rioja_(Argentina)) dos: por la de [Salta](http://es.wikipedia.org/wiki/Provincia_de_Salta) tres: por la de [Santiago](http://es.wikipedia.org/wiki/Provincia_de_Santiago_del_Estero) cuatro: por la de [San Juan](http://es.wikipedia.org/wiki/Provincia_de_San_Juan_(Argentina)) dos: por la de [Santa Fe](http://es.wikipedia.org/wiki/Provincia_de_Santa_Fe) dos: por la de [San Luis](http://es.wikipedia.org/wiki/Provincia_de_San_Luis) dos: y por la de [Tucumán](http://es.wikipedia.org/wiki/Provincia_de_Tucum%C3%A1n) tres.

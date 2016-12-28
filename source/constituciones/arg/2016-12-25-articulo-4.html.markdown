@@ -1,7 +1,7 @@
 ---
 title: Artículo 4&ordm;
 date: 2016-12-25 22:12 UTC
-art_id: "4"
+art_id: 4
 icon: "icono_economia"
 topic: "Financiación de la Nación"
 shortcode: "art_4"

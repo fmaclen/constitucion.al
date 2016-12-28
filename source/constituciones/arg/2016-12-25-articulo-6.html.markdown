@@ -1,7 +1,7 @@
 ---
 title: Artículo 6&ordm;
 date: 2016-12-25 23:19 UTC
-art_id: "6"
+art_id: 6
 icon: "icono_seguridad"
 topic: "Protección del Territorio"
 shortcode: "art_6"

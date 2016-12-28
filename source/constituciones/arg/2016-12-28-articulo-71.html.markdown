@@ -1,0 +1,9 @@
+---
+title: Artículo 71&ordm;
+date: 2016-12-28 15:50 UTC
+art_id: 72
+icon: "icono_senado"
+topic: "Facultades de los Miembros"
+shortcode: "art_71"
+---
+Cada una de las Cámaras puede hacer venir a su sala a los ministros del Poder Ejecutivo para recibir las explicaciones e informes que estime convenientes.

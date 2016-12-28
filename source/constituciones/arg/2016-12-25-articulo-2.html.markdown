@@ -1,7 +1,7 @@
 ---
 title: Artículo 2&ordm;
 date: 2016-12-25 20:09 UTC
-art_id: "2"
+art_id: 2
 icon: "icono_religion"
 topic: "Religión Oficial"
 shortcode: "art_2"

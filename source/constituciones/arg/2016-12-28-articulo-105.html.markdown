@@ -1,0 +1,9 @@
+---
+title: Artículo 105&ordm;
+date: 2016-12-28 17:53 UTC
+art_id: 106
+icon: "icono_presidente"
+topic: "Participación en el Congreso"
+shortcode: "art_105"
+---
+No pueden ser senadores ni diputados, sin hacer dimisión de sus empleos de ministros.

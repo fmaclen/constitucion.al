@@ -1,0 +1,9 @@
+---
+title: Artículo 91&ordm;
+date: 2016-12-28 17:06 UTC
+art_id: 92
+icon: "icono_presidente"
+topic: "Cese de Poderes"
+shortcode: "art_91"
+---
+El Presidente de la Nación cesa en el poder el mismo día en que expira su período de cuatro años; sin que evento alguno que lo haya interrumpido, pueda ser motivo de que se le complete más tarde.

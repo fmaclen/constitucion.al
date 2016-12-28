@@ -1,0 +1,10 @@
+---
+title: Artículo 25&ordm;
+date: 2016-12-28 14:30 UTC
+art_id: 26
+icon: "icono_pueblo"
+topic: "Inmigración"
+shortcode: "art_25"
+---
+
+El Gobierno federal fomentará la [inmigración](http://es.wikipedia.org/wiki/Inmigraci%C3%B3n_en_Argentina) europea; y no podrá restringir, limitar ni gravar con impuesto alguno la entrada en el territorio argentino de los extranjeros que traigan por objeto labrar la tierra, mejorar las industrias, e introducir y enseñar las ciencias y las artes.

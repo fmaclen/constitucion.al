@@ -1,0 +1,15 @@
+---
+title: Artículo 41&ordm;
+date: 2016-12-28 14:53 UTC
+art_id: 42
+icon: "icono_justicia"
+topic: "Derecho Ambiental de los Ciudadanos"
+shortcode: "art_41"
+---
+Todos los habitantes gozan del derecho a un ambiente sano, equilibrado, apto para el desarrollo humano y para que las actividades productivas satisfagan las necesidades presentes sin comprometer las de las generaciones futuras; y tienen el deber de preservarlo. El daño ambiental generará prioritariamente la obligación de recomponer, según lo establezca la ley.
+
+Las autoridades proveerán a la protección de este derecho, a la utilización racional de los recursos naturales, a la preservación del patrimonio natural y cultural y de la diversidad biológica, y a la información y educación ambientales.
+
+Corresponde a la Nación dictar las normas que contengan los presupuestos mínimos de protección, y a las provincias, las necesarias para complementarlas, sin que aquéllas alteren las jurisdicciones locales.
+
+Se prohíbe el ingreso al territorio nacional de [residuos actual o potencialmente peligrosos](http://es.wikipedia.org/wiki/Residuo_peligroso), y de los radiactivos.

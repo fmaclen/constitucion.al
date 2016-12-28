@@ -1,0 +1,15 @@
+---
+title: Artículo 38&ordm;
+date: 2016-12-28 14:51 UTC
+art_id: 39
+icon: "icono_comicios"
+topic: "Partidos Políticos"
+shortcode: "art_38"
+---
+Los [partidos políticos](http://es.wikipedia.org/wiki/Partido_pol%C3%ADtico) son instituciones fundamentales del sistema democrático.
+
+Su creación y el ejercicio de sus actividades son libres dentro del respeto a esta Constitución, la que garantiza su organización y funcionamiento democráticos, la representación de las minorías, la competencia para la postulación de candidatos a cargos públicos electivos, el acceso a la información pública y la difusión de sus ideas.
+
+El Estado contribuye al sostenimiento económico de sus actividades y de la capacitación de sus dirigentes.
+
+Los partidos políticos deberán dar publicidad del origen y destino de sus fondos y patrimonio.

@@ -1,0 +1,9 @@
+---
+title: Artículo 119&ordm;
+date: 2016-12-28 19:06 UTC
+art_id: 120
+icon: "icono_justicia"
+topic: "Traición a la Patria"
+shortcode: "art_119"
+---
+La traición contra la Nación consistirá únicamente en tomar las armas contra ella, o en unirse a sus enemigos prestándoles ayuda y socorro. El Congreso fijará por una ley especial la pena de este delito; pero ella no pasará de la persona del delincuente, ni la infamia del reo se transmitirá a sus parientes de cualquier grado.

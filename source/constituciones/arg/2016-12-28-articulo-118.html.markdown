@@ -1,0 +1,9 @@
+---
+title: Artículo 118&ordm;
+date: 2016-12-28 19:06 UTC
+art_id: 119
+icon: "icono_justicia"
+topic: "Juicios Criminales Ordinarios"
+shortcode: "art_118"
+---
+Todos los juicios criminales ordinarios, que no se deriven del derecho de acusación concedido a la Cámara de Diputados se terminarán por jurados, luego que se establezca en la República esta institución. La actuación de estos juicios se hará en la misma provincia donde se hubiere cometido el delito; pero cuando éste se cometa fuera de los límites de la Nación, contra el derecho de gentes, el Congreso determinará por una ley especial el lugar en que haya de seguirse el juicio.

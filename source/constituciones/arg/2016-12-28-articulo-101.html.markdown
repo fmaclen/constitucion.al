@@ -1,0 +1,9 @@
+---
+title: Artículo 101&ordm;
+date: 2016-12-28 17:18 UTC
+art_id: 102
+icon: "icono_presidente"
+topic: "Deberes del Jefe de Gabinete"
+shortcode: "art_101"
+---
+El jefe de gabinete de ministros debe concurrir al Congreso al menos una vez por mes, alternativamente a cada una de sus Cámaras, para informar de la marcha del gobierno, sin perjuicio de lo dispuesto en el Artículo 71. Puede ser interpelado a los efectos del tratamiento de una moción de censura, por el voto de la mayoría absoluta de la totalidad de los miembros de cualquiera de las Cámaras, y ser removido por el voto de la mayoría absoluta de los miembros de cada una de las Cámaras.

@@ -1,0 +1,9 @@
+---
+title: Artículo 102&ordm;
+date: 2016-12-28 17:19 UTC
+art_id: 103
+icon: "icono_presidente"
+topic: "Responsabilidad de los Ministros"
+shortcode: "art_102"
+---
+Cada ministro es responsable de los actos que legaliza; y solidariamente de los que acuerda con sus colegas.

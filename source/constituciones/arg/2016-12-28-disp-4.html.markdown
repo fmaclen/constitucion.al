@@ -1,0 +1,25 @@
+---
+title: Cuarta
+date: 2016-12-28 19:32 UTC
+art_id: 134
+icon: "icono_institucion"
+topic: "Conformación del Senado"
+shortcode: "disp_4"
+---
+Los actuales integrantes del [Senado de la Nación](http://es.wikipedia.org/wiki/Senado_de_la_Naci%C3%B3n_Argentina) desempeñarán su cargo hasta la extinción del mandato correspondiente a cada uno.
+
+En ocasión de renovarse un tercio del Senado en mil novecientos noventa y cinco, por finalización de los mandatos de todos los senadores elegidos en mil novecientos ochenta y seis, será designado además un tercer senador por distrito por cada Legislatura. El conjunto de los senadores por cada distrito se integrará, en lo posible, de modo que correspondan dos bancas al partido político o alianza electoral que tenga el mayor número de miembros en la legislatura, y la restante al partido político o alianza electoral que le siga en número de miembros de ella. En caso de empate, se hará prevalecer al partido político o alianza electoral que hubiera obtenido mayor cantidad de sufragios en la elección legislativa provincial inmediata anterior.
+
+La elección de los senadores que reemplacen a aquellos cuyos mandatos vencen en mil novecientos noventa y ocho, así como la elección de quien reemplace a cualquiera de los actuales senadores en caso de aplicación del [Artículo 62](#art_62), se hará por estas mismas reglas de designación. Empero, el partido político o alianza electoral que tenga el mayor número de miembros en la Legislatura al tiempo de la elección del senador, tendrá derecho a que sea elegido su candidato, con la sola limitación de que no resulten los tres senadores de un mismo partido político o alianza electoral.
+
+Estas reglas serán también aplicables a la elección de los senadores por la ciudad de Buenos Aires, en mil novecientos noventa y cinco por el cuerpo electoral, y en mil novecientos noventa y ocho, por el órgano legislativo de la ciudad.
+
+La elección de todos los senadores a que se refiere esta cláusula se llevará a cabo con una anticipación no menor de sesenta ni mayor de noventa días al momento en que el senador deba asumir su función.
+
+En todos los casos, los candidatos a senadores serán propuestos por los partidos políticos o alianzas electorales. El cumplimiento de las exigencias legales y estatutarias para ser proclamado candidato será certificado por la [Justicia Electoral Nacional](http://www.electoral.gov.ar/) y comunicado a la Legislatura.
+
+Toda vez que se elija un senador nacional se designará un suplente, quien asumirá en los casos del [Artículo 62](#art_62).
+
+Los mandatos de los senadores elegidos por aplicación de esta cláusula transitoria durarán hasta el nueve de diciembre del dos mil uno.
+
+(Corresponde al [Artículo 54](#art_54))

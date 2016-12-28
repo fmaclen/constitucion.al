@@ -1,0 +1,15 @@
+---
+title: Artículo 85&ordm;
+date: 2016-12-28 16:57 UTC
+art_id: 86
+icon: "icono_institucion"
+topic: "Control Externo del Sector Público (Incorporado por la reforma del año 1994)"
+shortcode: "art_85"
+---
+patrimoniales, económicos, financieros y operativos, será una atribución propia del Poder Legislativo.
+
+El examen y la opinión del Poder Legislativo sobre el desempeño y situación general de la administración pública estarán sustentados en los dictámenes de la Auditoría General de la Nación.
+
+Este organismo de asistencia técnica del Congreso, con autonomía funcional, se integrará del modo que establezca la ley que reglamenta su creación y funcionamiento, que deberá ser aprobada por mayoría absoluta de los miembros de cada Cámara. El presidente del organismo será designado a propuesta del partido político de oposición con mayor número de legisladores en el Congreso.
+
+Tendrá a su cargo el control de legalidad, gestión y auditoría de toda la actividad de la administración pública centralizada y descentralizada, cualquiera fuera su modalidad de organización, y las demás funciones que la ley le otorgue. Intervendrá necesariamente en el trámite de aprobación o rechazo de las cuentas de percepción e inversión de los fondos públicos.

@@ -1,0 +1,9 @@
+---
+title: Artículo 13&ordm;
+date: 2016-12-28 14:13 UTC
+art_id: 13
+icon: "icono_institucion"
+topic: "Futuras Provincias"
+shortcode: "art_13"
+---
+Podrán admitirse nuevas provincias en la Nación; pero no podrá erigirse una provincia en el territorio de otra u otras, ni de varias formarse una sola, sin el consentimiento de la Legislatura de las provincias interesadas y del Congreso.
