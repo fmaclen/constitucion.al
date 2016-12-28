@@ -1,0 +1,21 @@
+---
+title: Welcome to Middleman
+---
+<h1>Constitucion de la Nación</h1>
+
+<% blog('nacion').articles[0...2].sort_by{|article| article.data.art_id}.each do |article| %>
+  <p>
+    <strong><%= article.title %></strong>
+    <%= article.body %>
+    <%= article.data.art_id %>
+
+  </p>
+<% end %>
+
+<hr>
+
+<h1>Constitucion de la Provincia</h1>
+
+<% blog('ba').articles[0...5].each do |article| %>
+  <p><strong><%= article.title %></strong></p>
+<% end %>

@@ -1,0 +1,10 @@
+---
+title: Artículo 5&ordm;
+date: 2016-12-25 22:14 UTC
+art_id: "5"
+icon: "icono_institucion"
+topic: "Constitución de las Provincias"
+shortcode: "art_5"
+---
+
+[Cada provincia](http://es.wikipedia.org/wiki/Provincias_de_Argentina#Gobiernos_provinciales) dictará para sí una Constitución bajo el sistema representativo republicano, de acuerdo con los principios, declaraciones y garantías de la Constitución Nacional; y que asegure su administración de justicia, su régimen municipal, y la educación primaria. Bajo de estas condiciones el Gobierno federal, garante a cada provincia el goce y ejercicio de sus instituciones.

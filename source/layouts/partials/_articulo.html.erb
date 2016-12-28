@@ -1,0 +1,19 @@
+<a name="<%= article.data.shortcode %>"></a>
+<section class="nuevo <%= article.data.shortcode %>">
+  <header>
+    <aside><img src="/images/iconos/<%= article.data.icon %>.svg"></aside>
+    <dfn><%= article.data.topic %></dfn>
+    <button>Expandir</button>
+    <ul>
+      <li class="url"><span>Link Permanente</span> <input type="text" value="http://constitucion.al/argentina/art1"></li>
+      <li class="embeber"><span>Embeber HTML</span>
+        <textarea>&lt;iframe name="Constitucion_al" src="http://constitucion.al/argentina/embed/?art=art1" width="100%" frameborder="0" scrolling="no" id="iframe"&gt;&lt;/iframe&gt;&lt;script type="text/javascript" src="http://constitucion.al/js/embed.js"&gt;&lt;/script&gt;</textarea>
+      </li>
+    </ul>
+  </header>
+
+  <article>
+    <h6><%= article.title %></h6>
+    <%= article.body %>
+  </article>
+</section>

@@ -1,0 +1,10 @@
+---
+title: Artículo 3&ordm;
+date: 2016-12-25 22:06 UTC
+art_id: "3"
+icon: "icono_locacion"
+topic: "Residencia de Autoridades"
+shortcode: "art_3"
+---
+
+Las autoridades que ejercen el Gobierno federal, residen en la ciudad que se declare Capital de la República por una ley especial del [Congreso](http://es.wikipedia.org/wiki/Congreso_de_la_Naci%C3%B3n_Argentina), previa cesión hecha por una o más legislaturas provinciales, del territorio que haya de federalizarse.

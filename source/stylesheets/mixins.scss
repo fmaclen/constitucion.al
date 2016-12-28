@@ -1,0 +1,42 @@
+@mixin box-sizing($string) {
+  -webkit-box-sizing: $string;
+     -moz-box-sizing: $string;
+          box-sizing: $string;
+}
+
+@mixin box-shadow($string) {
+  -webkit-box-shadow: $string;
+     -moz-box-shadow: $string;
+          box-shadow: $string;
+}
+
+@mixin border-radius($string) {
+  -webkit-border-radius: $string;
+     -moz-border-radius: $string;
+          border-radius: $string;
+}
+
+@mixin transition($string) {
+  -webkit-transition: $string;
+     -moz-transition: $string;
+          transition: $string;
+}
+
+@mixin linear-gradient($fromColor, $toColor) {
+  background-color: $toColor; /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor)); /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, $fromColor, $toColor); /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(top, $fromColor, $toColor); /* FF3.6 */
+  background-image:     -ms-linear-gradient(top, $fromColor, $toColor); /* IE10 */
+  background-image:      -o-linear-gradient(top, $fromColor, $toColor); /* Opera 11.10+ */
+  background-image:         linear-gradient(top, $fromColor, $toColor);
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}');
+}
+
+@mixin sans-serif {
+  font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin serif {
+  font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+}

@@ -1,0 +1,10 @@
+---
+title: Artículo 6&ordm;
+date: 2016-12-25 23:19 UTC
+art_id: "6"
+icon: "icono_seguridad"
+topic: "Protección del Territorio"
+shortcode: "art_6"
+---
+
+El Gobierno federal interviene en el territorio de las provincias para garantir la forma republicana de gobierno, o repeler invasiones exteriores, y a requisición de sus autoridades constituidas para sostenerlas o reestablecerlas, si hubiesen sido depuestas por la [sedición](http://es.wikipedia.org/wiki/Sedici%C3%B3n), o por invasión de otra provincia.
