@@ -502,13 +502,13 @@
             }
 
             textarea, input {
-              @include border-radius(5px);
-              @include sans-serif;
+              @include border-radius(3px);
+              @include monospace;
               border: 1px solid #e2e2e2;
               width: 70%;
-              height: 60px;
-              font-size: .75em;
-              line-height: 1.5em;
+              height: 40px;
+              font-size: .65em;
+              line-height: 1.4em;
               display: inline-block;
               padding: 8px 7px;
               outline: none;
@@ -520,7 +520,7 @@
             }
 
             input {
-              height: 30px;
+              height: 20px;
             }
           }
         }
