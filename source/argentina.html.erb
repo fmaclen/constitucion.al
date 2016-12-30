@@ -7,8 +7,17 @@ extra_class: constitucion
   <a class="btn-menu" title="Índice de la Constitución de la Nación Argentina">Menu</a>
   <a class="btn-buscar" title="Para buscar en este documento usá la combinación de teclas: Control + F en Windows / Command + F en Mac">Buscar</a>
   <a class="btn-constitucional" href="/" title="Inicio / Constitucion.al"><img src="/images/constitucional_logo.svg" title="Constitucion.al" alt="Logo"></a>
+
+  <script type="text/javascript">
+    $(function ($) {
+      if (navigator.appVersion.indexOf("Mac")!=-1) {
+        $('#principal ul').prepend( "<li>Command &#8984;</li>");
+      } else {
+        $('#principal ul').prepend( "<li>Control</li>");
+      }
+    });
+  </script>
   <ul>
-    <li>ctrl / cmd</li>
     <li>+</li>
     <li>F</li>
     <li>=</li>

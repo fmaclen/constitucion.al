@@ -1,7 +1,7 @@
 // Expandir Menu Lateral
 
 $(function ($) {
-  $('#principal a').click(function () {
+  $('#principal a.btn-menu').click(function () {
     $('body').toggleClass('lateral-activo');
   });
 });
