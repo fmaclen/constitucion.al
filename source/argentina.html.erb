@@ -23,54 +23,16 @@ extra_class: constitucion
 
       <h4><span>Capitulo Primero</span> Declaraciones, derechos y garantías</h4>
       <ul>
-        <li><a href="#art_1">Artículo 1º <span>Forma de Gobierno</span></a></li>
-        <li><a href="#art_2">Artículo 2º <span>Religión Oficial</span></a></li>
-        <li><a href="#art_3">Artículo 3º <span>Residencia de Autoridades</span></a></li>
-        <li><a href="#art_4">Artículo 4º <span>Financiación de la Nación</span></a></li>
-        <li><a href="#art_5">Artículo 5º <span>Constitución de las Provincias</span></a></li>
-        <li><a href="#art_6">Artículo 6º <span>Protección del Territorio</span></a></li>
-        <li><a href="#art_7">Artículo 7º <span>Leyes Provinciales</span></a></li>
-        <li><a href="#art_8">Artículo 8º <span>Derechos de Ciudadanos de las Provincias</span></a></li>
-        <li><a href="#art_9">Artículo 9º <span>Aduanas</span></a></li>
-        <li><a href="#art_10">Artículo 10º <span>Comercio Interno</span></a></li>
-        <li><a href="#art_11">Artículo 11º <span>Comercio Interno</span></a></li>
-        <li><a href="#art_12">Artículo 12º <span>Comercio Interno</span></a></li>
-        <li><a href="#art_13">Artículo 13º <span>Futuras Provincias</span></a></li>
-        <li><a href="#art_14">Artículo 14º <span>Derechos Ciudadanos</span></a></li>
-        <li><a href="#art_14b">Artículo 14º (bis) <span>Empleo y Seguridad Social</span></a></li>
-        <li><a href="#art_15">Artículo 15º <span>Esclavitud</span></a></li>
-        <li><a href="#art_16">Artículo 16º <span>Igualdad</span></a></li>
-        <li><a href="#art_17">Artículo 17º <span>Propiedad Privada</span></a></li>
-        <li><a href="#art_18">Artículo 18º <span>Justicia</span></a></li>
-        <li><a href="#art_19">Artículo 19º <span>Acciones Públicas y Privadas</span></a></li>
-        <li><a href="#art_20">Artículo 20º <span>Ciudadanos Extranjeros</span></a></li>
-        <li><a href="#art_21">Artículo 21º <span>Defensa</span></a></li>
-        <li><a href="#art_22">Artículo 22º <span>Representantes y Autoridades</span></a></li>
-        <li><a href="#art_23">Artículo 23º <span>Estado de Sitio</span></a></li>
-        <li><a href="#art_24">Artículo 24º <span>Cambios de Legislación</span></a></li>
-        <li><a href="#art_25">Artículo 25º <span>Inmigración</span></a></li>
-        <li><a href="#art_26">Artículo 26º <span>Navegación</span></a></li>
-        <li><a href="#art_27">Artículo 27º <span>Potencias Extranjeras</span></a></li>
-        <li><a href="#art_28">Artículo 28º <span>Alteración de la Constitución</span></a></li>
-        <li><a href="#art_29">Artículo 29º <span>Facultades Extraordinarias</span></a></li>
-        <li><a href="#art_30">Artículo 30º <span>Reformación de la Constitución</span></a></li>
-        <li><a href="#art_31">Artículo 31º <span>Ley Suprema de la Nación</span></a></li>
-        <li><a href="#art_32">Artículo 32º <span>Ley Suprema de la Nación</span></a></li>
-        <li><a href="#art_33">Artículo 33º <span>Otros Derechos</span></a></li>
-        <li><a href="#art_34">Artículo 34º <span>Jueces Federales</span></a></li>
-        <li><a href="#art_35">Artículo 35º <span>Nación Argentina</span></a></li>
+        <% blog('nacion').articles.reverse[0...36].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h4><span>Capitulo Segundo</span> Nuevos derechos y garantías</h4>
       <ul>
-        <li><a href="#art_36">Artículo 36º <span>Soberanía Consitucional</span></a></li>
-        <li><a href="#art_37">Artículo 37º <span>Soberanía Popular y Elecciones</span></a></li>
-        <li><a href="#art_38">Artículo 38º <span>Partidos Políticos</span></a></li>
-        <li><a href="#art_39">Artículo 39º <span>Participación Ciudadana</span></a></li>
-        <li><a href="#art_40">Artículo 40º <span>Plebiscitos</span></a></li>
-        <li><a href="#art_41">Artículo 41º <span>Derecho Ambiental de los Ciudadanos</span></a></li>
-        <li><a href="#art_42">Artículo 42º <span>Derechos de Usuarios y Consumidores</span></a></li>
-        <li><a href="#art_43">Artículo 43º <span>Denuncia de Inconstitucionalidad</span></a></li>
+        <% blog('nacion').articles.reverse[36...44].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h2>Parte Segunda <span>Autoridades de la Nación</span></h2>
@@ -78,175 +40,123 @@ extra_class: constitucion
       <h4>Sección Primera <span>Del Poder Legislativo</span></h4>
 
       <ul>
-        <li><a href="#art_44">Artículo 44º <span>Conformación del Poder Legislativo</span></a>
+        <% blog('nacion').articles.reverse[44...45].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo I <span>De la Cámara de Diputados</span></h5>
       <ul>
-        <li><a href="#art_45">Artículo 45º <span>Composición de la Cámara de Diputados</span></a></li>
-        <li><a href="#art_46">Artículo 46º <span>Proporción de Diputados de la Primera Legislatura</span></a></li>
-        <li><a href="#art_47">Artículo 47º <span>Número de Diputados de la Segunda Legislatura</span></a></li>
-        <li><a href="#art_48">Artículo 48º <span>Requisitos para ser Diputado</span></a></li>
-        <li><a href="#art_49">Artículo 49º <span>Primer Elección de Diputados</span></a></li>
-        <li><a href="#art_50">Artículo 50º <span>Tiempo de Representación</span></a></li>
-        <li><a href="#art_51">Artículo 51º <span>Bancas Vacantes</span></a></li>
-        <li><a href="#art_52">Artículo 52º <span>Deber de la Cámara de Diputados</span></a></li>
-        <li><a href="#art_53">Artículo 53º <span>Facultades de los Diputados</span></a></li>
+        <% blog('nacion').articles.reverse[45...54].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo II <span>Del Senado</span></h5>
       <ul>
-        <li><a href="#art_54">Artículo 54º <span>Composición del Senado de la Nación</a></li>
-        <li><a href="#art_55">Artículo 55º <span>Requisitos para ser Senador</span></a></li>
-        <li><a href="#art_56">Artículo 56º <span>Tiempo de Representación</span></a></li>
-        <li><a href="#art_57">Artículo 57º <span>Presidente del Senado</span></a></li>
-        <li><a href="#art_58">Artículo 58º <span>Presidente Provisorio</span></a></li>
-        <li><a href="#art_59">Artículo 59º <span>Facultades del Senado</span></a></li>
-        <li><a href="#art_60">Artículo 60º <span>Deberes del Senado</span></a></li>
-        <li><a href="#art_61">Artículo 61º <span>Deberes del Senado</span></a></li>
-        <li><a href="#art_62">Artículo 62º <span>Bancas Vacantes</span></a></li>
+        <% blog('nacion').articles.reverse[54...62].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo III <span>Disposiciones comunes a ambas Cámaras</span></h5>
       <ul>
-        <li><a href="#art_63">Artículo 63º <span>Deberes de las Cámaras</span></a></li>
-        <li><a href="#art_64">Artículo 64º <span>Quórum en las Sesiones</span></a></li>
-        <li><a href="#art_65">Artículo 65º <span>Forma de Reunión</span></a></li>
-        <li><a href="#art_66">Artículo 66º <span>Reglamento</span></a></li>
-        <li><a href="#art_67">Artículo 67º <span>Juramento</span></a></li>
-        <li><a href="#art_68">Artículo 68º <span>Poderes de los Miembros</span></a></li>
-        <li><a href="#art_69">Artículo 69º <span>Poderes de los Miembros</span></a></li>
-        <li><a href="#art_70">Artículo 70º <span>Juzgamiento de los Miembros</span></a></li>
-        <li><a href="#art_71">Artículo 71º <span>Facultades de los Miembros</span></a></li>
-        <li><a href="#art_72">Artículo 72º <span>Facultades de los Miembros</span></a></li>
-        <li><a href="#art_73">Artículo 73º <span>Eclesiásticos y Gobernadores</span></a></li>
-        <li><a href="#art_74">Artículo 74º <span>Remuneración</span></a></li>
+        <% blog('nacion').articles.reverse[62...75].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo IV <span>Atribuciones del Congreso</span></h5>
       <ul>
-        <li><a href="#art_75">Artículo 75º <span>Funciones del Congreso</span></a></li>
-        <li><a href="#art_76">Artículo 76º <span>Delegación al Poder Ejecutivo</span></a></li>
+        <% blog('nacion').articles.reverse[75...77].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo V <span>De la Formación y Sanción de las Leyes</span></h5>
       <ul>
-        <li><a href="#art_77">Artículo 77º <span>Proyectos de Ley</span></a></li>
-        <li><a href="#art_78">Artículo 78º <span>Proceso de Sanción de una Ley</span></a></li>
-        <li><a href="#art_79">Artículo 79º <span>Aprobación de un Proyecto de Ley</span></a></li>
-        <li><a href="#art_80">Artículo 80º <span>Proyectos no Devueltos y Desechados</span></a></li>
-        <li><a href="#art_81">Artículo 81º <span>Proyectos Desechados y Corregidos</span></a></li>
-        <li><a href="#art_82">Artículo 82º <span>Voluntad de las Cámaras</span></a></li>
-        <li><a href="#art_83">Artículo 83º <span>Proyectos Desechados por el Poder Ejecutivo</span></a></li>
-        <li><a href="#art_84">Artículo 84º <span>Formato de la Sanción de una Ley</span></a></li>
+        <% blog('nacion').articles.reverse[77...85].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo VI <span>De la Auditoría General de la Nación</span></h5>
       <ul>
-        <li><a href="#art_85">Artículo 85º <span>Control Externo del Sector Público (Incorporado por la reforma del año 1994)</span></a></li>
+        <% blog('nacion').articles.reverse[85...86].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo VII <span>Del Defensor del Pueblo</span></h5>
       <ul>
-        <li><a href="#art_86">Artículo 86º <span>Defensor del Pueblo (Incorporado por la reforma del año 1994)</span></a></li>
+        <% blog('nacion').articles.reverse[86...87].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h4>Sección Segunda <span>Del Poder Ejecutivo</span></h4>
       <h5>Capítulo I <span>De su Naturaleza y Duración</span></h5>
       <ul>
-        <li><a href="#art_87">Artículo 87º <span>Presidente de la Nación</span></a></li>
-        <li><a href="#art_88">Artículo 88º <span>Sustituto del Presidente de la Nación</span></a></li>
-        <li><a href="#art_89">Artículo 89º <span>Requisitos para ser Presidente de la Nación</span></a></li>
-        <li><a href="#art_90">Artículo 90º <span>Duración del Mandato</span></a></li>
-        <li><a href="#art_91">Artículo 91º <span>Cese de Poderes</span></a></li>
-        <li><a href="#art_92">Artículo 92º <span>Remuneración</span></a></li>
-        <li><a href="#art_93">Artículo 93º <span>Juramento</span></a></li>
+        <% blog('nacion').articles.reverse[87...94].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo II <span>De la Forma y Tiempo de la Elección del Presidente y Vicepresidente de la Nación</span></h5>
       <ul>
-        <li><a href="#art_94">Artículo 94º <span>Elección del Presidente de la Nación</span></a></li>
-        <li><a href="#art_95">Artículo 95º <span>Fecha de la Elección</span></a></li>
-        <li><a href="#art_96">Artículo 96º <span>Segunda Vuelta (Ballotage)</span></a></li>
-        <li><a href="#art_97">Artículo 97º <span>Mayoría Mínima</span></a></li>
-        <li><a href="#art_98">Artículo 98º <span>Mayoría Mínima</span></a></li>
+        <% blog('nacion').articles.reverse[94...99].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo III <span>Atribuciones del Poder Ejecutivo</span></h5>
       <ul>
-        <li><a href="#art_99">Artículo 99º <span>Atribuciones del Presidente de la Nación</span></a></li>
+        <% blog('nacion').articles.reverse[99...100].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo IV <span>Del jefe de gabinete y demás ministros del Poder Ejecutivo</span></h5>
       <ul>
-        <li><a href="#art_100">Artículo 100º <span>Atribuciones del Presidente de la Nación</span></a></li>
-        <li><a href="#art_101">Artículo 101º <span>Deberes del Jefe de Gabinete</span></a></li>
-        <li><a href="#art_102">Artículo 102º <span>Responsabilidad de los Ministros</span></a></li>
-        <li><a href="#art_103">Artículo 103º <span>Resoluciones</span></a></li>
-        <li><a href="#art_104">Artículo 104º <span>Presentación ante el Congreso</span></a></li>
-        <li><a href="#art_105">Artículo 105º <span>Participación en el Congreso</span></a></li>
-        <li><a href="#art_106">Artículo 106º <span>Participación en los Debates del Congreso</span></a></li>
-        <li><a href="#art_107">Artículo 107º <span>Remuneración</span></a></li>
+        <% blog('nacion').articles.reverse[100...107].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h4>Sección Tercera <span>Del Poder Judicial</span></h4>
       <h5>Capítulo I <span>De su Naturaleza y Duración</span></h5>
       <ul>
-        <li><a href="#art_108">Artículo 108º <span>Composición del Poder Judicial</span></a></li>
-        <li><a href="#art_109">Artículo 109º <span>Participación del Presidente de la Nación</span></a></li>
-        <li><a href="#art_110">Artículo 110º <span>Jueces Nacionales</span></a></li>
-        <li><a href="#art_111">Artículo 111º <span>Requisitos para ser Juez de la Corte Suprema</span></a></li>
-        <li><a href="#art_112">Artículo 112º <span>Juramento</span></a></li>
-        <li><a href="#art_113">Artículo 113º <span>Reglamento</span></a></li>
-        <li><a href="#art_114">Artículo 114º <span>Atribuciones del Consejo de la Magistratura</span></a></li>
-        <li><a href="#art_115">Artículo 115º <span>Jueces de Tribunales Inferiores</span></a></li>
+        <% blog('nacion').articles.reverse[107...115].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h5>Capítulo II <span>Atribuciones del Poder Judicial</span></h5>
       <ul>
-        <li><a href="#art_116">Artículo 116º <span>Atribuciones del Poder Judicial</span></a></li>
-        <li><a href="#art_117">Artículo 117º <span>Jurisdicción</span></a></li>
-        <li><a href="#art_118">Artículo 118º <span>Juicios Criminales Ordinarios</span></a></li>
-        <li><a href="#art_119">Artículo 119º <span>Traición a la Patria</span></a></li>
+        <% blog('nacion').articles.reverse[107...119].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h4>Sección Cuarta <span>Del Ministerio Público</span></h4>
       <ul>
-        <li><a href="#art_120">Artículo 120º <span>Ministerio Público</span></a></li>
+        <% blog('nacion').articles.reverse[119...120].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h3>Titulo Segundo <span>Gobierno de Provincia</span></h3>
       <ul>
-        <li><a href="#art_121">Artículo 121º <span>Las Provincias y el Gobierno Federal</span></a></li>
-        <li><a href="#art_122">Artículo 122º <span>Autonomía de los Gobiernos Provinciales</span></a></li>
-        <li><a href="#art_123">Artículo 123º <span>Constitución Provincial</span></a></li>
-        <li><a href="#art_124">Artículo 124º <span>Desarrollo Provincial</span></a></li>
-        <li><a href="#art_125">Artículo 125º <span>Convenios Parciales</span></a></li>
-        <li><a href="#art_126">Artículo 126º <span>Permiso de la Nación</span></a></li>
-        <li><a href="#art_127">Artículo 127º <span>Guerra Entre Provincias</span></a></li>
-        <li><a href="#art_128">Artículo 128º <span>Función del Gobernador</span></a></li>
-        <li><a href="#art_129">Artículo 129º <span>Cuidad de Buenos Aires</span></a></li>
+        <% blog('nacion').articles.reverse[120...130].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+        <% end %>
       </ul>
 
       <h2>Disposiciones Transitorias</h2>
       <ul>
-        <li><a href="#disp1">Primera <span>Soberanía Nacional</span></a></li>
-        <li><a href="#disp2">Segunda <span>Duración del Artículo 37º</span></a></li>
-        <li><a href="#disp3">Tercera <span>Sanción del Artículo 39º</span></a></li>
-        <li><a href="#disp4">Cuarta <span>Conformación del Senado</span></a></li>
-        <li><a href="#disp5">Quinta <span>Elección de los Candidatos del Senado</span></a></li>
-        <li><a href="#disp6">Sexta <span>Coparticipación entre Provincias</span></a></li>
-        <li><a href="#disp7">Séptima <span>Locación del Congreso</span></a></li>
-        <li><a href="#disp8">Octava <span>Vencimiento de la Legislación</span></a></li>
-        <li><a href="#disp9">Novena <span>Primer Período</span></a></li>
-        <li><a href="#disp10">Décima <span>Período de Mandato</span></a></li>
-        <li><a href="#disp11">Undécima <span>Finalización de Nombramientos</span></a></li>
-        <li><a href="#disp12">Duodécima <span>Jefe de Gabinete</span></a></li>
-        <li><a href="#disp13">Decimotercera <span>Magistrados Inferiores</span></a></li>
-        <li><a href="#disp14">Decimocuarta <span>Causas en la Cámara de Diputados</span></a></li>
-        <li><a href="#disp15">Decimoquinta <span>Autonomía de la Ciudad de Buenos Aires</span></a></li>
-        <li><a href="#disp16">Decimosexta <span>Vigencia de la Reforma</span></a></li>
-        <li><a href="#disp17">Decimoséptima <span>Reforma de la Constitución</span></a></li>
+        <% blog('nacion').articles.reverse[130...147].sort_by{|article| article.data.art_id}.each do |article| %>
+          <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+        <% end %>
       </ul>
     </nav>
 
@@ -363,7 +273,7 @@ extra_class: constitucion
 
 <h5><span>Capítulo II</span> Atribuciones del Poder Judicial</h5>
 
-<% blog('nacion').articles.reverse[107...119].sort_by{|article| article.data.art_id}.each do |article| %>
+<% blog('nacion').articles.reverse[115...119].sort_by{|article| article.data.art_id}.each do |article| %>
   <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
 <% end %>
 
