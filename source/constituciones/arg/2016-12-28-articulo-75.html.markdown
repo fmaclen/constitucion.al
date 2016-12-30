@@ -4,7 +4,7 @@ date: 2016-12-28 15:54 UTC
 art_id: 76
 icon: "icono_institucion"
 topic: "Funciones del Congreso"
-shortcode: "art_75"
+shortcode: "art-75"
 ---
 Corresponde al Congreso:
 

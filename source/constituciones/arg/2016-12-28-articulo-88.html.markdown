@@ -4,6 +4,6 @@ date: 2016-12-28 17:04 UTC
 art_id: 89
 icon: "icono_presidente"
 topic: "Sustituto del Presidente de la Nación"
-shortcode: "art_88"
+shortcode: "art-88"
 ---
 En caso de enfermedad, ausencia de la Capital, muerte, renuncia o destitución del Presidente, el Poder Ejecutivo será ejercido por el vicepresidente de la Nación. En caso de destitución, muerte, dimisión o inhabilidad del Presidente y vicepresidente de la Nación, el Congreso determinará qué funcionario público ha de desempeñar la Presidencia, hasta que haya cesado la causa de la inhabilidad o un nuevo presidente sea electo.

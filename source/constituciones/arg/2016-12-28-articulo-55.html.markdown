@@ -4,6 +4,6 @@ date: 2016-12-28 15:15 UTC
 art_id: 56
 icon: "icono_institucion"
 topic: "Requisitos para ser Senador"
-shortcode: "art_55"
+shortcode: "art-55"
 ---
 Los senadores duran seis años en el ejercicio de su mandato, y son reelegibles indefinidamente; pero el Senado se renovará a razón de una tercera parte de los distritos electorales cada dos años.

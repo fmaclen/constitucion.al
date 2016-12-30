@@ -4,6 +4,6 @@ date: 2016-12-28 14:31 UTC
 art_id: 30
 icon: "icono_institucion"
 topic: "Facultades Extraordinarias"
-shortcode: "art_29"
+shortcode: "art-29"
 ---
 El Congreso no puede conceder al Ejecutivo nacional, ni las Legislaturas provinciales a los gobernadores de provincia, facultades extraordinarias, ni la suma del poder público, ni otorgarles sumisiones o supremacías por las que la vida, el honor o las fortunas de los argentinos queden a merced de gobiernos o persona alguna. Actos de esta naturaleza llevan consigo una nulidad insanable, y sujetarán a los que los formulen, consientan o firmen, a la responsabilidad y pena de los infames traidores a la patria.

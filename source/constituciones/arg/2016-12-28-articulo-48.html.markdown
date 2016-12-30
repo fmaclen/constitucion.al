@@ -4,6 +4,6 @@ date: 2016-12-28 15:08 UTC
 art_id: 49
 icon: "icono_institucion"
 topic: "Requisitos para ser Diputado"
-shortcode: "art_48"
+shortcode: "art-48"
 ---
 Para ser diputado se requiere haber cumplido la edad de veinticinco años, tener cuatro años de ciudadanía en ejercicio, y ser natural de la provincia que lo elija, o con dos años de residencia inmediata en ella.

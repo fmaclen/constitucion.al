@@ -4,7 +4,7 @@ date: 2016-12-28 19:14 UTC
 art_id: 130
 icon: "icono_caba"
 topic: "Cuidad de Buenos Aires"
-shortcode: "art_129"
+shortcode: "art-129"
 ---
 La ciudad de Buenos Aires tendrá un régimen de Gobierno autónomo con facultades propias de legislación y jurisdicción, y su jefe de gobierno será elegido directamente por el pueblo de la ciudad.
 

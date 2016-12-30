@@ -4,7 +4,7 @@ date: 2016-12-28 17:58 UTC
 art_id: 115
 icon: "icono_justicia"
 topic: "Atribuciones del Consejo de la Magistratura"
-shortcode: "art_114"
+shortcode: "art-114"
 ---
 El Consejo de la Magistratura, regulado por una ley especial sancionada por la mayoría absoluta de la totalidad de los miembros de cada Cámara, tendrá a su cargo la selección de los magistrados y la administración del Poder Judicial.
 

@@ -4,6 +4,6 @@ date: 2016-12-28 15:11 UTC
 art_id: 54
 icon: "icono_senado"
 topic: "Facultades de los Diputados"
-shortcode: "art_53"
+shortcode: "art-53"
 ---
 Sólo ella ejerce el derecho de acusar ante el Senado al presidente, vicepresidente, al jefe de gabinete de ministros, a los ministros y a los miembros de la Corte Suprema, en las causas de responsabilidad que se intenten contra ellos, por mal desempeño o por delito en el ejercicio de sus funciones; o por crímenes comunes, después de haber conocido de ellos y declarado haber lugar a la formación de causa por la mayoría de dos terceras partes de sus miembros presentes.

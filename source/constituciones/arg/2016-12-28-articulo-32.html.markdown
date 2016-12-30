@@ -4,6 +4,6 @@ date: 2016-12-28 14:34 UTC
 art_id: 33
 icon: "icono_justicia"
 topic: "Ley Suprema de la Nación"
-shortcode: "art_32"
+shortcode: "art-32"
 ---
 El Congreso federal no dictará leyes que restrinjan la libertad de imprenta o establezcan sobre ella la jurisdicción federal.

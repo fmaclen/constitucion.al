@@ -4,7 +4,7 @@ date: 2016-12-28 16:42 UTC
 art_id: 78
 icon: "icono_justicia"
 topic: "Proyectos de Ley"
-shortcode: "art_77"
+shortcode: "art-77"
 ---
 Las leyes pueden tener principio en cualquiera de las Cámaras del Congreso, por proyectos presentados por sus miembros o por el [Poder Ejecutivo](http://es.wikipedia.org/wiki/Poder_Ejecutivo_Nacional_%28Argentina%29), salvo las excepciones que establece esta Constitución.
 

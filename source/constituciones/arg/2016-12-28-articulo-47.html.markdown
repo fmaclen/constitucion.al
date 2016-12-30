@@ -4,6 +4,6 @@ date: 2016-12-28 15:08 UTC
 art_id: 48
 icon: "icono_senado"
 topic: "Número de Diputados de la Segunda Legislatura"
-shortcode: "art_47"
+shortcode: "art-47"
 ---
 Para la segunda Legislatura deberá realizarse el censo general, y arreglarse a él el número de diputados; pero este censo sólo podrá renovarse cada diez años.

@@ -4,6 +4,6 @@ date: 2016-12-28 17:07 UTC
 art_id: 94
 icon: "icono_presidente"
 topic: "Juramento"
-shortcode: "art_93"
+shortcode: "art-93"
 ---
 Al tomar posesión de su cargo el presidente y vicepresidente prestarán juramento, en manos del presidente del Senado y ante el Congreso reunido en Asamblea, respetando sus creencias religiosas, de "desempeñar con lealtad y patriotismo el cargo de Presidente (o vicepresidente) de la Nación y observar y hacer observar fielmente la Constitución de la Nación Argentina".

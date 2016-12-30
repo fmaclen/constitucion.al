@@ -4,7 +4,7 @@ date: 2016-12-28 17:58 UTC
 art_id: 116
 icon: "icono_justicia"
 topic: "Jueces de Tribunales Inferiores"
-shortcode: "art_115"
+shortcode: "art-115"
 ---
 Los jueces de los tribunales inferiores de la Nación serán removidos por las causales expresadas en el Artículo 53, por un jurado de enjuiciamiento integrado por legisladores, magistrados y abogados de la matrícula federal.
 

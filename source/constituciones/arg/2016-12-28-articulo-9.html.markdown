@@ -4,7 +4,7 @@ date: 2016-12-28 14:06 UTC
 art_id: 9
 icon: "icono_institucion"
 topic: "Aduanas"
-shortcode: "art_9"
+shortcode: "art-9"
 ---
 
 En todo el [territorio de la Nación](http://es.wikipedia.org/wiki/Geograf%C3%ADa_de_la_Argentina) no habrá más [aduanas que las nacionales](http://es.wikipedia.org/wiki/Direcci%C3%B3n_General_de_Aduanas_(Argentina)), en las cuales regirán las tarifas que sancione el Congreso.

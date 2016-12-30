@@ -4,6 +4,6 @@ date: 2016-12-28 15:51 UTC
 art_id: 74
 icon: "icono_institucion"
 topic: "Eclesiásticos y Gobernadores"
-shortcode: "art_73"
+shortcode: "art-73"
 ---
 Los eclesiásticos regulares no pueden ser miembros del Congreso, ni los gobernadores de provincia por la de su mando.

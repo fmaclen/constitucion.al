@@ -4,7 +4,7 @@ date: 2016-12-28 16:39 UTC
 art_id: 77
 icon: "icono_institucion"
 topic: "Delegación al Poder Ejecutivo"
-shortcode: "art_76"
+shortcode: "art-76"
 ---
 Se prohíbe la delegación legislativa en el Poder Ejecutivo, salvo en materias determinadas de administración o de emergencia pública, con plazo fijado para su ejercicio y dentro de las bases de la delegación que el Congreso establezca.
 

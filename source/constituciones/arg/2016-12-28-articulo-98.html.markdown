@@ -4,6 +4,6 @@ date: 2016-12-28 17:13 UTC
 art_id: 99
 icon: "icono_comicios"
 topic: "Mayoría Mínima"
-shortcode: "art_98"
+shortcode: "art-98"
 ---
 Cuando la fórmula que resultare más votada en la primera vuelta hubiere obtenido el cuarenta por ciento por lo menos de los votos afirmativos válidamente emitidos y, además, existiere una diferencia mayor de diez puntos porcentuales respecto del total de los votos afirmativos válidamente emitidos sobre la fórmula que le sigue en número de votos, sus integrantes serán proclamados como Presidente y vicepresidente de la Nación.

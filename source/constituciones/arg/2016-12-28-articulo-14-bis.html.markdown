@@ -4,7 +4,7 @@ date: 2016-12-28 14:15 UTC
 art_id: 15
 icon: "icono_pueblo"
 topic: "Empleo y Seguridad Social"
-shortcode: "art_14b"
+shortcode: "art-14b"
 ---
 El trabajo en sus diversas formas gozará de la protección de las leyes, las que asegurarán al trabajador: condiciones dignas y equitativas de labor, jornada limitada; descanso y vacaciones pagados; retribución justa; salario mínimo vital móvil; igual remuneración por igual tarea; participación en las ganancias de las empresas, con control de la producción y colaboración en la dirección; protección contra el despido arbitrario; estabilidad del empleado público; organización sindical libre y democrática, reconocida por la simple inscripción en un registro especial.
 

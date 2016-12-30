@@ -4,6 +4,6 @@ date: 2016-12-28 15:01 UTC
 art_id: 46
 icon: "icono_senado"
 topic: "Composición de la Cámara de Diputados"
-shortcode: "art_45"
+shortcode: "art-45"
 ---
 La Cámara de Diputados se compondrá de representantes elegidos directamente por el pueblo de las provincias, de la ciudad de Buenos Aires, y de la Capital en caso de traslado, que se consideran a este fin como distritos electorales de un solo Estado y a simple pluralidad de sufragios. El número de representantes será de uno por cada treinta y tres mil habitantes o fracción que no baje de dieciséis mil quinientos. Después de la realización de cada censo, el Congreso fijará la representación con arreglo al mismo, pudiendo aumentar pero no disminuir la base expresada para cada diputado.

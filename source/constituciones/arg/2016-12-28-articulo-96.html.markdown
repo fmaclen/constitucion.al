@@ -4,6 +4,6 @@ date: 2016-12-28 17:10 UTC
 art_id: 97
 icon: "icono_comicios"
 topic: "Segunda Vuelta (Ballotage)"
-shortcode: "art_96"
+shortcode: "art-96"
 ---
 La segunda vuelta electoral, si correspondiere, se realizará entre las dos fórmulas de candidatos más votadas, dentro de los treinta días de celebrada la anterior.

@@ -4,7 +4,7 @@ date: 2016-12-28 14:29 UTC
 art_id: 24
 icon: "icono_seguridad"
 topic: "Estado de Sitio"
-shortcode: "art_23"
+shortcode: "art-23"
 ---
 
 En caso de conmoción interior o de ataque exterior que pongan en peligro el ejercicio de esta Constitución y de las autoridades creadas por ella, se declarará en estado de sitio la provincia o territorio en donde exista la perturbación del orden, quedando suspensas allí las garantías constitucionales. Pero durante esta suspensión no podrá el presidente de la República condenar por sí ni aplicar penas. Su poder se limitará en tal caso respecto de las personas, a arrestarlas o trasladarlas de un punto a otro de la Nación, si ellas no prefiriesen salir fuera del territorio argentino.

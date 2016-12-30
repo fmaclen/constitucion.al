@@ -4,7 +4,7 @@ date: 2016-12-28 14:52 UTC
 art_id: 40
 icon: "icono_institucion"
 topic: "Participación Ciudadana"
-shortcode: "art_39"
+shortcode: "art-39"
 ---
 Los ciudadanos tienen el derecho de iniciativa para [presentar proyectos de ley](http://www.senado.gov.ar/bundles/senadomicrositios/pdf/ELABORACION%20Y%20PROCEDIMIENTO%20DE%20UN%20PROYECTO%20LEGISLATIVO.pdf) en la Cámara de Diputados. El Congreso deberá darles expreso tratamiento dentro del término de doce meses.
 

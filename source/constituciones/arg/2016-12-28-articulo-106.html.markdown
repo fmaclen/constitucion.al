@@ -4,6 +4,6 @@ date: 2016-12-28 17:53 UTC
 art_id: 107
 icon: "icono_presidente"
 topic: "Debates en el Congreso"
-shortcode: "art_106"
+shortcode: "art-106"
 ---
 Pueden los ministros concurrir a las sesiones del Congreso y tomar parte en sus debates, pero no votar.

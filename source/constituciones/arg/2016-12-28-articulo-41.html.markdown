@@ -4,7 +4,7 @@ date: 2016-12-28 14:53 UTC
 art_id: 42
 icon: "icono_justicia"
 topic: "Derecho Ambiental de los Ciudadanos"
-shortcode: "art_41"
+shortcode: "art-41"
 ---
 Todos los habitantes gozan del derecho a un ambiente sano, equilibrado, apto para el desarrollo humano y para que las actividades productivas satisfagan las necesidades presentes sin comprometer las de las generaciones futuras; y tienen el deber de preservarlo. El daño ambiental generará prioritariamente la obligación de recomponer, según lo establezca la ley.
 

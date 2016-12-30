@@ -4,6 +4,6 @@ date: 2016-12-28 17:06 UTC
 art_id: 93
 icon: "icono_economia"
 topic: "Remuneración"
-shortcode: "art_92"
+shortcode: "art-92"
 ---
 El Presidente y vicepresidente disfrutan de un sueldo pagado por el Tesoro de la Nación, que no podrá ser alterado en el período de sus nombramientos. Durante el mismo período no podrán ejercer otro empleo, ni recibir ningún otro emolumento de la Nación, ni de provincia alguna.

@@ -4,7 +4,7 @@ date: 2016-12-28 14:54 UTC
 art_id: 44
 icon: "icono_institucion"
 topic: "Denuncia de Inconstitucionalidad"
-shortcode: "art_43"
+shortcode: "art-43"
 ---
 Toda persona puede interponer acción expedita y rápida de amparo, siempre que no exista otro medio judicial más idóneo, contra todo acto u omisión de autoridades públicas o de particulares, que en forma actual o inminente lesione, restrinja, altere o amenace, con arbitrariedad o ilegalidad manifiesta, derechos y garantías reconocidos por esta Constitución, un tratado o una ley. En el caso, el juez podrá declarar la [inconstitucionalidad](http://es.wikipedia.org/wiki/Recurso_de_inconstitucionalidad) de la norma en que se funde el acto u omisión lesiva.
 

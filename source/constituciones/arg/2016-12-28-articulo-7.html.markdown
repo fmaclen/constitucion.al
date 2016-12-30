@@ -4,7 +4,7 @@ date: 2016-12-28 14:04 UTC
 art_id: 7
 icon: "icono_institucion"
 topic: "Leyes Provinciales"
-shortcode: "art_7"
+shortcode: "art-7"
 ---
 
 Los actos públicos y procedimientos judiciales de una provincia gozan de entera fe en las demás; y el Congreso puede por leyes generales determinar cuál será la forma probatoria de estos actos y procedimientos, y los efectos legales que producirán.

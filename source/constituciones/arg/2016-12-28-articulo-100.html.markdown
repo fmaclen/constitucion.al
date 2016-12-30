@@ -4,7 +4,7 @@ date: 2016-12-28 17:17 UTC
 art_id: 101
 icon: "icono_presidente"
 topic: "Atribuciones del Presidente de la Nación"
-shortcode: "art_100"
+shortcode: "art-100"
 ---
 El jefe de gabinete de ministros y los demás ministros secretarios cuyo número y competencia será establecida por una ley especial, tendrán a su cargo el despacho de los negocios de la Nación, y refrendarán y legalizarán los actos del presidente por medio de su firma, sin cuyo requisito carecen de eficacia.
 

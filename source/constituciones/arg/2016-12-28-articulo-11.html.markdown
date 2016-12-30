@@ -4,7 +4,7 @@ date: 2016-12-28 14:07 UTC
 art_id: 11
 icon: "icono_industria"
 topic: "Comercio Interno"
-shortcode: "art_11"
+shortcode: "art-11"
 ---
 
 Los artículos de producción o fabricación nacional o extranjera, así como los ganados de toda especie, que pasen por territorio de una provincia a otra, serán libres de los derechos llamados de tránsito, siéndolo también los carruajes, buques o bestias en que se transporten; y ningún otro derecho podrá imponérseles en adelante, cualquiera que sea su denominación, por el hecho de transitar el territorio.

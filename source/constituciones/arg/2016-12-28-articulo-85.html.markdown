@@ -4,7 +4,7 @@ date: 2016-12-28 16:57 UTC
 art_id: 86
 icon: "icono_institucion"
 topic: "Control Externo del Sector Público (Incorporado por la reforma del año 1994)"
-shortcode: "art_85"
+shortcode: "art-85"
 ---
 patrimoniales, económicos, financieros y operativos, será una atribución propia del Poder Legislativo.
 

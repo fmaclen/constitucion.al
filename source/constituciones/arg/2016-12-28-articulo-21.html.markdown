@@ -4,7 +4,7 @@ date: 2016-12-28 14:28 UTC
 art_id: 22
 icon: "icono_seguridad"
 topic: "Defensa"
-shortcode: "art_21"
+shortcode: "art-21"
 ---
 
 Todo ciudadano argentino está obligado a armarse en defensa de la patria y de esta Constitución, conforme a las leyes que al efecto dicte el Congreso y a los decretos del [Ejecutivo nacional](http://es.wikipedia.org/wiki/Poder_Ejecutivo_Nacional_(Argentina)). Los ciudadanos por naturalización son libres de prestar o no este servicio por el término de diez años contados desde el día en que obtengan su carta de ciudadanía.

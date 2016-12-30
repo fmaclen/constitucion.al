@@ -4,6 +4,6 @@ date: 2016-12-28 19:08 UTC
 art_id: 123
 icon: "icono_argentina"
 topic: "Autonomía de los Gobiernos Provinciales"
-shortcode: "art_122"
+shortcode: "art-122"
 ---
 Se dan sus propias instituciones locales y se rigen por ellas. Eligen sus gobernadores, sus legisladores y demás funcionarios de provincia, sin intervención del Gobierno federal.

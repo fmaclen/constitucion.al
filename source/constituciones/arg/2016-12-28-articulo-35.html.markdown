@@ -4,6 +4,6 @@ date: 2016-12-28 14:36 UTC
 art_id: 36
 icon: "icono_institucion"
 topic: "Nación Argentina"
-shortcode: "art_35"
+shortcode: "art-35"
 ---
 Las denominaciones adoptadas sucesivamente desde 1810 hasta el presente, a saber: [Provincias Unidas del Río de la Plata](http://es.wikipedia.org/wiki/Provincias_Unidas_del_R%C3%ADo_de_la_Plata), República Argentina, Confederación Argentina, serán en adelante nombres oficiales indistintamente para la designación del Gobierno y territorio de las provincias, empleándose las palabras "Nación Argentina" en la formación y sanción de las leyes.

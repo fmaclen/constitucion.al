@@ -4,6 +4,6 @@ date: 2016-12-28 15:09 UTC
 art_id: 50
 icon: "icono_senado"
 topic: "Primer Elección de Diputados"
-shortcode: "art_49"
+shortcode: "art-49"
 ---
 Por esta vez las Legislaturas de las provincias reglarán los medios de hacer efectiva la elección directa de los diputados de la Nación: para lo sucesivo el Congreso expedirá una ley general.

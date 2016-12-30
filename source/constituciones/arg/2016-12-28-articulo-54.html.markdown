@@ -4,6 +4,6 @@ date: 2016-12-28 15:14 UTC
 art_id: 55
 icon: "icono_senado"
 topic: "Composición del Senado de la Nación"
-shortcode: "art_54"
+shortcode: "art-54"
 ---
 El Senado se compondrá de tres senadores por cada provincia y tres por la ciudad de Buenos Aires, elegidos en forma directa y conjunta, correspondiendo dos bancas al partido político que obtenga el mayor número de votos, y la restante al partido político que le siga en número de votos. Cada senador tendrá un voto.

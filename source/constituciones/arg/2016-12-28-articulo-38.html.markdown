@@ -4,7 +4,7 @@ date: 2016-12-28 14:51 UTC
 art_id: 39
 icon: "icono_comicios"
 topic: "Partidos Políticos"
-shortcode: "art_38"
+shortcode: "art-38"
 ---
 Los [partidos políticos](http://es.wikipedia.org/wiki/Partido_pol%C3%ADtico) son instituciones fundamentales del sistema democrático.
 

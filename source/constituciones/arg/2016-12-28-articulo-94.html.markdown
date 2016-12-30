@@ -4,6 +4,6 @@ date: 2016-12-28 17:09 UTC
 art_id: 95
 icon: "icono_comicios"
 topic: "Elección del Presidente de la Nación"
-shortcode: "art_94"
+shortcode: "art-94"
 ---
 El Presidente y el vicepresidente de la Nación serán elegidos directamente por el Pueblo, en doble vuelta, según lo establece esta Constitución. A este fin el territorio nacional conformará un distrito único.

@@ -4,7 +4,7 @@ date: 2016-12-28 17:13 UTC
 art_id: 100
 icon: "icono_institucion"
 topic: "Atribuciones del Presidente de la Nación"
-shortcode: "art_99"
+shortcode: "art-99"
 ---
 El Presidente de la Nación tiene las siguientes atribuciones:
 

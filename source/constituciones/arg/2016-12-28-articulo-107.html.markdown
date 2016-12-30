@@ -4,6 +4,6 @@ date: 2016-12-28 17:54 UTC
 art_id: 108
 icon: "icono_economia"
 topic: "Remuneración"
-shortcode: "art_107"
+shortcode: "art-107"
 ---
 Gozarán por sus servicios de un sueldo establecido por la ley, que no podrá ser aumentado ni disminuido en favor o perjuicio de los que se hallen en ejercicio.

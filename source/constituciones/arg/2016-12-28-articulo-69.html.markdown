@@ -4,6 +4,6 @@ date: 2016-12-28 15:49 UTC
 art_id: 70
 icon: "icono_senado"
 topic: "Poderes de los Miembros"
-shortcode: "art_69"
+shortcode: "art-69"
 ---
 Ningún senador o diputado, desde el día de su elección hasta el de su cese, puede ser arrestado; excepto el caso de ser sorprendido [in fraganti](http://es.wiktionary.org/wiki/in_fraganti) en la ejecución de algún crimen que merezca pena de muerte, infamante, u otra aflictiva; de lo que se dará cuenta a la Cámara respectiva con la información sumaria del hecho.

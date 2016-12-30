@@ -4,6 +4,6 @@ date: 2016-12-28 19:07 UTC
 art_id: 122
 icon: "icono_argentina"
 topic: "Las Provincias y el Gobierno Federal"
-shortcode: "art_121"
+shortcode: "art-121"
 ---
 Las provincias conservan todo el poder no delegado por esta Constitución al Gobierno federal, y el que expresamente se hayan reservado por pactos especiales al tiempo de su incorporación.

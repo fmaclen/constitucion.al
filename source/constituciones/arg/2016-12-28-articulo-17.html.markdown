@@ -4,6 +4,6 @@ date: 2016-12-28 14:22 UTC
 art_id: 18
 icon: "icono_propiedad"
 topic: "Propiedad Privada"
-shortcode: "art_17"
+shortcode: "art-17"
 ---
 La propiedad es inviolable, y ningún habitante de la Nación puede ser privado de ella, sino en virtud de sentencia fundada en ley. La expropiación por causa de utilidad pública, debe ser calificada por ley y previamente indemnizada. Sólo el Congreso impone las contribuciones que se expresan en el [Artículo 4º](#art_4). Ningún servicio personal es exigible, sino en virtud de ley o de sentencia fundada en ley. Todo autor o inventor es propietario exclusivo de su obra, invento o descubrimiento, por el término que le acuerde la ley. La confiscación de bienes queda borrada para siempre del [Código Penal argentino](http://es.wikipedia.org/wiki/C%C3%B3digo_Penal_de_la_Naci%C3%B3n_Argentina). Ningún cuerpo armado puede hacer requisiciones, ni exigir auxilios de ninguna especie.

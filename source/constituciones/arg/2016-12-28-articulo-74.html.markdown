@@ -4,6 +4,6 @@ date: 2016-12-28 15:51 UTC
 art_id: 75
 icon: "icono_economia"
 topic: "Remuneración"
-shortcode: "art_74"
+shortcode: "art-74"
 ---
 Los servicios de los senadores y diputados son remunerados por el [Tesoro de la Nación](http://www.ptn.gov.ar/), con una dotación que señalará la ley.

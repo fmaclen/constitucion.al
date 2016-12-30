@@ -4,6 +4,6 @@ date: 2016-12-28 14:35 UTC
 art_id: 34
 icon: "icono_justicia"
 topic: "Otros Derechos"
-shortcode: "art_33"
+shortcode: "art-33"
 ---
 Las declaraciones, derechos y garantías que enumera la Constitución no serán entendidos como negación de otros derechos y garantías no enumerados; pero que nacen del principio de la soberanía del pueblo y de la forma republicana de gobierno.

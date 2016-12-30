@@ -4,6 +4,6 @@ date: 2016-12-28 14:22 UTC
 art_id: 17
 icon: "icono_pueblo"
 topic: "Igualdad"
-shortcode: "art_16"
+shortcode: "art-16"
 ---
 La Nación Argentina no admite prerrogativas de sangre, ni de nacimiento: no hay en ella fueros personales ni títulos de nobleza. Todos sus habitantes son iguales ante la ley, y admisibles en los empleos sin otra condición que la idoneidad. La igualdad es la base del impuesto y de las cargas públicas.
