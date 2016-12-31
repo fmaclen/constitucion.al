@@ -2,7 +2,7 @@
 title: Artículo 27&ordm;
 date: 2016-12-28 14:31 UTC
 art_id: 28
-icon: "icono_productos"
+icon: "icono_mundo"
 topic: "Potencias Extranjeras"
 shortcode: "art-27"
 ---

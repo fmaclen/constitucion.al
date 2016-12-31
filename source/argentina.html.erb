@@ -26,153 +26,153 @@ extra_class: constitucion
 </header>
 
 <nav id="lateral">
-      <h2><a href="#preambulo">Preámbulo</a></h2>
+  <h2><a href="#preambulo">Preámbulo</a></h2>
 
-      <h3>Parte Primera</h3>
+  <h3>Parte Primera</h3>
 
-      <h4><span>Capitulo Primero</span> Declaraciones, derechos y garantías</h4>
-      <ul>
-        <% blog('nacion').articles.reverse[0...36].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h4><span>Capitulo Primero</span> Declaraciones, derechos y garantías</h4>
+  <ul>
+    <% blog('nacion').articles.reverse[0...36].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h4><span>Capitulo Segundo</span> Nuevos derechos y garantías</h4>
-      <ul>
-        <% blog('nacion').articles.reverse[36...44].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h4><span>Capitulo Segundo</span> Nuevos derechos y garantías</h4>
+  <ul>
+    <% blog('nacion').articles.reverse[36...44].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h2>Parte Segunda <span>Autoridades de la Nación</span></h2>
-      <h3>Título Primero <span>Gobierno Federal</span></h3>
-      <h4>Sección Primera <span>Del Poder Legislativo</span></h4>
+  <h2>Parte Segunda <span>Autoridades de la Nación</span></h2>
+  <h3>Título Primero <span>Gobierno Federal</span></h3>
+  <h4>Sección Primera <span>Del Poder Legislativo</span></h4>
 
-      <ul>
-        <% blog('nacion').articles.reverse[44...45].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <ul>
+    <% blog('nacion').articles.reverse[44...45].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo I <span>De la Cámara de Diputados</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[45...54].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo I <span>De la Cámara de Diputados</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[45...54].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo II <span>Del Senado</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[54...62].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo II <span>Del Senado</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[54...62].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo III <span>Disposiciones comunes a ambas Cámaras</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[62...75].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo III <span>Disposiciones comunes a ambas Cámaras</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[62...75].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo IV <span>Atribuciones del Congreso</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[75...77].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo IV <span>Atribuciones del Congreso</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[75...77].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo V <span>De la Formación y Sanción de las Leyes</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[77...85].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo V <span>De la Formación y Sanción de las Leyes</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[77...85].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo VI <span>De la Auditoría General de la Nación</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[85...86].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo VI <span>De la Auditoría General de la Nación</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[85...86].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo VII <span>Del Defensor del Pueblo</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[86...87].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo VII <span>Del Defensor del Pueblo</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[86...87].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h4>Sección Segunda <span>Del Poder Ejecutivo</span></h4>
-      <h5>Capítulo I <span>De su Naturaleza y Duración</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[87...94].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h4>Sección Segunda <span>Del Poder Ejecutivo</span></h4>
+  <h5>Capítulo I <span>De su Naturaleza y Duración</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[87...94].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo II <span>De la Forma y Tiempo de la Elección del Presidente y Vicepresidente de la Nación</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[94...99].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo II <span>De la Forma y Tiempo de la Elección del Presidente y Vicepresidente de la Nación</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[94...99].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo III <span>Atribuciones del Poder Ejecutivo</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[99...100].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo III <span>Atribuciones del Poder Ejecutivo</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[99...100].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo IV <span>Del jefe de gabinete y demás ministros del Poder Ejecutivo</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[100...107].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo IV <span>Del jefe de gabinete y demás ministros del Poder Ejecutivo</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[100...107].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h4>Sección Tercera <span>Del Poder Judicial</span></h4>
-      <h5>Capítulo I <span>De su Naturaleza y Duración</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[107...115].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h4>Sección Tercera <span>Del Poder Judicial</span></h4>
+  <h5>Capítulo I <span>De su Naturaleza y Duración</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[107...115].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h5>Capítulo II <span>Atribuciones del Poder Judicial</span></h5>
-      <ul>
-        <% blog('nacion').articles.reverse[107...119].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h5>Capítulo II <span>Atribuciones del Poder Judicial</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[107...119].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h4>Sección Cuarta <span>Del Ministerio Público</span></h4>
-      <ul>
-        <% blog('nacion').articles.reverse[119...120].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h4>Sección Cuarta <span>Del Ministerio Público</span></h4>
+  <ul>
+    <% blog('nacion').articles.reverse[119...120].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h3>Titulo Segundo <span>Gobierno de Provincia</span></h3>
-      <ul>
-        <% blog('nacion').articles.reverse[120...130].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
+  <h3>Titulo Segundo <span>Gobierno de Provincia</span></h3>
+  <ul>
+    <% blog('nacion').articles.reverse[120...130].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
 
-      <h2>Disposiciones Transitorias</h2>
-      <ul>
-        <% blog('nacion').articles.reverse[130...147].sort_by{|article| article.data.art_id}.each do |article| %>
-          <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-        <% end %>
-      </ul>
-    </nav>
+  <h2>Disposiciones Transitorias</h2>
+  <ul>
+    <% blog('nacion').articles.reverse[130...147].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+</nav>
 
 <div class="hero">
   <img src="/images/escudos/argentina.svg">
   <h1>Constitución <br>de la Nación Argentina</h1>
-  <p>Sancionada: <em>Diciembre 15 de 1994</em>. Promulgada: <em>Enero 3 de 1995</em>.</p>
+  <p>Sancionada: <em>15 de Diciembre de 1994</em>. Promulgada: <em>3 de Enero de 1995</em>.</p>
 </div>
 
 <a name="preambulo"></a>
