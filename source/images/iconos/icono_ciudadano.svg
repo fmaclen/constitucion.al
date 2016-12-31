@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.1 (35376) - http://www.bohemiancoding.com/sketch -->
+    <title>icono_ciudadano</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Provincias" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icono_ciudadano" fill="#FFFFFF">
+            <path d="M75.5,47.5 L75.5,47.5 C67.9054167,47.5 61.75,41.3445833 61.75,33.75 L61.75,33.75 C61.75,26.1554167 67.9054167,20 75.5,20 L75.5,20 C83.0945833,20 89.25,26.1554167 89.25,33.75 L89.25,33.75 C89.25,41.3445833 83.0945833,47.5 75.5,47.5 Z" id="Shape"></path>
+            <path d="M84.6666667,130 L66.3333333,130 C63.8033333,130 61.75,127.946667 61.75,125.416667 L61.75,97.9166667 L48,97.9166667 L48,70.4166667 C48,62.8220833 54.1554167,56.6666667 61.75,56.6666667 L89.25,56.6666667 C96.8445833,56.6666667 103,62.8220833 103,70.4166667 L103,97.9166667 L89.25,97.9166667 L89.25,125.416667 C89.25,127.946667 87.1966667,130 84.6666667,130 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
