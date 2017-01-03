@@ -1,0 +1,9 @@
+---
+title: Artículo 4&ordm;
+date: 2016-12-30 21:33 UTC
+art_id: 4
+icon: "icono_presidente"
+topic: "Autoridades"
+shortcode: "art-4"
+---
+Las autoridades que ejercen el Gobierno Provincial residen en la ciudad de Santa Fe, Capital de la Provincia.

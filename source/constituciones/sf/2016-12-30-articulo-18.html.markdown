@@ -1,0 +1,11 @@
+---
+title: Artículo 18&ordm;
+date: 2016-12-30 22:53 UTC
+art_id: 18
+icon: "icono_justicia"
+topic: "Daños y Perjucios contra Terceros"
+shortcode: "art-18"
+---
+En la esfera del derecho público la Provincia responde hacia terceros de los daños causados por actos ilícitos de sus funcionarios y empleados en el ejercicio de las actividades que les competen, sin perjuicio de la obligación de reembolso de éstos.
+
+Tal responsabilidad se rige por las normas del derecho común, en cuanto fueren aplicables.

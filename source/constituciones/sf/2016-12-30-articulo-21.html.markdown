@@ -1,0 +1,13 @@
+---
+title: Artículo 21&ordm;
+date: 2016-12-30 23:46 UTC
+art_id: 21
+icon: "icono_seguridad"
+topic: "Seguridad Social"
+shortcode: "art-21"
+---
+El Estado crea las condiciones necesarias para procurar a sus habitantes un nivel de vida que asegure su bienestar y el de sus familias, especialmente por la alimentación, el vestido, la vivienda, los cuidados médicos y los servicios sociales necesarios.
+
+Toda persona tiene derecho a la provisión de los medios adecuados a sus exigencias de vida si estuviese impedida de trabajar y careciese de los recursos indispensables. En su caso, tiene derecho a la readaptación o rehabilitación profesional.
+
+El Estado instituye un sistema de seguridad social, que tiene carácter integral e irrenunciable. En especial, la ley propende al establecimiento del seguro social obligatorio; jubilaciones y pensiones móviles; defensa del bien de familia y compensación económica familiar, así como al de todo otro medio tendiente a igual finalidad.

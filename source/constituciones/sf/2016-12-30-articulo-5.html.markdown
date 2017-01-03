@@ -1,0 +1,11 @@
+---
+title: Artículo 5&ordm;
+date: 2016-12-30 21:37 UTC
+art_id: 5
+icon: "icono_economia"
+topic: "Financiación de la Provincia"
+shortcode: "art-5"
+---
+El gobierno de la Provincia provee a los gastos públicos con los fondos provenientes de las contribuciones que establezca la ley; de las rentas producidas por sus bienes y servicios; de la enajenación de bienes de su pertenencia; de la propia actividad económica que realice; y de las operaciones de crédito que concierte.
+
+Todos los habitantes de la Provincia están obligados a concurrir a los gastos públicos según su capacidad contributiva. El régimen tributario puede inspirarse en criterios de progresividad.

@@ -1,0 +1,11 @@
+---
+title: Artículo 8&ordm;
+date: 2016-12-30 21:51 UTC
+art_id: 8
+icon: "icono_justicia"
+topic: "Igualdad ante la Ley"
+shortcode: "art-8"
+---
+Todos los habitantes de la Provincia son iguales ante la ley.
+
+Incumbe al Estado remover los obstáculos de orden económico y social que, limitando de hecho la igualdad y la libertad de los individuos, impidan el libre desarrollo de la persona humana y la efectiva participación de todos en la vida política, económica y social de la comunidad.

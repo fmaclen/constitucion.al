@@ -1,0 +1,9 @@
+---
+title: Artículo 24&ordm;
+date: 2016-12-30 23:56 UTC
+art_id: 24
+icon: "icono_comercio"
+topic: "Fomento de Entidades Privadas"
+shortcode: "art-24"
+---
+El Estado promueve y coopera en la formación y sostenimiento de entidades privadas que se propongan objetivos científicos, literarios, artísticos, deportivos, de asistencia, de perfección técnica o de solidaridad de intereses.

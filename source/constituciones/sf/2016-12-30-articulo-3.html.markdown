@@ -1,0 +1,9 @@
+---
+title: Artículo 3&ordm;
+date: 2016-12-30 21:01 UTC
+art_id: 3
+icon: "icono_religion"
+topic: "Religión Oficial"
+shortcode: "art-3"
+---
+La religión de la Provincia es la Católica, Apostólica y Romana, a la que le prestará su protección más decidida, sin perjuicio de la libertad religiosa que gozan sus habitantes.

@@ -1,0 +1,9 @@
+---
+title: Artículo 22&ordm;
+date: 2016-12-30 23:51 UTC
+art_id: 22
+icon: "icono_cultura"
+topic: "Cultura"
+shortcode: "art-22"
+---
+La Provincia promueve, estimula y protege el desarrollo y la difusión de la cultura en todas sus formas, tanto en sus aspectos universales como en los autóctonos, y la investigación en el campo científico y técnico. En particular, facilita a sus artistas, científicos y técnicos el desenvolvimiento de sus facultades creadoras y el conocimiento popular de sus producciones.

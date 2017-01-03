@@ -462,7 +462,6 @@
     &.expandido {
       header{
         @include transition(all 300ms);
-        min-height: 200px;
         max-height: 250px;
 
         ul{
@@ -732,22 +731,42 @@
   }
 }
 
-.buenos_aires {
+.buenos-aires {
   section {
     &:nth-of-type(5n+1) aside {
-      background-color: #f4d13b;
+      background-color: #FFD500;
     }
     &:nth-of-type(5n+2) aside {
-      background-color: #8cd9ed;
+      background-color: #9FD9F3;
     }
     &:nth-of-type(5n+3) aside {
-      background-color: #2e8db7;
+      background-color: #0093E0;
     }
     &:nth-of-type(5n+4) aside {
       background-color: #47B179;
     }
+    &:nth-of-type(5n+2) aside {
+      background-color: #F03B19;
+    }
+  }
+}
+
+.santa-fe {
+  section {
+    &:nth-of-type(5n+1) aside {
+      background-color: #9FD9F3;
+    }
+    &:nth-of-type(5n+2) aside {
+      background-color: #F03B19;
+    }
+    &:nth-of-type(5n+3) aside {
+      background-color: #0068AD;
+    }
+    &:nth-of-type(5n+4) aside {
+      background-color: #CCC;
+    }
     &:nth-of-type(5n+5) aside {
-      background-color: #3B4E99;
+      background-color: #FFD500;
     }
   }
 }

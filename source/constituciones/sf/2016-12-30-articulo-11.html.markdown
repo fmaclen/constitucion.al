@@ -1,0 +1,13 @@
+---
+title: Artículo 11&ordm;
+date: 2016-12-30 22:06 UTC
+art_id: 11
+icon: "icono_voz"
+topic: "Libertad de Expresión"
+shortcode: "art-11"
+---
+Todo individuo tiene derecho a expresar y difundir libremente su pensamiento mediante la palabra oral o escrita, o cualquier otro medio de divulgación. El cultivo de la ciencia y del arte es libre. Queda garantido el derecho de enseñar y aprender.
+
+La prensa no puede ser sometida a autorizaciones o censuras, ni a medidas indirectas restrictivas de su libertad. Una ley especial asegura este derecho y define y reprime los abusos que por medio de ella pueden cometerse. En tanto esta ley no se dicte, los abusos que importen delitos comunes según el Código Penal son castigados conforme a éste, sin perjuicio de la obligación de resarcir los daños causados. No puede clausurarse las imprentas, ni secuestrarse sus elementos, como instrumentos del delito, mientras dure el proceso.
+
+Las personas que se consideren afectadas por una publicación periodística tienen el derecho de réplica gratuita, en el lugar y con la extensión máxima de aquélla, con recurso, de trámite sumario en caso de negativa, ante la justicia ordinaria.

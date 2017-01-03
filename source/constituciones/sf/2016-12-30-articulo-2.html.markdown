@@ -1,0 +1,9 @@
+---
+title: Artículo 2&ordm;
+date: 2016-12-30 20:59 UTC
+art_id: 2
+icon: "icono_institucion"
+topic: "Funciones de Gobierno"
+shortcode: "art-2"
+---
+El pueblo, y los órganos del Estado que él elige y ejercen la potestad de gobierno, desempeñan sus funciones respectivas en las formas y con los límites que establecen esta Constitución y las leyes dictadas en su consecuencia. Ningún sector del pueblo, ni persona alguna, puede atribuirse legítimamente su ejercicio.

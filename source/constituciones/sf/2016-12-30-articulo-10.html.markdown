@@ -1,0 +1,13 @@
+---
+title: Artículo 10&ordm;
+date: 2016-12-30 22:02 UTC
+art_id: 10
+icon: "icono_propiedad"
+topic: "Propiedad, Privacidad y Circulación"
+shortcode: "art-10"
+---
+El domicilio es inviolable. No se puede efectuar en él registros, inspecciones o secuestros sino en los casos y en las condiciones que fije la ley.
+
+Son igualmente inviolables la libertad y el secreto de la correspondencia y de todo otro medio de comunicación y sus restricciones pueden realizarse sólo cuando la ley las autorice y con sus garantías.
+
+Los habitantes de la Provincia pueden permanecer y circular libremente en su territorio.

@@ -1,7 +1,7 @@
 .vagrant
 .sass-cache
 .sass-cache/*
-# heroku buildpack artifacts
+/build
 tmp
 bin
 log

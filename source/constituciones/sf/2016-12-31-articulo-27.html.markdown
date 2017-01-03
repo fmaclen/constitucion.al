@@ -1,0 +1,9 @@
+---
+title: Artículo 27&ordm;
+date: 2016-12-31 00:06 UTC
+art_id: 27
+icon: "icono_economia"
+topic: "Economía"
+shortcode: "art-27"
+---
+La Provincia estimula y protege el ahorro popular en todas sus formas y lo orienta hacia la propiedad de la vivienda urbana y del predio para el trabajo rural e inversiones en actividades productivas dentro del territorio de la Provincia.

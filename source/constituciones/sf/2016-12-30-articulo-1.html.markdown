@@ -1,0 +1,9 @@
+---
+title: Artículo 1&ordm;
+date: 2016-12-30 16:22 UTC
+art_id: 1
+icon: "icono_santafe"
+topic: "La Provincia y sus Instituciones"
+shortcode: "art-1"
+---
+La Provincia de Santa Fe, como miembro del Estado federal argentino, y con la población y el territorio que por derecho le corresponden, organiza sus instituciones fundamentales conforme a los principios democráticos, representativo y republicano, de la sumisión del Estado a las propias normas jurídicas en cualquier campo de su actividad y de los deberes de solidaridad recíproca de los miembros de la colectividad, de acuerdo con las condiciones y limitaciones emergentes de la Constitución Nacional.

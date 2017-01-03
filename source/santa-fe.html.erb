@@ -1,0 +1,308 @@
+---
+title: Constitución de la Provincia de Santa Fe - Constitucion.al
+extra_class: constitucion
+---
+
+<header id="principal">
+  <a class="btn-menu" title="Índice de la Constitución de la Provincia de Santa Fe">Menu</a>
+  <a class="btn-buscar" title="Para buscar en este documento usá la combinación de teclas: Control + F en Windows / Command + F en Mac">Buscar</a>
+  <a class="btn-constitucional" href="/" title="Inicio / Constitucion.al"><img src="/images/constitucional_logo.svg" title="Constitucion.al" alt="Logo"></a>
+
+  <script type="text/javascript">
+    $(function ($) {
+      if (navigator.appVersion.indexOf("Mac")!=-1) {
+        $('#principal ul').prepend( "<li>Command &#8984;</li>");
+      } else {
+        $('#principal ul').prepend( "<li>Control</li>");
+      }
+    });
+  </script>
+  <ul>
+    <li>+</li>
+    <li>F</li>
+    <li>=</li>
+  </ul>
+  <p>Constitución de la Provincia de Santa Fe</p>
+</header>
+
+<nav id="lateral">
+  <h2><a href="#preambulo">Preámbulo</a></h2>
+
+  <h4><span>Sección Primera</span> Capitulo Único</h4>
+  <ul>
+    <% blog('nacion').articles.reverse[0...28].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h4><span>Capitulo Segundo</span> Nuevos derechos y garantías</h4>
+  <ul>
+    <% blog('nacion').articles.reverse[36...44].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h2>Parte Segunda <span>Autoridades de la Nación</span></h2>
+  <h3>Título Primero <span>Gobierno Federal</span></h3>
+  <h4>Sección Primera <span>Del Poder Legislativo</span></h4>
+
+  <ul>
+    <% blog('nacion').articles.reverse[44...45].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo I <span>De la Cámara de Diputados</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[45...54].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo II <span>Del Senado</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[54...62].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo III <span>Disposiciones comunes a ambas Cámaras</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[62...75].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo IV <span>Atribuciones del Congreso</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[75...77].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo V <span>De la Formación y Sanción de las Leyes</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[77...85].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo VI <span>De la Auditoría General de la Nación</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[85...86].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo VII <span>Del Defensor del Pueblo</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[86...87].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h4>Sección Segunda <span>Del Poder Ejecutivo</span></h4>
+  <h5>Capítulo I <span>De su Naturaleza y Duración</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[87...94].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo II <span>De la Forma y Tiempo de la Elección del Presidente y Vicepresidente de la Nación</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[94...99].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo III <span>Atribuciones del Poder Ejecutivo</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[99...100].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo IV <span>Del jefe de gabinete y demás ministros del Poder Ejecutivo</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[100...107].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h4>Sección Tercera <span>Del Poder Judicial</span></h4>
+  <h5>Capítulo I <span>De su Naturaleza y Duración</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[107...115].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h5>Capítulo II <span>Atribuciones del Poder Judicial</span></h5>
+  <ul>
+    <% blog('nacion').articles.reverse[107...119].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h4>Sección Cuarta <span>Del Ministerio Público</span></h4>
+  <ul>
+    <% blog('nacion').articles.reverse[119...120].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/listado", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h3>Titulo Segundo <span>Gobierno de Provincia</span></h3>
+  <ul>
+    <% blog('nacion').articles.reverse[120...130].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+
+  <h2>Disposiciones Transitorias</h2>
+  <ul>
+    <% blog('nacion').articles.reverse[130...147].sort_by{|article| article.data.art_id}.each do |article| %>
+      <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+    <% end %>
+  </ul>
+</nav>
+
+<div class="hero">
+  <img src="/images/escudos/santa-fe.svg">
+  <h1>Constitución <br>de la Provincia de Santa Fe</h1>
+  <p>Sancionada: <em>14 de Abril de 1962</em>.</p>
+</div>
+
+<a name="preambulo"></a>
+
+<section class="preambulo destacado">
+  <article>
+    <h2><span>Preámbulo</span></h2>
+    <p>Nos, los representantes del pueblo de la Provincia de Santa Fe, reunidos en Convención Constituyente con el objeto de organizar los poderes públicos y consolidar las instituciones democráticas y republicanas para asegurar los derechos fundamentales del hombre; mantener la paz interna; afianzar la justicia; estimular y dignificar el trabajo; proveer a la educación y la cultura; fomentar la cooperación y solidaridad sociales; promover el bienestar general; impulsar el desarrollo económico bajo el signo de la justicia social; afirmar la vigencia del federalismo y del régimen municipal; y garantir en todo tiempo los beneficios de la libertad para todos los habitantes de la Provincia, invocando la protección de Dios, fuente de toda razón y justicia, sancionamos esta Constitución</p>
+  </article>
+</section>
+
+<h3><span>Sección Primera</span> Capítulo Único</h3>
+
+
+<% blog('sf').articles.reverse[0...28].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h3><span>Capítulo Segundo</span> Nuevos derechos y garantías</h3>
+
+<% blog('nacion').articles.reverse[36...44].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h2><span>Parte Segunda <em>Autoridades de la Nación</em></span></h2>
+<h3><span>Título Primero</span> Gobierno Federal</h3>
+<h4><span>Sección Primera</span> Del Poder Legislativo</h4>
+
+<% blog('nacion').articles.reverse[44...45].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo I</span> De la Cámara de Diputados</h5>
+
+<% blog('nacion').articles.reverse[45...54].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo II</span> Del Senado</h5>
+
+<% blog('nacion').articles.reverse[54...62].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo III</span> Disposiciones comunes a ambas Cámaras</h5>
+
+<% blog('nacion').articles.reverse[62...75].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo IV</span> Atribuciones del Congreso</h5>
+
+<% blog('nacion').articles.reverse[75...77].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo V</span> De la Formación y Sanción de las Leyes</h5>
+
+<% blog('nacion').articles.reverse[77...85].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo VI</span> De la Auditoría General de la Nación</h5>
+
+<% blog('nacion').articles.reverse[85...86].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo VII</span> Del Defensor del Pueblo</h5>
+
+<% blog('nacion').articles.reverse[86...87].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h4><span>Sección Segunda</span> Del Poder Ejecutivo</h4>
+<h5><span>Capítulo I</span> De su Naturaleza y Duración</h5>
+
+<% blog('nacion').articles.reverse[87...94].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo II</span> De la Forma y Tiempo de la Elección del Presidente y Vicepresidente de la Nación</h5>
+
+<% blog('nacion').articles.reverse[94...99].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo III</span> Atribuciones del Poder Ejecutivo</h5>
+
+<% blog('nacion').articles.reverse[99...100].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo IV</span> Del jefe de gabinete y demás ministros del Poder Ejecutivo</h5>
+
+<% blog('nacion').articles.reverse[100...107].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h4><span>Sección Tercera</span> Del Poder Judicial</h4>
+<h5><span>Capítulo I</span> De su Naturaleza y Duración</h5>
+
+<% blog('nacion').articles.reverse[107...115].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h5><span>Capítulo II</span> Atribuciones del Poder Judicial</h5>
+
+<% blog('nacion').articles.reverse[115...119].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h4><span>Sección Cuarta</span> Del Ministerio Público</h4>
+
+<% blog('nacion').articles.reverse[119...120].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h3><span>Título Segundo</span> Gobierno de Provincia</h3>
+
+<% blog('nacion').articles.reverse[120...130].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<h2><span>Disposiciones Transitorias</span></h2>
+
+<% blog('nacion').articles.reverse[130...147].sort_by{|article| article.data.art_id}.each do |article| %>
+  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
+<% end %>
+
+<section class="destacado">
+  <article>
+    <p>Dada en la sala de sesiones del congreso argentino, en Buenos Aires, a los quince dias del mes de diciembre del año mil novecientos noventa y cuatro.</p>
+  </article>
+</section>

@@ -1,0 +1,21 @@
+---
+title: Artículo 20&ordm;
+date: 2016-12-30 23:42 UTC
+art_id: 20
+icon: "icono_ciudadano"
+topic: "Trabajo"
+shortcode: "art-20"
+---
+La Provincia, en la esfera de sus poderes, protege el trabajo en todas sus formas y aplicaciones y, en particular, asegura el goce de los derechos que la Constitución y las leyes nacionales reconocen al trabajador.
+
+Reglamenta las condiciones en que el trabajo se realiza, incluso la jornada legal de trabajo, y otorga una especial protección a la mujer y al menor que trabajan.
+
+Cuida la formación cultural y la capacitación de los trabajadores mediante institutos adecuados, tanto en las zonas urbanas como en las rurales.
+
+Promueve y facilita la colaboración entre empresarios y trabajadores y la solución de sus conflictos colectivos por la vía de la conciliación obligatoria y del arbitraje.
+
+Establece tribunales especializados para la decisión de los conflictos individuales del trabajo, con un procedimiento breve y expeditivo, en el cual la ley propende a introducir la oralidad.
+
+La ley concede el beneficio de gratuidad a las actuaciones administrativas y judiciales de los trabajadores y de sus organizaciones.
+
+La Provincia otorga igual remuneración por igual trabajo a sus servidores.

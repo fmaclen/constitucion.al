@@ -1,0 +1,13 @@
+---
+title: Artículo 14&ordm;
+date: 2016-12-30 22:35 UTC
+art_id: 14
+icon: "icono_pueblo"
+topic: "Actividades Privadas y Público"
+shortcode: "art-14"
+---
+Todos tienen derecho a ejercer, según las propias posibilidades y la propia elección, una actividad o profesión que concurra al progreso material o espiritual de la sociedad, en las condiciones que establezca la ley.
+
+Pueden, asimismo, tener acceso a los cargos públicos en condiciones de igualdad, según los requisitos que se determinen.
+
+Ninguna prestación personal de servicios al Estado es exigible sino en virtud de la ley.

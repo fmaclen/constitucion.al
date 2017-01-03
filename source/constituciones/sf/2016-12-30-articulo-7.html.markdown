@@ -1,0 +1,15 @@
+---
+title: Artículo 7&ordm;
+date: 2016-12-30 21:47 UTC
+art_id: 7
+icon: "icono_pueblo"
+topic: "Derechos Ciudadanos"
+shortcode: "art-7"
+---
+El Estado reconoce a la persona humana su eminente dignidad y todos los órganos del poder público están obligados a respetarla y protegerla.
+
+El individuo desenvuelve libremente su personalidad, ya en forma aislada, ya en forma asociada, en el ejercicio de los derechos inviolables que le competen.
+
+La persona puede siempre defender sus derechos e intereses legítimos, de cualquier naturaleza, ante los poderes públicos, de acuerdo con las leyes respectivas.
+
+Los derechos fundamentales de libertad y sus garantías reconocidos por esta Constitución son directamente operativos.

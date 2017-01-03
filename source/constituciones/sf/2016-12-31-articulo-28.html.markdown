@@ -1,0 +1,23 @@
+---
+title: Artículo 28&ordm;
+date: 2016-12-31 00:08 UTC
+art_id: 28
+icon: "icono_industria"
+topic: "Desarrollo Económico y Medio Ambiente"
+shortcode: "art-28"
+---
+La Provincia promueve la racional explotación de la tierra por la colonización de las de su propiedad y de los predios no explotados o cuya explotación no se realice conforme a la función social de la propiedad y adquiera por compra o expropiación.
+
+Propende a la formación, desarrollo y estabilidad de la población rural por el estímulo y protección del trabajo del campo y de sus productos y el mejoramiento del nivel de vida de sus pobladores.
+
+Facilita la formulación y ejecución de planes de transformación agraria para convertir a arrendatarios y aparceros en propietarios y radicar a los productores que carezcan de la posibilidad de lograr por sí mismos el acceso a la propiedad de la tierra.
+
+Favorece mediante el asesoramiento y la provisión de los elementos necesarios el adelanto tecnológico de la actividad agropecuaria a fin de obtener una racional explotación del suelo y el incremento y diversificación de la producción.
+
+Estimula la industrialización y comercialización de sus productos por organismos cooperativos radicados en las zonas de producción que faciliten su acceso directo a los mercados de consumo, tanto internos como externos, y mediante una adecuada política de promoción, crediticia y tributaria, que aliente la actividad privada realizada con sentido de solidaridad social.
+
+Promueve la creación de entes cooperativos que, conjuntamente con otros organismos, al realizar el proceso industrial y comercial, defiendan el valor de la producción del agro de la disparidad de los precios agropecuarios y de los no agropecuarios.
+
+Protege el suelo de la degradación y erosión, conserva y restaura la capacidad productiva de las tierras y estimula el perfeccionamiento de las bases técnicas de su laboreo.
+
+Resguarda la flora y la fauna autóctonas y proyecta, ejecuta y fiscaliza planes orgánicos y racionales de forestación y reforestación.

@@ -1,0 +1,11 @@
+---
+title: Artículo 25&ordm;
+date: 2016-12-30 23:59 UTC
+art_id: 25
+icon: "icono_productos"
+topic: "Integración Económica"
+shortcode: "art-25"
+---
+El Estado provincial promueve el desarrollo e integración económicos de las diferentes zonas de su territorio, en correlación con la economía nacional, y a este fin orienta la iniciativa económica privada y la estimula mediante una adecuada política tributaria y crediticia y la construcción de vías de comunicación, canales, plantas generadoras de energía y demás obras públicas que sean necesarias.
+
+Facilita, con igual propósito, la incorporación de capitales, equipos, materiales, asistencia tecnológica y asesoramiento administrativo y, en general, adopta cualquier medida que estime conveniente.

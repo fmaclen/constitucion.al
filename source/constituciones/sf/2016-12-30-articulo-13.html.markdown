@@ -1,0 +1,13 @@
+---
+title: Artículo 13&ordm;
+date: 2016-12-30 22:32 UTC
+art_id: 13
+icon: "icono_pueblo"
+topic: "Reunión y Asociación"
+shortcode: "art-13"
+---
+Los habitantes de la Provincia pueden libremente reunirse en forma pacífica, aun en locales abiertos al público. Las reuniones en lugares públicos están sometidas al deber de preaviso a la autoridad, que puede prohibirlas sólo por motivos razonables de orden o interés público con anticipación no menor de cuarenta y ocho horas.
+
+Pueden también asociarse libremente con fines lícitos.
+
+Gozan igualmente del derecho de petición a las autoridades públicas, en defensa de intereses propios o generales.

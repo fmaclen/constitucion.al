@@ -1,0 +1,13 @@
+---
+title: Artículo 19&ordm;
+date: 2016-12-30 23:41 UTC
+art_id: 19
+icon: "icono_salud"
+topic: "Salud Pública"
+shortcode: "art-19"
+---
+La Provincia tutela la salud como derecho fundamental del individuo e interés de la colectividad. Con tal fin establece los derechos y deberes de la comunidad y del individuo en materia sanitaria y crea la organización técnica adecuada para la promoción, protección y reparación de la salud, en colaboración con la Nación, otras provincias y asociaciones privadas nacionales e internacionales.
+
+Las actividades profesionales vinculadas a los fines enunciados cumplen una función social y están sometidas a la reglamentación de la ley para asegurarla.
+
+Nadie puede ser obligado a un tratamiento sanitario determinado, salvo por disposición de la ley, que en ningún caso puede exceder los límites impuestos por el respeto a la persona humana.

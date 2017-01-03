@@ -1,0 +1,9 @@
+---
+title: Artículo 16&ordm;
+date: 2016-12-30 22:40 UTC
+art_id: 16
+icon: "icono_ciudadano"
+topic: "Derechos y Obligaciones del Individuo"
+shortcode: "art-16"
+---
+El individuo tiene deberes hacia la comunidad. En el ejercicio de sus derechos y en el disfrute de sus libertades puede quedar sometido a las limitaciones, establecidas por la ley exclusivamente, necesarias para asegurar el respeto de los derechos y libertades ajenas y satisfacer las justas exigencias de la moral y el orden público y del bienestar general.

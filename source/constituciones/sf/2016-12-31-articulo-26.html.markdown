@@ -1,0 +1,11 @@
+---
+title: Artículo 26&ordm;
+date: 2016-12-31 00:01 UTC
+art_id: 26
+icon: "icono_cooperativismo"
+topic: "Cooperativismo"
+shortcode: "art-26"
+---
+La Provincia reconoce la función social de la cooperación en el campo económico, en sus diferentes modalidades.
+
+La ley promueve y favorece el cooperativismo con los medios más idóneos y asegura, con oportuna fiscalización, su carácter y finalidades.

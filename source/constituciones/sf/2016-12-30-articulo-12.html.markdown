@@ -1,0 +1,9 @@
+---
+title: Artículo 12&ordm;
+date: 2016-12-30 22:29 UTC
+art_id: 12
+icon: "icono_religion"
+topic: "Religión y Culto"
+shortcode: "art-12"
+---
+Todos gozan del derecho a la libre profesión de su fe religiosa en forma individual o asociada, a hacer propaganda de ella y a ejercer el culto en público o privado, salvo que sea contrario al orden público o a las buenas costumbres. No se puede suprimir o limitar el ejercicio de un derecho en razón de profesarse determinada religión.

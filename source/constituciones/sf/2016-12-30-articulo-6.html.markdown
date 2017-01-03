@@ -1,0 +1,9 @@
+---
+title: Artículo 6&ordm;
+date: 2016-12-30 21:46 UTC
+art_id: 6
+icon: "icono_argentina"
+topic: "Derechos y Garantías de la Constitución Nacional"
+shortcode: "art-6"
+---
+Los habitantes de la Provincia, nacionales y extranjeros, gozan en su territorio de todos los derechos y garantías que les reconocen la Constitución Nacional y la presente, inclusive de aquellos no previstos en ambas y que nacen de los principios que las inspiran.

@@ -1,0 +1,9 @@
+---
+title: Artículo 17&ordm;
+date: 2016-12-30 22:42 UTC
+art_id: 17
+icon: "icono_justicia"
+topic: "Amparos"
+shortcode: "art-17"
+---
+Un recurso jurisdiccional de amparo, de trámite sumario, puede deducirse contra cualquier decisión, acto u omisión de una autoridad administrativa provincial, municipal o comunal, o de entidades o personas privadas en ejercicio de funciones públicas, que amenazare, restringiere o impidiere, de manera manifiestamente ilegítima, el ejercicio de un derecho de libertad directamente reconocido a las personas en la Constitución de la Nación o de la Provincia, siempre que no pudieren utilizarse los remedios ordinarios sin daño grave e irreparable y no existieren recursos específicos de análoga naturaleza acordados por leyes o reglamentos.

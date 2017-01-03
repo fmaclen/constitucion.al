@@ -1,0 +1,13 @@
+---
+title: Artículo 23&ordm;
+date: 2016-12-30 23:54 UTC
+art_id: 23
+icon: "icono_ciudadano"
+topic: "Desarrollo Humano"
+shortcode: "art-23"
+---
+La Provincia contribuye a la formación y defensa integral de la familia y al cumplimiento de las funciones que le son propias con medidas económicas o de cualquier otra índole encuadradas en la esfera de sus poderes.
+
+Procura que el niño crezca bajo la responsabilidad y amparo del núcleo familiar.
+
+Protege en lo material y moral la maternidad, la infancia, la juventud y la ancianidad, directamente o fomentando las instituciones privadas orientadas a tal fin.

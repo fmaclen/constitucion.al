@@ -1,0 +1,25 @@
+---
+title: Artículo 9&ordm;
+date: 2016-12-30 21:55 UTC
+art_id: 9
+icon: "icono_justicia"
+topic: "Justicia"
+shortcode: "art-9"
+---
+Ningún habitante de la Provincia puede ser privado de su libertad corporal, o sometido a alguna restricción de la misma, sino por disposición de autoridad competente y en los casos y condiciones previstos por la ley.
+
+Toda persona que juzgue arbitraria la privación, restricción o amenaza de su libertad corporal, puede ocurrir ante cualquier juez letrado, por sí o por intermedio de cualquier otra que no necesita acreditar mandato, para que la haga comparecer ante su presencia y examine sumariamente la legalidad de aquéllas y, en su caso, disponga su inmediata cesación.
+
+Ninguna detención puede prolongarse por más de veinticuatro horas sin darse aviso al juez competente y ponerse a su disposición al detenido, ni mantenerse una incomunicación por más de cuarenta y ocho horas, medida que cesa automáticamente al expirar dicho término, salvo prórroga por auto motivado del juez.
+
+Queda proscripta toda forma de violencia física o moral sobre las personas sometidas a privación o restricción de su libertad corporal.
+
+Nadie puede ser penado sino en virtud de un proceso y de una típica definición de una acción u omisión culpable previamente establecidos por la ley, ni sacado del juez constituido con anterioridad por ésta, ni privado del derecho de defensa.
+
+No se puede reabrir procesos fenecidos, sin perjuicio de la revisión favorable de sentencias penales en los casos previstos por la ley procesal. Cuando prospere el recurso de revisión por verificarse la inocencia del condenado, la Provincia indemniza los daños que se le hubieren causado.
+
+Las cárceles serán sanas y limpias y adecuadas para la readaptacción social de los internados en ellas.
+
+No se alojará a encausados juntamente con penados y los procesados o condenados menores de diez y ocho años y las mujeres lo serán en establecimientos especiales.
+
+La ley propende a instituir el juicio oral y público en materia penal.

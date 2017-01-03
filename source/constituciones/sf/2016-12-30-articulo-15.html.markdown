@@ -1,0 +1,15 @@
+---
+title: Artículo 15&ordm;
+date: 2016-12-30 22:38 UTC
+art_id: 15
+icon: "icono_comercio"
+topic: "Propiedad Privada y Comercio"
+shortcode: "art-15"
+---
+La propiedad privada es inviolable y solamente puede ser limitada con el fin que cumpla una función social.
+
+El Estado puede expropiar bienes, previa indemnización, por motivos de interés general calificado por ley.
+
+La iniciativa económica de los individuos es libre. Sin embargo, no puede desarrollarse en pugna con la utilidad social o con mengua de la seguridad, libertad o dignidad humana. En este sentido, la ley puede limitarla, con medidas que encuadren en la potestad del gobierno local.
+
+Ninguna prestación patrimonial puede ser impuesta sino conforme a la ley.
