@@ -1,4 +1,4 @@
-# Versión 1.5
+# Versión 1.1
 Esta versión fue re-programada para funcionar como un sitio web estático con Middleman.
 
 # Acerca de
