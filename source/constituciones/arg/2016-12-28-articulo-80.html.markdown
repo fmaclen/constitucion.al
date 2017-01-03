@@ -1,0 +1,9 @@
+---
+title: Artículo 80&ordm;
+date: 2016-12-28 16:47 UTC
+art_id: 81
+icon: "icono_justicia"
+topic: "Proyectos no Devueltos y Desechados"
+shortcode: "art-80"
+---
+Se reputa aprobado por el Poder Ejecutivo todo proyecto no devuelto en el término de diez días útiles. Los proyectos desechados parcialmente no podrán ser aprobados en la parte restante. Sin embargo, las partes no observadas solamente podrán ser promulgadas si tienen autonomía normativa y su aprobación parcial no altera el espíritu ni la unidad del proyecto sancionado por el Congreso. En este caso será de aplicación el procedimiento previsto para los decretos de necesidad y urgencia.

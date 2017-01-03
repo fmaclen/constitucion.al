@@ -1,0 +1,13 @@
+---
+title: Artículo 86&ordm;
+date: 2016-12-28 16:58 UTC
+art_id: 87
+icon: "icono_institucion"
+topic: "Defensor del Pueblo (Incorporado por la reforma del año 1994)"
+shortcode: "art-86"
+---
+El [Defensor del Pueblo](http://www.dpn.gob.ar/) es un órgano independiente instituido en el ámbito del Congreso de la Nación, que actuará con plena autonomía funcional, sin recibir instrucciones de ninguna autoridad. Su misión es la defensa y protección de los derechos humanos y demás derechos, garantías e intereses tutelados en esta Constitución y las leyes, ante hechos, actos u omisiones de la Administración; y el control del ejercicio de las funciones administrativas públicas.
+
+El Defensor del Pueblo tiene legitimación procesal. Es designado y removido por el Congreso con el voto de las dos terceras partes de los miembros presentes de cada una de las Cámaras. Goza de las inmunidades y privilegios de los legisladores. Durará en su cargo cinco años, pudiendo ser nuevamente designado por una sola vez.
+
+La organización y el funcionamiento de esta institución serán regulados por una ley especial.

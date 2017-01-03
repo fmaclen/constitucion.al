@@ -1,0 +1,11 @@
+---
+title: Decimocuarta
+date: 2016-12-28 19:43 UTC
+art_id: 144
+icon: "icono_justicia"
+topic: "Causas en la Cámara de Diputados"
+shortcode: "disp_14"
+---
+Las causas en trámite ante la Cámara de Diputados al momento de instalarse el Consejo de la Magistratura, les serán remitidas a efectos del inciso 5 del Artículo [114](#art_114). Las ingresadas en el Senado continuarán allí hasta su terminación.
+
+(Corresponde al artículo [115](#art_115))

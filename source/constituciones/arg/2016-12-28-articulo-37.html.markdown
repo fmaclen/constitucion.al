@@ -1,0 +1,11 @@
+---
+title: Artículo 37&ordm;
+date: 2016-12-28 14:50 UTC
+art_id: 38
+icon: "icono_comicios"
+topic: "Soberanía Popular y Elecciones"
+shortcode: "art-37"
+---
+Esta Constitución garantiza el pleno ejercicio de los derechos políticos, con arreglo al [principio de la soberanía popular](http://es.wikipedia.org/wiki/Soberan%C3%ADa_popular) y de las leyes que se dicten en consecuencia. El [sufragio es universal](http://es.wikipedia.org/wiki/Sufragio_universal), igual, secreto y obligatorio.
+
+La igualdad real de oportunidades entre varones y mujeres para el acceso a cargos electivos y partidarios se garantizará por acciones positivas en la regulación de los partidos políticos y en el régimen electoral.

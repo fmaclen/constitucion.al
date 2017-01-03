@@ -1,0 +1,10 @@
+---
+title: Artículo 8&ordm;
+date: 2016-12-28 14:05 UTC
+art_id: 8
+icon: "icono_pueblo"
+topic: "Derechos de Ciudadanos de las Provincias"
+shortcode: "art-8"
+---
+
+Los ciudadanos de cada provincia gozan de todos los derechos, privilegios e inmunidades inherentes al título de ciudadano en las demás. La extradición de los criminales es de obligación recíproca entre todas las provincias.

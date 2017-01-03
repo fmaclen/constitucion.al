@@ -8,5 +8,6 @@ log
 vendor
 .lesshst
 .profile.d
+.profile.sh
 .release
 .bundle

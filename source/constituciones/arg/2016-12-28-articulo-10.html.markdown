@@ -1,0 +1,10 @@
+---
+title: Artículo 10&ordm;
+date: 2016-12-28 14:06 UTC
+art_id: 10
+icon: "icono_comercio"
+topic: "Comercio Interno"
+shortcode: "art-10"
+---
+
+En el interior de la República es libre de derechos la circulación de los efectos de producción o fabricación nacional, así como la de los géneros y mercancías de todas clases, despachadas en las aduanas exteriores.

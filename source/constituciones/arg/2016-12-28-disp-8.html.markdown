@@ -1,0 +1,11 @@
+---
+title: Octava
+date: 2016-12-28 19:36 UTC
+art_id: 138
+icon: "icono_institucion"
+topic: "Vencimiento de la Legislación"
+shortcode: "disp_8"
+---
+La legislación delegada preexistente que no contenga plazo establecido para su ejercicio caducará a los cinco años de la vigencia de esta disposición excepto aquella que el Congreso de la Nación ratifique expresamente por una nueva ley.
+
+(Corresponde al artículo [76](#art_76))

@@ -1,0 +1,13 @@
+---
+title: Artículo 120&ordm;
+date: 2016-12-28 19:07 UTC
+art_id: 121
+icon: "icono_justicia"
+topic: "Ministerio Público"
+shortcode: "art-120"
+---
+El Ministerio Público es un órgano independiente con autonomía funcional y autarquía financiera que tiene por función promover la actuación de la justicia en defensa de la legalidad de los intereses generales de la sociedad en coordinación con las demás autoridades de la República.
+
+Está integrado por un procurador general de la Nación y un defensor general de la Nación y los demás miembros que la ley establezca.
+
+Sus miembros gozan de inmunidades funcionales e intangibilidad de remuneraciones.

@@ -1,0 +1,9 @@
+---
+title: Artículo 90&ordm;
+date: 2016-12-28 17:06 UTC
+art_id: 91
+icon: "icono_presidente"
+topic: "Duración del Mandato"
+shortcode: "art-90"
+---
+El Presidente y vicepresidente duran en sus funciones el término de cuatro años y podrán ser reelegidos o sucederse recíprocamente por un solo período consecutivo. Si han sido reelectos o se han sucedido recíprocamente no pueden ser elegidos para ninguno de ambos cargos, sino con el intervalo de un período.

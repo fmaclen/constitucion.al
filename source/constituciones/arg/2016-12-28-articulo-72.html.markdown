@@ -1,0 +1,9 @@
+---
+title: Artículo 72&ordm;
+date: 2016-12-28 15:50 UTC
+art_id: 73
+icon: "icono_senado"
+topic: "Facultades de los Miembros"
+shortcode: "art-72"
+---
+Ningún miembro del Congreso podrá recibir empleo o comisión del Poder Ejecutivo, sin previo consentimiento de la Cámara respectiva, excepto los empleos de escala.

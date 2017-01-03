@@ -1,0 +1,11 @@
+---
+title: Primera
+date: 2016-12-28 19:29 UTC
+art_id: 131
+icon: "icono_malvinas"
+topic: "Soberanía Nacional"
+shortcode: "disp_1"
+---
+La Nación Argentina ratifica su legítima e imprescriptible soberanía sobre las islas [Malvinas, Georgias del Sur y Sandwich del Sur](http://es.wikipedia.org/wiki/Gobernaci%C3%B3n_militar_de_las_Islas_Malvinas,_Georgias_del_Sur_y_Sandwich_del_Sur) y los espacios marítimos e insulares correspondientes, por ser parte integrante del territorio nacional.
+
+La recuperación de dichos territorios y el ejercicio pleno de la soberanía, respetando el modo de vida de sus habitantes, y conforme a los principios del derecho internacional, constituyen un objetivo permanente e irrenunciable del pueblo argentino.

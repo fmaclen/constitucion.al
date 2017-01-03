@@ -1,0 +1,9 @@
+---
+title: Artículo 109&ordm;
+date: 2016-12-28 17:55 UTC
+art_id: 110
+icon: "icono_justicia"
+topic: "Participación del Presidente de la Nación"
+shortcode: "art-109"
+---
+En ningún caso el presidente de la Nación puede ejercer funciones judiciales, arrogarse el conocimiento de causas pendientes o restablecer las fenecidas.

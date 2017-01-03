@@ -1,0 +1,11 @@
+---
+title: Artículo 124&ordm;
+date: 2016-12-28 19:12 UTC
+art_id: 125
+icon: "icono_argentina"
+topic: "Desarrollo Provincial"
+shortcode: "art-124"
+---
+Las provincias podrán crear regiones para el desarrollo económico y social y establecer órganos con facultades para el cumplimiento de sus fines y podrán también celebrar convenios internacionales en tanto no sean incompatibles con la política exterior de la Nación y no afecten las facultades delegadas al Gobierno federal o el crédito público de la Nación; con conocimiento del Congreso Nacional. La ciudad de Buenos Aires tendrá el régimen que se establezca a tal efecto.
+
+Corresponde a las provincias el dominio originario de los recursos naturales existentes en su territorio.

@@ -1,0 +1,9 @@
+---
+title: Artículo 51&ordm;
+date: 2016-12-28 15:10 UTC
+art_id: 52
+icon: "icono_senado"
+topic: "Bancas Vacantes"
+shortcode: "art-51"
+---
+En caso de vacante, el Gobierno de provincia, o de la Capital, hace proceder a elección legal de un nuevo miembro.

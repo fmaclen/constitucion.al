@@ -1,0 +1,9 @@
+---
+title: Artículo 50&ordm;
+date: 2016-12-28 15:09 UTC
+art_id: 51
+icon: "icono_senado"
+topic: "Tiempo de Representación"
+shortcode: "art-50"
+---
+Los diputados durarán en su representación por cuatro años, y son reelegibles; pero la Sala se renovará por mitad cada bienio; a cuyo efecto los nombrados para la primera Legislatura, luego que se reúnan, sortearán los que deban salir en el primer período.

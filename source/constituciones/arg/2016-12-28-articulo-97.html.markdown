@@ -1,0 +1,9 @@
+---
+title: Artículo 97&ordm;
+date: 2016-12-28 17:11 UTC
+art_id: 98
+icon: "icono_comicios"
+topic: "Mayoría Mínima"
+shortcode: "art-97"
+---
+Cuando la fórmula que resultare más votada en la primera vuelta, hubiere obtenido más del cuarenta y cinco por ciento de los votos afirmativos válidamente emitidos, sus integrantes serán proclamados como Presidente y vicepresidente de la Nación.

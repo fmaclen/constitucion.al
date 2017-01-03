@@ -1,0 +1,9 @@
+---
+title: Artículo 70&ordm;
+date: 2016-12-28 15:50 UTC
+art_id: 71
+icon: "icono_justicia"
+topic: "Juzgamiento de los Miembros"
+shortcode: "art-70"
+---
+Cuando se forme querella por escrito ante las justicias ordinarias contra cualquier senador o diputado, examinado el mérito del sumario en juicio público, podrá cada Cámara, con dos tercios de votos, suspender en sus funciones al acusado, y ponerlo a disposición del juez competente para su juzgamiento.

@@ -1,0 +1,10 @@
+---
+title: Artículo 4&ordm;
+date: 2016-12-25 22:12 UTC
+art_id: 4
+icon: "icono_economia"
+topic: "Financiación de la Nación"
+shortcode: "art-4"
+---
+
+El Gobierno federal provee a los gastos de la Nación con los fondos del Tesoro nacional formado del producto de derechos de importación y exportación, del de la venta o locación de tierras de propiedad nacional, de la renta de Correos, de las demás contribuciones que equitativa y proporcionalmente a la población imponga el Congreso General, y de los empréstitos y operaciones de crédito que decrete el mismo Congreso para urgencias de la Nación, o para empresas de utilidad nacional.

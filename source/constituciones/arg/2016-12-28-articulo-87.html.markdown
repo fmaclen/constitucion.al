@@ -1,0 +1,9 @@
+---
+title: Artículo 87&ordm;
+date: 2016-12-28 17:03 UTC
+art_id: 88
+icon: "icono_presidente"
+topic: "Presidente de la Nación"
+shortcode: "art-87"
+---
+El Poder Ejecutivo de la Nación será desempeñado por un ciudadano con el título de _"Presidente de la Nación Argentina"_.

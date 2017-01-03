@@ -1,0 +1,9 @@
+---
+title: Artículo 44&ordm;
+date: 2016-12-28 15:01 UTC
+art_id: 45
+icon: "icono_senado"
+topic: "Conformación del Poder Legislativo"
+shortcode: "art-44"
+---
+Un Congreso compuesto de dos Cámaras, una de [Diputados de la Nación](http://www.diputados.gov.ar/) y otra de [Senadores de las provincias y de la ciudad de Buenos Aires](http://www.senado.gov.ar/), será investido del Poder Legislativo de la Nación.

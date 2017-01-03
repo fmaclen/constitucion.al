@@ -1,0 +1,9 @@
+---
+title: Artículo 65&ordm;
+date: 2016-12-28 15:45 UTC
+art_id: 66
+icon: "icono_institucion"
+topic: "Forma de Reunión"
+shortcode: "art-65"
+---
+Ambas Cámaras empiezan y concluyen sus sesiones simultáneamente. Ninguna de ellas, mientras se hallen reunidas, podrá suspender sus sesiones más de tres días, sin el consentimiento de la otra.

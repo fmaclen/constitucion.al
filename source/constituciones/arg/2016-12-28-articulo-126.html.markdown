@@ -1,0 +1,9 @@
+---
+title: Artículo 126&ordm;
+date: 2016-12-28 19:13 UTC
+art_id: 127
+icon: "icono_argentina"
+topic: "Permiso de la Nación"
+shortcode: "art-126"
+---
+Las provincias no ejercen el poder delegado a la Nación. No pueden celebrar tratados parciales de carácter político; ni expedir leyes sobre comercio, o navegación interior o exterior; ni establecer aduanas provinciales; ni acuñar moneda; ni establecer bancos con facultad de emitir billetes, sin autorización del Congreso Federal; ni dictar los Códigos Civil, Comercial, Penal y de Minería, después que el Congreso los haya sancionado; ni dictar especialmente leyes sobre ciudadanía y naturalización, bancarrotas, falsificación de moneda o documentos del Estado; ni establecer derechos de tonelaje; ni armar buques de guerra o levantar ejércitos, salvo el caso de invasión exterior o de un peligro tan inminente que no admita dilación dando luego cuenta al Gobierno federal; ni nombrar o recibir agentes extranjeros.

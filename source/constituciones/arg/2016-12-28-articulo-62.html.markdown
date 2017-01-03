@@ -1,0 +1,9 @@
+---
+title: Artículo 62&ordm;
+date: 2016-12-28 15:18 UTC
+art_id: 63
+icon: "icono_senado"
+topic: "Bancas Vacantes"
+shortcode: "art-62"
+---
+Cuando vacase alguna plaza de senador por muerte, renuncia u otra causa, el Gobierno a que corresponda la vacante hace proceder inmediatamente a la elección de un nuevo miembro.

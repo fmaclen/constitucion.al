@@ -1,0 +1,9 @@
+---
+title: Artículo 58&ordm;
+date: 2016-12-28 15:16 UTC
+art_id: 59
+icon: "icono_senado"
+topic: "Presidente Provisorio"
+shortcode: "art-58"
+---
+El Senado nombrará un presidente provisorio que lo presida en caso de ausencia del vicepresidente, o cuando éste ejerce las funciones de presidente de la Nación.

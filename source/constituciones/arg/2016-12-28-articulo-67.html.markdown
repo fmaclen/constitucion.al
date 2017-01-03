@@ -1,0 +1,9 @@
+---
+title: Artículo 67&ordm;
+date: 2016-12-28 15:46 UTC
+art_id: 68
+icon: "icono_senado"
+topic: "Juramento"
+shortcode: "art-67"
+---
+Los senadores y diputados prestarán, en el acto de su incorporación, juramento de desempeñar debidamente el cargo, y de obrar en todo en conformidad a lo que prescribe esta Constitución.

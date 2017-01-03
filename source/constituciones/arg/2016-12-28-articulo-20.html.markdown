@@ -1,0 +1,10 @@
+---
+title: Artículo 20&ordm;
+date: 2016-12-28 14:26 UTC
+art_id: 21
+icon: "icono_pueblo"
+topic: "Ciudadanos Extranjeros"
+shortcode: "art-20"
+---
+
+Los extranjeros gozan en el territorio de la Nación de todos los derechos civiles del ciudadano; pueden ejercer su industria, comercio y profesión; poseer bienes raíces, comprarlos y enajenarlos; navegar los ríos y costas; ejercer libremente su culto; testar y casarse conforme a las leyes. No están obligados a admitir la ciudadanía, ni a pagar contribuciones forzosas extraordinarias. Obtienen nacionalización residiendo dos años continuos en la Nación; pero la autoridad puede acortar este término a favor del que lo solicite, alegando y probando servicios a la República.

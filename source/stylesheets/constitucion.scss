@@ -1,0 +1,753 @@
+.constitucion {
+  @include transition(all 300ms);
+  background-color: #f4f4f4;
+  position: relative;
+  right: 0;
+
+  #principal {
+    @include transition(all 500ms);
+    text-align: center;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    left: 0 !important;
+
+    ul {
+      @include transition(all 300ms);
+      position: absolute;
+      top: 11px;
+      right: 105px;
+      opacity: 0;
+
+      li {
+        @include border-radius(5px);
+        @include box-shadow(inset 0 -4px 0 rgba(0,0,0,.05));
+        border: 1px solid #e2e2e2;
+        display: inline-block;
+        height: 40px;
+        font-size: 11px;
+        line-height: 38px;
+        font-weight: 700;
+        color: #666;
+        padding: 0 15px;
+        float: left;
+        margin-left: 7px;
+        //text-transform: uppercase;
+        letter-spacing: 0.05em;
+        background-color: #FFF;
+
+        &:nth-child(even) {
+          @include box-shadow(none);
+          border: none;
+          padding: 0;
+          color: #c0c0c0;
+          font-weight: 300;
+          background: transparent;
+        }
+      }
+    }
+
+    p {
+      @include transition(all 200ms);
+      //background-size: 125px;
+      color: #264f64;
+      opacity: 0;
+      line-height: 65px;
+      height: 100%;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    a {
+      //@include transition(all 300ms);
+      padding: 5px;
+      text-indent: -9999px;
+      display: block;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 10px;
+      opacity: .15;
+      z-index: 9999;
+      cursor: pointer;
+
+      &.btn-menu {
+        background: url('/images/iconos/menu.svg') no-repeat center;
+        right: 10px;
+
+        &:before {
+          content: '';
+          position: absolute;
+          right: 47px;
+          display: block;
+          height: 30px;
+          width: 1px;
+          border-left: 1px solid rgba(0,0,0,.5);
+        }
+      }
+
+      &:hover {
+        opacity: .5;
+
+        &:before {
+          border-left: 1px solid rgba(0,0,0,.15);
+        }
+      }
+
+      &.btn-buscar {
+        cursor: default;
+        background: url('/images/iconos/buscar.svg') no-repeat center;
+        right: 65px;
+
+        &:hover {
+          @include border-radius(5px);
+          @include box-sizing(border-box);
+          opacity: .5;
+          background-color: #FFF;
+
+          ~ ul {
+            opacity: 1;
+          }
+        }
+      }
+
+      &.btn-constitucional {
+        @include transition(all 200ms);
+        text-indent: 0;
+        width: 35px;
+        top: 10px;
+        left: 15px;
+        opacity: 1;
+        overflow: hidden;
+
+        &:hover {
+          width: 18 5px;
+        }
+
+        img {
+          width: 175px;
+        }
+      }
+    }
+  }
+
+  .hero {
+    @include serif;
+    background-color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 9% 5% 14% 5%;
+
+    h1 {
+      color: #264f64;
+      font-weight: 700;
+      font-size: 3.5em;
+      line-height: 1.2em;
+      letter-spacing: -0.05em;
+      padding-bottom: 2%;
+    }
+
+    p {
+      font-style: italic;
+      font-size: 0.938em;
+      //padding-bottom: 25%;
+      color: #666;
+
+      em {
+        font-weight: 700;
+      }
+    }
+
+    img {
+      width: 11.5%;
+      margin-bottom: 2%;
+    }
+  }
+
+  h2 {
+    margin: 9% auto 9% auto;
+
+
+    span {
+      border-bottom: 3px solid rgba(0,0,0,.045);
+      padding: 2.5% 2% 2.5% 2%;
+      //@include border-radius(30px);
+      font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 1em;
+      line-height: 2em;
+      font-weight: 300;
+      color: rgba(0,0,0,.45);
+      letter-spacing: 0.25em;
+
+      text-transform: uppercase;
+
+      em {
+        margin-left: 2%;
+      }
+    }
+  }
+
+  h3 {
+    @include serif;
+    font-size: 2.5em;
+    color: #264f64;
+    font-weight: 700;
+    margin: 10% 0 10% 0;
+
+    span {
+      display: block;
+      font-style: italic;
+      font-size: 0.55em;
+      color: #264f64;
+      margin: 5% 0 1% 0;
+      font-weight: 300;
+    }
+
+    + h4 {
+      margin-top: -5%;
+      //border: 1px solid red;
+    }
+  }
+
+  h4 {
+    @include serif;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 6%;
+
+    span {
+      display: block;
+      font-style: italic;
+      font-size: 0.65em;
+      color: #666;
+      margin: 5% 0 1% 0;
+      font-weight: 300;
+    }
+  }
+
+  h5 {
+    @include serif;
+    font-size: 1.65em;
+    line-height: 1.25em;
+    font-weight: 300;
+    color: #264f64;
+    font-style: italic;
+    margin: 6% 0;
+
+    span {
+      @include sans-serif;
+      font-size: 0.5em;
+
+      display: block;
+      border-bottom: 1px solid #eaeaea;
+      padding: 0 5%;
+      line-height: 2em;
+      margin: 0 auto 2% auto;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-style: normal;
+    }
+  }
+
+  h1, h2, h3, h4, h5 {
+    text-align: center;
+
+    + a + section { border-top: none !important; }
+
+    + a {
+      position: relative;
+      top: -95px;
+    }
+  }
+
+  section {
+    position: relative;
+
+    header {
+      @include box-shadow(0 3px 25px rgba(0,0,0,.07));
+      @include box-sizing(border-box);
+      @include transition(all 300ms);
+      min-height: 50px;
+      max-height: 50px;
+      background-color: #F6F9FA;
+      width: 70%;
+      max-width: 1280px;
+      margin: 3% auto 0 auto;
+      line-height: 25px;
+      position: relative;
+      z-index: 2;
+      overflow: visible;
+
+      aside {
+        @include border-radius(10%);
+        position: absolute;
+        top: -13px;
+        left: 25px;
+        max-height: 45px;
+
+        img {
+          @include box-sizing(border-box);
+          padding: 5px;
+          width: 45px;
+          height: 45px;
+        }
+      }
+
+      dfn {
+        position: absolute;
+        top: 12px;
+        left: 100px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: .65em;
+        color: #9EAEB5;
+        letter-spacing: .1em;
+      }
+
+      button {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+
+        @include transition(all 300ms);
+        background: url('/images/iconos/puntos.svg') no-repeat center 14px;
+        background-size: 75%;
+        display: inline-block;
+        border: none;
+        height: 40px;
+        width: 45px;
+        padding: 5px 0;
+        cursor: pointer;
+        opacity: .35;
+        outline: none;
+        text-indent: -9999px;
+        float: left;
+
+        &:hover, &:active {
+          opacity: .85;
+        }
+      }
+
+      ul {
+        @include transition(all 300ms);
+        opacity: 0;
+        display: none;
+      }
+    }
+
+    a {
+      color: #333;
+      text-decoration: none;
+      border-bottom: 2px solid #9FD9F3;
+
+      &:visited {
+        border-color: #ccc;
+      }
+
+      &:hover, &:active {
+        border-color: #9FD9F3;
+      }
+    }
+
+    &.resaltado {
+      article {
+        @include transition(all 300ms);
+        @include box-shadow(0 15px 35px rgba(0,0,0,.20));
+      }
+    }
+
+    article {
+      @include box-shadow(0 3px 25px rgba(0,0,0,.07));
+      @include serif;
+      background-color: #FFF;
+      width: 70%;
+      max-width: 1280px;
+      margin: 3% auto;
+      line-height: 25px;
+      padding: 5% 6% 5% 0;
+      padding: 5% 100px;
+      margin: 0 auto 5% auto;
+      z-index: 99;
+      position: relative;
+
+      p {
+        font-size: 1.15em;
+        line-height: 1.75em;
+        padding-bottom: 2%;
+
+        &:last-child {
+          padding-bottom: 0;
+        }
+      }
+
+      ol {
+        li {
+          counter-increment: item;
+          margin: 3% 0 5% 40px;
+
+          &:before {
+            content: counter(item);
+            float: left;
+            margin-left: -40px;
+
+            @include border-radius (3px);
+            @include sans-serif;
+            @include box-sizing(border-box);
+            font-size: 0.85em;
+            line-height: 1em;
+            color: #666;
+            border: 1px solid #e2e2e2;
+            padding: 5px 0 3px 0;
+            min-width: 20px;
+            font-weight: 600;
+            text-align: center;
+          }
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          p {
+            //font-size: 1.25em;
+            line-height: 1.75em;
+            //color: #444;
+            font-weight: 300;
+          }
+        }
+      }
+
+      &:after {
+        clear: both;
+        content: '';
+        display: table;
+      }
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      aside {
+        width: 100px;
+        float: left;
+        padding: 0;
+        margin: 0;
+
+        span {
+          @include border-radius(0 3px 3px 0);
+          display: block;
+          width: 70%;
+
+          img {
+            width: 100%;
+            padding: 15% 15% 15% 45%;
+          }
+        }
+      }
+    }
+
+    h6 {
+      @include serif;
+      color: #333;
+      font-size: 1.2em;
+      text-align: left;
+      font-weight: 700;
+      line-height: 1.5em;
+      margin-bottom: 3%;
+    }
+
+    &.expandido {
+      header{
+        @include transition(all 300ms);
+        min-height: 200px;
+        max-height: 250px;
+
+        ul{
+          opacity: 1;
+          display: block;
+          padding: 40px 0 20px 0;
+
+          li {
+            @include sans-serif;
+            padding: 0 50px 0 100px;
+            margin: 10px 0 0;
+            font-size: 15px;
+            color: #999;
+
+            &:first-child {
+              border-top: 1px dashed rgba(0,0,0,.10);
+              padding-top: 25px;
+            }
+
+            a {
+              color: #264f64;
+            }
+
+            span {
+              min-width: 150px;
+              font-weight: 100;
+              text-transform: uppercase;
+              font-size: 0.75em;
+              padding-right: 5px;
+              display: inline-block;
+              letter-spacing: 0.05em;
+              color: #999;
+              letter-spacing: 1px;
+              //height: 30px;
+              line-height: 2.5em;
+              float: left;
+            }
+
+            textarea, input {
+              @include border-radius(3px);
+              @include monospace;
+              border: 1px solid #e2e2e2;
+              width: 70%;
+              height: 40px;
+              font-size: .65em;
+              line-height: 1.4em;
+              display: inline-block;
+              padding: 8px 7px;
+              outline: none;
+
+              &:focus {
+                @include box-shadow(0 0 15px #eaeaea);
+                border-color: #d1d1d1;
+              }
+            }
+
+            input {
+              height: 20px;
+            }
+          }
+        }
+      }
+    }
+
+    &.destacado {
+      padding: 0;
+      margin: 0;
+      border: none;
+      background-color: #4db9df;
+
+      &:last-child {
+        margin-top: 10%;
+      }
+
+      article {
+        @include box-shadow(none);
+        width: 70%;
+        padding: 10% 0;
+        background: none;
+        color: #FFF;
+
+        h2 {
+          margin-top: 0;
+
+          span {
+            color: #FFF;
+            border-color: rgba(255,255,255,.35);
+          }
+        }
+
+        p {
+          float: none;
+          width: 100%;
+          font-size: 1.5em;
+          line-height: 1.75em;
+          text-align: center;
+        }
+      }
+    }
+
+    + a {
+      position: relative;
+      top: -95px;
+    }
+  }
+
+
+// Menu Lateral
+
+  #lateral {
+    //display: none;
+
+    @include transition(all 300ms);
+    @include box-shadow (0 5px 15px rgba(0,0,0,.1));
+    -webkit-overflow-scrolling: touch;
+    border-left: 1px solid #d9d9d9;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: -280px;
+    padding-top: 65px;
+    overflow: scroll;
+    width: 280px;
+    height: 100%;
+    background-color: #FFF;
+
+    h1, h2, h3, h4, h5 {
+      @include serif;
+      border: none;
+      border-bottom: 1px solid #eaeaea;
+      color: #333;
+      font-size: .95em;
+      padding: 25px;
+      margin: 0;
+      text-align: left;
+      font-weight: 600;
+      background-color: #f9f9f9;
+      font-style: none;
+
+      span {
+        @include serif;
+        font-style: italic;
+        color: #999;
+        display: block;
+        border: none;
+        padding: 0;
+        margin: 0;
+        text-transform: none;
+        letter-spacing: 0em;
+        line-height: 1.75em;
+        color: #333;
+        font-size: 0.75em;
+      }
+    }
+
+    + h2 {
+      padding: 0;
+      background-color: #FFF;
+
+      a {
+        @include transition(all 300ms);
+        padding: 25px;
+        display: block;
+
+        &:hover {
+          color: #FFF;
+          background-color: #0068AD;
+          border-bottom: 1px solid #0068AD;
+        }
+      }
+    }
+
+    ul {
+      li {
+        font-size: .9em;
+
+        a {
+          padding: 20px 25px;
+          display: block;
+          line-height: 1.15em;
+          border-bottom: 1px dashed #eaeaea;
+
+          &:hover {
+            color: #FFF;
+            background-color: #0068AD;
+            margin-top: -1px;
+            border-top: 1px solid #0068AD;
+            border-bottom: 1px solid #0068AD;
+          }
+
+          span {
+            @include serif;
+            display: block;
+            font-size: .85em;
+            //color: #999;
+            font-style: italic;
+          }
+        }
+      }
+    }
+
+    a {
+      color: #0068AD;
+      text-decoration: none;
+    }
+  }
+
+  // Cuando el menu lateral se despliega
+
+  &.lateral-activo {
+    right: 140px;
+    overflow-x: hidden;
+
+    #principal a.btn-menu {
+      background: url('/images/iconos/menu-activo.svg') no-repeat center;
+      opacity: 1;
+
+      &:before {
+        border-left: 1px solid rgba(0,0,0,.15);
+      }
+    }
+
+    #lateral {
+      right: 0;
+    }
+  }
+
+  // Cuando el header se revela
+
+  &.achicado {
+    #principal {
+      @include box-shadow(0 0 10px rgba(0,0,0,.15));
+      background-color: rgba(255, 255, 255, .97);
+
+      p {
+        opacity: 1;
+      }
+    }
+  }
+
+  footer {
+    margin-top: -5%;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+
+// Estilos por cada constitución
+
+.argentina {
+  section {
+    &:nth-of-type(4n+2) aside {
+      background-color: #FFD500; // Amarillo
+    }
+    &:nth-of-type(4n+3) aside {
+      background-color: #9FD9F3; // Celeste
+    }
+    &:nth-of-type(4n+4) aside {
+      background-color: #0093E0; // Celeste Oscuro
+    }
+    &:nth-of-type(4n+1) aside {
+      background-color: #0068AD; // Azul
+    }
+  }
+}
+
+.buenos_aires {
+  section {
+    &:nth-of-type(5n+1) aside {
+      background-color: #f4d13b;
+    }
+    &:nth-of-type(5n+2) aside {
+      background-color: #8cd9ed;
+    }
+    &:nth-of-type(5n+3) aside {
+      background-color: #2e8db7;
+    }
+    &:nth-of-type(5n+4) aside {
+      background-color: #47B179;
+    }
+    &:nth-of-type(5n+5) aside {
+      background-color: #3B4E99;
+    }
+  }
+}

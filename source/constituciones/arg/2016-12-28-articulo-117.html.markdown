@@ -1,0 +1,9 @@
+---
+title: Artículo 117&ordm;
+date: 2016-12-28 19:04 UTC
+art_id: 118
+icon: "icono_justicia"
+topic: "Jurisdicción"
+shortcode: "art-117"
+---
+En estos casos la Corte Suprema ejercerá su jurisdicción por apelación según las reglas y excepciones que prescriba el Congreso; pero en todos los asuntos concernientes a embajadores, ministros y cónsules extranjeros, y en los que alguna provincia fuese parte, la ejercerá originaria y exclusivamente.

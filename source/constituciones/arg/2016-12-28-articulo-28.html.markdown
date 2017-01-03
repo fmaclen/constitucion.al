@@ -1,0 +1,9 @@
+---
+title: Artículo 28&ordm;
+date: 2016-12-28 14:31 UTC
+art_id: 29
+icon: "icono_justicia"
+topic: "Alteración de la Constitución"
+shortcode: "art-28"
+---
+Los principios, garantías y derechos reconocidos en los anteriores artículos, no podrán ser alterados por las leyes que reglamenten su ejercicio.
