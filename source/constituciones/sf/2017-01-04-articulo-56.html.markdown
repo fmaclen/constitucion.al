@@ -1,0 +1,9 @@
+---
+title: Artículo 56&ordm;
+date: 2017-01-04 05:16 UTC
+art_id: 56
+icon: "icono_justicia"
+topic: "Origen de las Leyes"
+shortcode: "art-56"
+---
+Las leyes pueden tener origen en cualquiera de las Cámaras por proyectos presentados por sus miembros o por el Poder Ejecutivo.

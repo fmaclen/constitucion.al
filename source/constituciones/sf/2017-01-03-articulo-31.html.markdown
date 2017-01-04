@@ -1,0 +1,11 @@
+---
+title: Artículo 31&ordm;
+date: 2017-01-03 21:48 UTC
+art_id: 31
+icon: "icono_institucion"
+topic: "Poder Legislativo"
+shortcode: "art-31"
+---
+El Poder Legislativo de la Provincia es ejercido por la Legislatura, compuesta de dos Cámaras: la Cámara de Senadores y la Cámara de Diputados.
+
+Los miembros de ambas Cámaras se reúnen en Asamblea Legislativa solamente en los casos y para los fines previstos por esta Constitución. La asamblea es presidida por el vicegorbenador, en su defecto por el presidente provisional del Senado y, a falta de éste, por el presidente de la Cámara de Diputados. Sus decisiones son válidas si está presente la mitad más uno de los legisladores y se adoptan por la mayoría absoluta de los presentes, salvo disposición en contrario de esta Constitución. Dicta el reglamento para el desempeño de sus funciones.

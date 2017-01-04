@@ -1,0 +1,15 @@
+---
+title: Artículo 59&ordm;
+date: 2017-01-04 05:24 UTC
+art_id: 59
+icon: "icono_institucion"
+topic: "Poder de Veto"
+shortcode: "art-59"
+---
+Vetado en todo o en parte un proyecto por el Poder Ejecutivo, vuelve con sus observaciones a la Cámara de origen, la que, si en votación nominal lo confirma por mayoría de dos tercios de los votos presentes, lo remite a la Cámara revisora, y si ésta también se expide de igual manera, el proyecto queda convertido en ley y se comunica al Poder Ejecutivo para su promulgación.
+
+Si ambas Cámaras no insisten con dicha mayoría, el proyecto no puede repetirse en las sesiones del año. Si el veto ha sido parcial y las Cámaras aprueban por simple mayoría las enmiendas propuestas por el Poder Ejecutivo, el proyecto, con éstas, queda convertido en ley.
+
+La Legislatura debe pronunciarse sobre el veto del Poder Ejecutivo dentro del término de un mes de comunicado, o, en su caso, de iniciado el período ordinario de sesiones; en su defecto, se considera rechazado el proyecto.
+
+El veto parcial de la ley de presupuesto no implica la necesidad de devolverlo totalmente a la Legislatura y puede promulgarse en las partes no observadas.

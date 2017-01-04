@@ -1,0 +1,13 @@
+---
+title: Artículo 30&ordm;
+date: 2017-01-03 21:47 UTC
+art_id: 30
+icon: "icono_comicios"
+topic: "Cargos Electivos"
+shortcode: "art-30"
+---
+Todos los ciudadanos pueden tener acceso a los cargos electivos en condiciones de igualdad, según los requisitos establecidos en cada caso por esta Constitución.
+
+Carecen de este derecho los inhabilitados para el ejercicio del sufragio.
+
+Los extranjeros son elegibles en el orden municipal en las condiciones que determine la ley.

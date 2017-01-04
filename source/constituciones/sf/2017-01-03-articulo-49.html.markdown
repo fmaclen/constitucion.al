@@ -1,0 +1,9 @@
+---
+title: Artículo 49&ordm;
+date: 2017-01-03 22:43 UTC
+art_id: 49
+icon: "icono_presidente"
+topic: "Juramento"
+shortcode: "art-49"
+---
+Al recibirse de sus cargos, los legisladores prestan juramento de desempeñarlo conforme a la Constitución y a las leyes.

@@ -189,117 +189,51 @@ extra_class: constitucion
   <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
 <% end %>
 
-<h3><span>Capítulo Segundo</span> Nuevos derechos y garantías</h3>
+<h3><span>Sección Segunda</span> Capítulo Único</h3>
 
-<% blog('nacion').articles.reverse[36...44].sort_by{|article| article.data.art_id}.each do |article| %>
+<% blog('sf').articles.reverse[28...30].sort_by{|article| article.data.art_id}.each do |article| %>
   <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
 <% end %>
 
-<h2><span>Parte Segunda <em>Autoridades de la Nación</em></span></h2>
-<h3><span>Título Primero</span> Gobierno Federal</h3>
-<h4><span>Sección Primera</span> Del Poder Legislativo</h4>
+<h3><span>Sección Tercera</span> Poder Legislativo</h3>
 
-<% blog('nacion').articles.reverse[44...45].sort_by{|article| article.data.art_id}.each do |article| %>
+<% blog('sf').articles.reverse[30...31].sort_by{|article| article.data.art_id}.each do |article| %>
   <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
 <% end %>
 
-<h5><span>Capítulo I</span> De la Cámara de Diputados</h5>
+<h5><span>Capítulo I</span> Cámara de Diputados</h5>
 
-<% blog('nacion').articles.reverse[45...54].sort_by{|article| article.data.art_id}.each do |article| %>
+<% blog('sf').articles.reverse[31...35].sort_by{|article| article.data.art_id}.each do |article| %>
   <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
 <% end %>
 
-<h5><span>Capítulo II</span> Del Senado</h5>
+<h5><span>Capítulo II</span> Cámara de Senadores</h5>
 
-<% blog('nacion').articles.reverse[54...62].sort_by{|article| article.data.art_id}.each do |article| %>
+<% blog('sf').articles.reverse[35...39].sort_by{|article| article.data.art_id}.each do |article| %>
   <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
 <% end %>
 
-<h5><span>Capítulo III</span> Disposiciones comunes a ambas Cámaras</h5>
+<h5><span>Capítulo III</span> Disposiciones Comunes a Ambas Cámaras</h5>
 
-<% blog('nacion').articles.reverse[62...75].sort_by{|article| article.data.art_id}.each do |article| %>
+<% blog('sf').articles.reverse[40...53].sort_by{|article| article.data.art_id}.each do |article| %>
   <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
 <% end %>
 
-<h5><span>Capítulo IV</span> Atribuciones del Congreso</h5>
+<h5><span>Capítulo IV</span> Atribuciones del Poder Legislativo</h5>
 
-<% blog('nacion').articles.reverse[75...77].sort_by{|article| article.data.art_id}.each do |article| %>
+<% blog('sf').articles.reverse[53...55].sort_by{|article| article.data.art_id}.each do |article| %>
   <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
 <% end %>
 
-<h5><span>Capítulo V</span> De la Formación y Sanción de las Leyes</h5>
+<h5><span>Capítulo V</span> Formación y Sanción de Leyes</h5>
 
-<% blog('nacion').articles.reverse[77...85].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
-
-<h5><span>Capítulo VI</span> De la Auditoría General de la Nación</h5>
-
-<% blog('nacion').articles.reverse[85...86].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
-
-<h5><span>Capítulo VII</span> Del Defensor del Pueblo</h5>
-
-<% blog('nacion').articles.reverse[86...87].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
-
-<h4><span>Sección Segunda</span> Del Poder Ejecutivo</h4>
-<h5><span>Capítulo I</span> De su Naturaleza y Duración</h5>
-
-<% blog('nacion').articles.reverse[87...94].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
-
-<h5><span>Capítulo II</span> De la Forma y Tiempo de la Elección del Presidente y Vicepresidente de la Nación</h5>
-
-<% blog('nacion').articles.reverse[94...99].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
-
-<h5><span>Capítulo III</span> Atribuciones del Poder Ejecutivo</h5>
-
-<% blog('nacion').articles.reverse[99...100].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
-
-<h5><span>Capítulo IV</span> Del jefe de gabinete y demás ministros del Poder Ejecutivo</h5>
-
-<% blog('nacion').articles.reverse[100...107].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
-
-<h4><span>Sección Tercera</span> Del Poder Judicial</h4>
-<h5><span>Capítulo I</span> De su Naturaleza y Duración</h5>
-
-<% blog('nacion').articles.reverse[107...115].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
-
-<h5><span>Capítulo II</span> Atribuciones del Poder Judicial</h5>
-
-<% blog('nacion').articles.reverse[115...119].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
-
-<h4><span>Sección Cuarta</span> Del Ministerio Público</h4>
-
-<% blog('nacion').articles.reverse[119...120].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
-
-<h3><span>Título Segundo</span> Gobierno de Provincia</h3>
-
-<% blog('nacion').articles.reverse[120...130].sort_by{|article| article.data.art_id}.each do |article| %>
+<% blog('sf').articles.reverse[55...61].sort_by{|article| article.data.art_id}.each do |article| %>
   <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
 <% end %>
 
 <h2><span>Disposiciones Transitorias</span></h2>
 
-<% blog('nacion').articles.reverse[130...147].sort_by{|article| article.data.art_id}.each do |article| %>
-  <%= partial("layouts/partials/articulo", :locals =>{article: article}) %>
-<% end %>
+
 
 <section class="destacado">
   <article>

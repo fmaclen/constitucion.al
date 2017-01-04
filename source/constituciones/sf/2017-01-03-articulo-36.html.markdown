@@ -1,0 +1,11 @@
+---
+title: Artículo 36&ordm;
+date: 2017-01-03 22:14 UTC
+art_id: 36
+icon: "icono_senado"
+topic: "Cámara de Senadores"
+shortcode: "art-36"
+---
+La Cámara de Senadores se compone de un senador por cada departamento de la Provincia, elegido directamente por el pueblo, a simple pluralidad de sufragios.
+
+Juntamente con los titulares se eligen senadores suplentes para completar períodos en las vacantes que se produzcan.

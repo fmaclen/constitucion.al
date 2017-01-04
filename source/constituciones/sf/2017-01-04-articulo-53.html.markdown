@@ -1,0 +1,9 @@
+---
+title: Artículo 53&ordm;
+date: 2017-01-04 05:04 UTC
+art_id: 53
+icon: "icono_economia"
+topic: "Remuneración"
+shortcode: "art-53"
+---
+Los legisladores reciben por sus servicios la retribución que determine la ley.

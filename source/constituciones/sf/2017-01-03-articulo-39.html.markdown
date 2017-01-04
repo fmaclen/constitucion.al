@@ -1,0 +1,9 @@
+---
+title: Artículo 39&ordm;
+date: 2017-01-03 22:20 UTC
+art_id: 39
+icon: "icono_presidente"
+topic: "Presidente del Senado"
+shortcode: "art-39"
+---
+La Cámara de Senadores es presidida por el vicegobernador y, en caso de ausencia, enfermedad, renuncia, muerte, inhabilidad física o mental sobreviniente de carácter permanente, destitución o suspensión del mismo, o cuando se halle en ejercicio del Poder Ejecutivo, por un presidente provisional que elige anualmente de su seno. El vicegobernador sólo tiene voto en caso de empate.

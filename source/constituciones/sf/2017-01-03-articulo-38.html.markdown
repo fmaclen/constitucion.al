@@ -1,0 +1,11 @@
+---
+title: Artículo 38&ordm;
+date: 2017-01-03 22:19 UTC
+art_id: 38
+icon: "icono_presidente"
+topic: "Duración del Cargo"
+shortcode: "art-38"
+---
+Los senadores duran cuatro años en el ejercicio de sus funciones y son reelegibles.
+
+Su mandato comienza y termina simultáneamente con el del gobernador y vicegobernador.

@@ -1,0 +1,9 @@
+---
+title: Artículo 61&ordm;
+date: 2017-01-04 05:27 UTC
+art_id: 61
+icon: "icono_institucion"
+topic: "Sanción de una Ley"
+shortcode: "art-61"
+---
+Todo proyecto que no haya alcanzado sanción definitiva en dos períodos ordinarios de sesiones consecutivas caduca y sólo puede ser nuevamente considerado si se lo inicia como nuevo proyecto.

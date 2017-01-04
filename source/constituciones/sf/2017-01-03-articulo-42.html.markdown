@@ -1,0 +1,11 @@
+---
+title: Artículo 42&ordm;
+date: 2017-01-03 22:31 UTC
+art_id: 42
+icon: "icono_senado"
+topic: "Quórum"
+shortcode: "art-42"
+---
+Las decisiones de las Cámaras son válidas si está presente la mitad más uno de sus miembros y son adoptadas por la mayoría de los presentes, salvo los casos en que esta Constitución prescribe mayorías especiales. En estos últimos supuestos se computan los votos de los presidentes que son miembros de los cuerpos.
+
+Sin embargo, en minoría pueden acordar las medidas que estimen necesario para obtener el "quórum" requerido, inclusive la compulsión física de los inasistentes en los términos y bajo las sanciones que establezcan los reglamentos; y con no menos de la tercera parte de los miembros de la Cámara, en los días ordinarios de sesión, dar entrada a asuntos, escuchar informes o proseguir deliberaciones anteriores, sin adoptar resoluciones de ninguna naturaleza.

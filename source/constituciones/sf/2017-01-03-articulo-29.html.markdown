@@ -1,0 +1,27 @@
+---
+title: Artículo 29&ordm;
+date: 2017-01-03 21:31 UTC
+art_id: 29
+icon: "icono_comicios"
+topic: "Elecciones"
+shortcode: "art-29"
+---
+Son electores todos los ciudadanos, hombres y mujeres, que hayan alcanzado la edad de diez y ocho años y se hallen inscriptos en el Registro Cívico Provincial.
+
+No pueden serlo los que por su condición, situación o enfermedad están impedidos de expresar libremente su voluntad y los afectados de indignidad moral.
+
+Los extranjeros son electores en el orden municipal y en las condiciones que determine la ley.
+
+El voto es personal e igual, libre, secreto y obligatorio.
+
+La Legislatura de la Provincia dicta la ley electoral con las garantías necesarias para asegurar una auténtica expresión de la voluntad popular en el comercio, con inclusión, entre otras, de las siguientes:
+
+1. La autoridad única del presidente de la mesa receptora de votos, a cuyas órdenes está la fuerza pública;
+
+2. Comienzo y conclusión de la elección dentro del día fijado;
+
+3. Escrutinio provisional público, en seguida de cerrado el acto electoral y en la propia mesa, cuyo resultado se consignará en el acta, suscripta por el presidente del comicio y fiscales presentes, a quienes el primero dará certificado de dicho resultado; y 4- Prohibición del arresto de electores, salvo en flagrante delito o por orden emanada de juez competente.
+
+Los partidos políticos concurren a la formación y expresión de la voluntad política del pueblo y todos los ciudadanos son libres de constituirlos o de afiliarse a ellos.
+
+La ley establece la composición y atribuciones del Tribunal Electoral.

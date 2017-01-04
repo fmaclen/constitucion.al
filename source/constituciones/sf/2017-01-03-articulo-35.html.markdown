@@ -1,0 +1,9 @@
+---
+title: Artículo 35&ordm;
+date: 2017-01-03 22:11 UTC
+art_id: 35
+icon: "icono_comicios"
+topic: "Elección de Integrantes de la Cámara"
+shortcode: "art-35"
+---
+La Cámara de Diputados elige anualmente entre sus integrantes su presidente y sus reemplazantes legales.

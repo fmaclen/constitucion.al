@@ -1,0 +1,9 @@
+---
+title: Artículo 41&ordm;
+date: 2017-01-03 22:31 UTC
+art_id: 41
+icon: "icono_institucion"
+topic: "Duración de las Sesiones"
+shortcode: "art-41"
+---
+Ambas Cámaras empiezan y concluyen simultáneamente sus períodos de sesiones, y ninguna de ellas, mientras se hallen reunidas, puede suspender las suyas por más de seis días sin el acuerdo de la otra.

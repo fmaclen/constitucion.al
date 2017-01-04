@@ -1,0 +1,9 @@
+---
+title: Artículo 37&ordm;
+date: 2017-01-03 22:16 UTC
+art_id: 37
+icon: "icono_santafe"
+topic: "Requisitos del Senador"
+shortcode: "art-37"
+---
+Son elegibles para el cargo de senador los ciudadanos argentinos que tengan, por lo menos, treinta años de edad y dos años de residencia inmediata en el departamento.

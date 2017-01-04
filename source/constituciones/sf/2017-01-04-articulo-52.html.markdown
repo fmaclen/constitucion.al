@@ -1,0 +1,13 @@
+---
+title: Artículo 52&ordm;
+date: 2017-01-04 05:03 UTC
+art_id: 52
+icon: "icono_santafe"
+topic: "Limitaciones del Cargo"
+shortcode: "art-52"
+---
+Es incompatible el cargo de diputado o senador con cualquier otro de carácter nacional, provincial o municipal, sea electivo o no, excepto los cargos docentes y las comisiones honorarias eventuales de la Nación, de la Provincia o de los municipios, que solamente pueden ser aceptadas con autorización de la Cámara correspondiente, o si ésta estuviere en receso, con obligación de dar cuenta a ella en su oportunidad.
+
+Los agentes de la Administración pública provincial o municipal que resultaren elegidos diputados o senadores quedan automáticamente con licencia, sin goce de sueldo, por todo el tiempo que dure el mandato.
+
+También es incompatible el cargo de legislador con la propiedad personal, individual o asociada, de empresas que gestionen servicios por cuenta de la Provincia o entidades públicas menores, o sean subsidiadas por éstas, y con el desempeño de funciones de dirección, administración, asesoramiento, representación o asistencia profesional en empresas ajenas en iguales condiciones.<#LINE El legislador que haya aceptado algún cargo incompatible con el suyo, queda por ese solo hecho separado de éste.

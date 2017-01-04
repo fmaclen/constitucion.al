@@ -1,0 +1,11 @@
+---
+title: Artículo 58&ordm;
+date: 2017-01-04 05:21 UTC
+art_id: 58
+icon: "icono_institucion"
+topic: "Desecho o Revision de una Ley"
+shortcode: "art-58"
+---
+Un proyecto de ley desechado totalmente por una de las Cámaras, no puede repetirse en las sesiones del mismo año.
+
+Si solamente es modificado por la Cámara revisora, vuelve a la de origen, y si ésta acepta las enmiendas pasa el proyecto al Poder Ejecutivo. Si, por el contrario, no las acepta, el proyecto vuelve nuevamente a la Cámara revisora, y si ésta las mantiene con el voto de las dos terceras partes de los presentes, vuelve a la Cámara de origen, y sólo si ésta insiste en su sanción con igual mayoría, se tienen por rechazadas definitivamente las modificaciones y aprobado el proyecto que se comunica al Poder Ejecutivo.

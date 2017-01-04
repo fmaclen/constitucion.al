@@ -1,0 +1,9 @@
+---
+title: Artículo 47&ordm;
+date: 2017-01-03 22:37 UTC
+art_id: 47
+icon: "icono_seguridad"
+topic: "Violación de Privilegios o Alteración del Orden"
+shortcode: "art-47"
+---
+Las Cámaras pueden reprimir con arresto que no exceda de treinta días a toda persona extraña al cuerpo que viole sus privilegios o altere el orden en sus sesiones, sin perjuicio de la responsabilidad penal en que aquélla hubiere incurrido.

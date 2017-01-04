@@ -1,0 +1,11 @@
+---
+title: Artículo 50&ordm;
+date: 2017-01-03 22:44 UTC
+art_id: 50
+icon: "icono_institucion"
+topic: "Atribuciones de los Miembros"
+shortcode: "art-50"
+---
+Cada Cámara puede, con el voto de las dos terceras partes de sus miembros, corregir a cualquiera de éstos, y aun excluirlo de su seno, por desorden de conducta en el ejercicio de sus funciones.
+
+La inasistencia a la mitad de las sesiones del período ordinario determina la cesación en el mandato, salvo los casos de licencia o suspensión en el cargo.

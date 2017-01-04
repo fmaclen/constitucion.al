@@ -1,0 +1,13 @@
+---
+title: Artículo 32&ordm;
+date: 2017-01-03 21:55 UTC
+art_id: 32
+icon: "icono_institucion"
+topic: "Cámara de Diputados"
+shortcode: "art-32"
+---
+La Cámara de Diputados se compone de cincuenta miembros elegidos directamente por el pueblo, formando al efecto la Provincia un solo distrito, correspondiendo veintiocho diputados al partido que obtenga mayor número de votos y veintidós a los demás partidos, en proporción de los sufragios que hubieren logrado.
+
+Los partidos políticos incluirán en sus listas de candidatos por lo menos uno con residencia en cada departamento.
+
+Juntamente con los titulares se eligen diputados suplentes para completar períodos en las vacantes que se produzcan.

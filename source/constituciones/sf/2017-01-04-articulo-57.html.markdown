@@ -1,0 +1,13 @@
+---
+title: Artículo 57&ordm;
+date: 2017-01-04 05:20 UTC
+art_id: 57
+icon: "icono_justicia"
+topic: "Creación de una Ley"
+shortcode: "art-57"
+---
+Aprobado un proyecto por la Cámara de origen, se remite para su consideración a la otra Cámara y, si ésta también lo aprueba, pasa al Poder Ejecutivo.
+
+Si el Poder Ejecutivo está conforme, lo promulga como ley de la Provincia y dispone su publicación inmediata.
+
+Queda convertido en ley todo proyecto sancionado por ambas Cámaras si, comunicado al Poder Ejecutivo, éste no lo devuelve observado dentro del plazo de diez días hábiles.

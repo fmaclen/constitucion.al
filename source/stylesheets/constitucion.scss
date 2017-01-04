@@ -385,6 +385,10 @@
       }
 
       ol {
+        padding-bottom: 5%;
+
+        &:last-child { padding-bottom: 0%; }
+
         li {
           counter-increment: item;
           margin: 3% 0 5% 40px;

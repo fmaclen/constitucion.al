@@ -1,0 +1,9 @@
+---
+title: Artículo 43&ordm;
+date: 2017-01-03 22:32 UTC
+art_id: 43
+icon: "icono_institucion"
+topic: "Funciones"
+shortcode: "art-43"
+---
+Cada Cámara dicta su reglamento, designa y remueve sus empleados y ejerce la policía de sus locales.

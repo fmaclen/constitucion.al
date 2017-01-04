@@ -1,0 +1,9 @@
+---
+title: Artículo 45&ordm;
+date: 2017-01-03 22:35 UTC
+art_id: 45
+icon: "icono_institucion"
+topic: "Miembros del Poder Ejecutivo"
+shortcode: "art-45"
+---
+Las Cámaras tienen el derecho de requerir la asistencia a sus sesiones de los ministros del Poder Ejecutivo para suministrar informes o explicaciones sobre puntos que previamente se les fije. Los ministros pueden excusar su asistencia en el primer caso y dar por escrito los informes solicitados, no así en el segundo caso, en que deben concurrir al seno de las Cámaras.

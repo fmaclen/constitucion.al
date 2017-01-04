@@ -1,0 +1,15 @@
+---
+title: Artículo 40&ordm;
+date: 2017-01-03 22:26 UTC
+art_id: 40
+icon: "icono_institucion"
+topic: "Sesiones"
+shortcode: "art-40"
+---
+Ambas Cámaras se reúnen anualmente por sí mismas en sesiones ordinarias desde el 1 de mayo hasta el 31 de octubre.
+
+Este período es susceptible de prórroga hasta por un mes más en virtud de decisión concorde de ambos cuerpos.
+
+El Poder Ejecutivo las puede convocar a sesiones extraordinarias cuando lo juzgue necesario y sólo para tratar los asuntos que determine.
+
+Las Cámaras pueden también convocarse a sesiones extraordinarias, a pedido de la cuarta parte de sus miembros y por tiempo limitado, para tratar graves asuntos de interés público.

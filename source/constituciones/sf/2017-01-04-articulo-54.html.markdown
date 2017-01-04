@@ -1,0 +1,19 @@
+---
+title: Artículo 54&ordm;
+date: 2017-01-04 05:07 UTC
+art_id: 54
+icon: "icono_institucion"
+topic: "Competencias de la Asamblea Legislativa"
+shortcode: "art-54"
+---
+Corresponde a la Asamblea Legislativa:
+
+1. Recibir el juramento del gobernador y del vicegobernador;
+
+2. Resolver en caso de empate en la elección de los mismos;
+
+3. Decidir sobre las renuncias de dichos funcionarios y declarar su inhabilidad física o mental sobreviniente de carácter permanente, en ambos casos por el voto de los dos tercios de la totalidad de los legisladores;
+
+4. Escuchar el informe anual del gobernador sobre el estado de los negocios públicos, en ocasión de abrirse el período de sesiones ordinarias de las Cámaras;
+
+5. Prestar el acuerdo requerido por esta Constitución o las leyes para la designación de magistrados o funcionarios, el que se entenderá prestado si no se expidiese dentro del término de un mes de convocada al efecto la Asamblea, convocatoria que debe realizarse dentro del quinto día de recibido el pedido de acuerdo, o, en caso de nombramientos en el receso legislativo, de abierto el período ordinario de sesiones.

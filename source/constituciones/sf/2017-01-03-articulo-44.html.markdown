@@ -1,0 +1,9 @@
+---
+title: Artículo 44&ordm;
+date: 2017-01-03 22:34 UTC
+art_id: 44
+icon: "icono_institucion"
+topic: "Carácteristicas de las Sesiones"
+shortcode: "art-44"
+---
+Las sesiones de ambas Cámaras son públicas, salvo que acuerden reunirse en sesión secreta.

@@ -1,0 +1,13 @@
+---
+title: Artículo 60&ordm;
+date: 2017-01-04 05:25 UTC
+art_id: 60
+icon: "icono_justicia"
+topic: "Publicación de una Ley"
+shortcode: "art-60"
+---
+Las leyes son obligatorias luego de su publicación.
+
+El Poder Ejecutivo debe publicarlas dentro de los ocho días de promulgadas y, en su defecto, dispone la publicación el presidente de la Cámara que hubiere prestado la sanción definitiva.
+
+Las leyes entran en vigor el noveno día siguiente al de su publicación, salvo que las mismas leyes establezcan otras fechas al efecto.

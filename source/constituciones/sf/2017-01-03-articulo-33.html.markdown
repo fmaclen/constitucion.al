@@ -1,0 +1,9 @@
+---
+title: Artículo 33&ordm;
+date: 2017-01-03 22:04 UTC
+art_id: 33
+icon: "icono_santafe"
+topic: "Requisitos del Diputado"
+shortcode: "art-33"
+---
+Son elegibles para el cargo de diputado los ciudadanos argentinos que tengan, por lo menos, veintidós años de edad y, si no hubieren nacido en la Provincia, dos años de residencia inmediata en ésta, y, en su caso, dos años de residencia inmediata en el departamento.

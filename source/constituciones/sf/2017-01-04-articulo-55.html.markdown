@@ -1,0 +1,67 @@
+---
+title: Artículo 55&ordm;
+date: 2017-01-04 05:14 UTC
+art_id: 55
+icon: "icono_institucion"
+topic: "Competencias de la Legislatura"
+shortcode: "art-55"
+---
+Corresponde a la Legislatura:
+
+1. En sesión conjunta de ambas Cámaras, elegir senadores al Congreso de la Nación;
+
+2. Establecer la división política de la Provincia, que no puede alterarse sin el voto de las dos terceras partes de los miembros de las Cámaras, y las divisiones convenientes para su mejor administración;
+
+3. Legislar en materia electoral;
+
+4. Dictar las leyes de organización y procedimientos judiciales;
+
+5. Organizar el régimen municipal y comunal, según las bases establecidas por esta Constitución;
+
+6. Legislar sobre educación;
+
+7. Crear las contribuciones especificadas en el artículo 5;
+
+8. Fijar anualmente el presupuesto de gastos y cálculo de recursos.
+
+    En el primero deben figurar todos los gastos ordinarios y extraordinarios de la Provincia, aun los autorizados por leyes especiales, las que se tendrán por derogadas si no se incluyen en el presupuesto las partidas para su ejecución.
+
+    La Legislatura no puede aumentar los sueldos y gastos proyectados por el Poder Ejecutivo, salvo para la ejecución de las leyes especiales, en cuanto no excedan el cálculo de recursos. No sancionado en tiempo un presupuesto, seguirá en vigencia el anterior en sus partidas ordinarias, hasta la sanción del nuevo;
+
+9. Aprobar o desechar anualmente la cuenta de inversión;
+
+10. Arreglar el pago de la deuda interna y externa de la Provincia;
+
+11. Aprobar o desechar los convenios celebrados con la Nación o con otras provincias;
+
+12. Autorizar al Poder Ejecutivo para celebrar contratos y aprobar o desechar los concluidos "ad-referendum" de la Legislatura. El servicio de la totalidad de las deudas provenientes de empréstitos no puede comprometer más de la cuarta parte de la renta provincial;
+
+13. Establecer bancos u otras instituciones de crédito;
+
+14. Legislar sobre tierras fiscales;
+
+15. Declarar de interés general la expropiación de bienes, por leyes generales o especiales;
+
+16. Conceder privilegios o estímulos por tiempo determinado con fines de fomento industrial, con carácter general;
+
+17. Dictar leyes de protección y fomento de riquezas naturales;
+
+18. Legislar sobre materias de policía provincial;
+
+19. Dictar los códigos de faltas, rural, bromatológico, fiscal y otros en que sea conveniente este tipo de legislación;
+
+20. Acordar amnistías por delitos o infracciones en general de jurisdicción provincial;
+
+21. Dictar leyes sobre previsión social;
+
+22. Conceder subsidios;
+
+23. Dictar leyes sobre organización de la Administración pública y el estatuto de los funcionarios y empleados públicos, que incluya, entre otras, garantías de ingreso, estabilidad, carrera e indemnización por cesantía injustificada;
+
+24. Fijar su presupuesto de gastos;
+
+25. Convocar a elecciones provinciales si el Poder Ejecutivo no lo hiciese con la anticipación legal, a cuyo fin puede, en su caso, convocarse a sesiones extraordinarias por acuerdo propio y a solicitud de una cuarta parte de los miembros de cada Cámara;
+
+26. Conceder o negar, en su caso, autorización al gobernador o vicegobernador para ausentarse del territorio de la Provincia;
+
+27. En general, ejercer la potestad legislativa en cuanto se considere necesario o conveniente para la organización y funcionamiento de los poderes públicos y para la consecución de los fines de esta Constitución, en ejercicio de los poderes no delegados al gobierno federal, sin otras limitaciones que las emergentes de dicha Constitución o de la Nacional.

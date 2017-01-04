@@ -1,0 +1,15 @@
+---
+title: Artículo 51&ordm;
+date: 2017-01-03 22:48 UTC
+art_id: 51
+icon: "icono_institucion"
+topic: "Fueros"
+shortcode: "art-51"
+---
+Ningún miembro de ambas Cámaras puede ser acusado, perseguido o molestado por las opiniones o los votos que emita en el ejercicio de sus funciones.
+
+Sin autorización de la Cámara a que pertenece, acordada por dos tercios de los votos de los presentes, no puede ser sometido a proceso penal.
+
+Sin la misma autorización tampoco puede ser detenido, o de alguna manera restringido en su libertad personal, salvo si es sorprendido en el acto de cometer un delito que no fuere excarcelable, en cuyo caso se comunicará a la Cámara respectiva, con sumaria información del hecho, a fin que resuelva sobre la inmunidad del detenido.
+
+La decisión de las Cámaras que disponga la suspensión de la inmunidad puede comprender también la suspensión en el ejercicio de las funciones del cargo.

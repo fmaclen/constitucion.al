@@ -1,0 +1,9 @@
+---
+title: Artículo 48&ordm;
+date: 2017-01-03 22:39 UTC
+art_id: 48
+icon: "icono_comicios"
+topic: "Elecciones de sus Miembros"
+shortcode: "art-48"
+---
+Cada Cámara es juez exclusivo de la elección de sus miembros y de la validez de sus títulos y, con el voto de las dos terceras partes de los componentes del cuerpo, resuelve la existencia de causas sobrevinientes de inelegibilidad y de incompatibilidad, sin que, en ambos casos, una vez pronunciada al respecto, pueda volver su decisión.

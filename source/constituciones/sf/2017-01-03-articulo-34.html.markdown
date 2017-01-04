@@ -1,0 +1,11 @@
+---
+title: Artículo 34&ordm;
+date: 2017-01-03 22:09 UTC
+art_id: 34
+icon: "icono_presidente"
+topic: "Duración del Cargo"
+shortcode: "art-34"
+---
+Los diputados duran cuatro años en el ejercicio de sus funciones y son reelegibles.
+
+Su mandato comienza y termina simultáneamente con el del gobernador y vicegobernador.

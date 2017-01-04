@@ -1,0 +1,9 @@
+---
+title: Artículo 46&ordm;
+date: 2017-01-03 22:36 UTC
+art_id: 46
+icon: "icono_institucion"
+topic: "Comisiones"
+shortcode: "art-46"
+---
+Cada Cámara puede designar comisiones con propósitos de información e investigación sobre materias o asuntos de interés público y proveerlas en cada caso de las facultades necesarias, las que no pueden exceder de los poderes de la autoridad judicial, para el desempeño de sus cometidos.
