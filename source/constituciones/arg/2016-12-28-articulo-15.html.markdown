@@ -1,9 +1,0 @@
----
-title: Artículo 15&ordm;
-date: 2016-12-28 14:18 UTC
-art_id: 16
-icon: "icono_pueblo"
-topic: "Esclavitud"
-shortcode: "art-15"
----
-En la Nación Argentina [no hay esclavos](http://es.wikipedia.org/wiki/Esclavitud#Argentina): los pocos que hoy existen quedan libres desde la jura de esta Constitución; y una ley especial reglará las indemnizaciones a que dé lugar esta declaración. Todo contrato de compra y venta de personas es un crimen de que serán responsables los que lo celebrasen, y el escribano o funcionario que lo autorice. Y los esclavos que de cualquier modo se introduzcan quedan libres por el solo hecho de pisar el territorio de la República.

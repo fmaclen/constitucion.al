@@ -1,9 +1,0 @@
----
-title: Artículo 95&ordm;
-date: 2016-12-28 17:09 UTC
-art_id: 96
-icon: "icono_comicios"
-topic: "Fecha de la Elección"
-shortcode: "art-95"
----
-La elección se efectuará dentro de los dos meses anteriores a la conclusión del mandato del Presidente en ejercicio.

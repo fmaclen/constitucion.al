@@ -1,9 +1,0 @@
----
-title: Artículo 19&ordm;
-date: 2016-12-28 14:26 UTC
-art_id: 20
-icon: "icono_justicia"
-topic: "Acciones Públicas y Privadas"
-shortcode: "art-19"
----
-Las acciones privadas de los hombres que de ningún modo ofendan al orden y a la moral pública, ni perjudiquen a un tercero, están sólo reservadas a Dios, y exentas de la autoridad de los magistrados. Ningún habitante de la Nación será obligado a hacer lo que no manda la ley, ni privado de lo que ella no prohíbe.

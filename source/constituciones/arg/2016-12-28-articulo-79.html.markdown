@@ -1,9 +1,0 @@
----
-title: Artículo 79&ordm;
-date: 2016-12-28 16:46 UTC
-art_id: 80
-icon: "icono_justicia"
-topic: "Aprobación de un Proyecto de Ley"
-shortcode: "art-79"
----
-Cada Cámara, luego de aprobar un proyecto de ley en general, puede delegar en sus comisiones la aprobación en particular del proyecto, con el voto de la mayoría absoluta del total de sus miembros. La Cámara podrá, con igual número de votos, dejar sin efecto la delegación y retomar el trámite ordinario. La aprobación en comisión requerirá el voto de la mayoría absoluta del total de sus miembros. Una vez aprobado el proyecto en comisión, se seguirá el trámite ordinario.

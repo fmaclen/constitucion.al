@@ -1,9 +1,0 @@
----
-title: Artículo 111&ordm;
-date: 2016-12-28 17:56 UTC
-art_id: 112
-icon: "icono_justicia"
-topic: "Requisitos para ser Juez de la Corte Suprema"
-shortcode: "art-111"
----
-Ninguno podrá ser miembro de la Corte Suprema de Justicia, sin ser abogado de la Nación con ocho años de ejercicio, y tener las calidades requeridas para ser senador.

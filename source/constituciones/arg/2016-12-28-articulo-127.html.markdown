@@ -1,9 +1,0 @@
----
-title: Artículo 127&ordm;
-date: 2016-12-28 19:13 UTC
-art_id: 128
-icon: "icono_argentina"
-topic: "Guerra Entre Provincias"
-shortcode: "art-127"
----
-Ninguna provincia puede declarar, ni hacer la guerra a otra provincia. Sus quejas deben ser sometidas a la Corte Suprema de Justicia y dirimidas por ella. Sus hostilidades de hecho son actos de guerra civil, calificados de sedición o asonada, que el Gobierno federal debe sofocar y reprimir conforme a la ley.

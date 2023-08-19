@@ -1,9 +1,0 @@
----
-title: Artículo 30&ordm;
-date: 2016-12-28 14:33 UTC
-art_id: 31
-icon: "icono_justicia"
-topic: "Reformación de la Constitución"
-shortcode: "art-30"
----
-[La Constitución puede reformarse](http://es.wikisource.org/wiki/Ley_24.309_Constituci%C3%B3n_de_la_Naci%C3%B3n_Argentina_-_Necesidad_de_su_reforma) en el todo o en cualquiera de sus partes. La necesidad de reforma debe ser declarada por el Congreso con el voto de dos terceras partes, al menos, de sus miembros; pero no se efectuará sino por una Convención convocada al efecto.

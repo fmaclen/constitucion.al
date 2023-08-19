@@ -1,9 +1,0 @@
----
-title: Artículo 63&ordm;
-date: 2016-12-28 15:19 UTC
-art_id: 64
-icon: "icono_institucion"
-topic: "Deberes de las Cámaras"
-shortcode: "art-63"
----
-Ambas Cámaras se reunirán por sí mismas en [sesiones ordinarias](http://es.wikipedia.org/wiki/Congreso_de_la_Naci%C3%B3n_Argentina#Periodos_de_Sesiones_Ordinarias) todos los años desde el primero de marzo hasta el treinta de noviembre. Pueden también ser convocadas extraordinariamente por el Presidente de la Nación o prorrogadas sus sesiones.

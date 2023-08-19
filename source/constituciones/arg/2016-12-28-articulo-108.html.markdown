@@ -1,9 +1,0 @@
----
-title: Artículo 108&ordm;
-date: 2016-12-28 17:54 UTC
-art_id: 109
-icon: "icono_justicia"
-topic: "Composición del Poder Judicial"
-shortcode: "art-108"
----
-El Poder Judicial de la Nación será ejercido por una Corte Suprema de Justicia, y por los demás tribunales inferiores que el Congreso estableciere en el territorio de la Nación.

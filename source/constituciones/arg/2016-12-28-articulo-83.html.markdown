@@ -1,9 +1,0 @@
----
-title: Artículo 83&ordm;
-date: 2016-12-28 16:51 UTC
-art_id: 84
-icon: "icono_justicia"
-topic: "Proyectos Desechados por el Poder Ejecutivo"
-shortcode: "art-83"
----
-Desechado en el todo o en parte un proyecto por el Poder Ejecutivo, vuelve con sus objeciones a la Cámara de su origen: ésta lo discute de nuevo, y si lo confirma por mayoría de dos tercios de votos, pasa otra vez a la Cámara de revisión. Si ambas Cámaras lo sancionan por igual mayoría, el proyecto es ley y pasa al Poder Ejecutivo para su promulgación. Las votaciones de ambas Cámaras serán en este caso nominales, por si o por no; y tanto los nombres y fundamentos de los sufragantes, como las objeciones del Poder Ejecutivo, se publicarán inmediatamente por la prensa. Si las Cámaras difieren sobre las objeciones, el proyecto no podrá repetirse en las sesiones de aquel año.

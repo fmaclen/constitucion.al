@@ -1,9 +1,0 @@
----
-title: Artículo 12&ordm;
-date: 2016-12-28 14:13 UTC
-art_id: 12
-icon: "icono_productos"
-topic: "Comercio Interno"
-shortcode: "art-12"
----
-Los buques destinados de una provincia a otra, no serán obligados a entrar, anclar y pagar derechos por causa de tránsito, sin que en ningún caso puedan concederse preferencias a un puerto respecto de otro, por medio de leyes o reglamentos de comercio.

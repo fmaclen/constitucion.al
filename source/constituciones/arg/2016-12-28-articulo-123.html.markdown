@@ -1,9 +1,0 @@
----
-title: Artículo 123&ordm;
-date: 2016-12-28 19:11 UTC
-art_id: 124
-icon: "icono_argentina"
-topic: "Constitución Provincial"
-shortcode: "art-123"
----
-Cada provincia dicta su propia constitución, conforme a lo dispuesto por el Artículo 5° asegurando la autonomía municipal y reglando su alcance y contenido en el orden institucional, político, administrativo, económico y financiero.

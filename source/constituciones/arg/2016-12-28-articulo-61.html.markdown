@@ -1,9 +1,0 @@
----
-title: Artículo 61&ordm;
-date: 2016-12-28 15:17 UTC
-art_id: 62
-icon: "icono_senado"
-topic: "Deberes del Senado"
-shortcode: "art-61"
----
-Corresponde también al Senado autorizar al presidente de la Nación para que declare en estado de sitio, uno o varios puntos de la República en caso de ataque exterior.

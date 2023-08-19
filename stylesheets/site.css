@@ -1,0 +1,1220 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: 'BrandonGrtsq';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/fonts/BrandonGrtsqLight.otf") format("opentype"); }
+@font-face {
+  font-family: 'BrandonGrtsq';
+  font-style: normal;
+  font-weight: bold;
+  src: url("/fonts/BrandonGrtsqBold.otf") format("opentype"); }
+body {
+  font-family: "BrandonGrtsq", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* Pagina Principal */
+.index a {
+  text-decoration: none; }
+  .index a.button {
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: .85em;
+    font-weight: 700;
+    letter-spacing: .1em;
+    padding: 15px 25px 13px 35px;
+    border: 2px solid #FFF;
+    margin-right: 25px; }
+    .index a.button:hover {
+      background-color: rgba(255, 255, 255, 0.25); }
+    .index a.button:last-child {
+      margin-right: 0; }
+.index header, .index .wrapper {
+  display: block;
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto; }
+.index header {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  height: 80%;
+  max-height: 750px;
+  min-height: 550px;
+  background: #FFF url("/images/republica_argentina.svg") no-repeat 100% 50%;
+  background-size: 60%; }
+  .index header .logo, .index header .social {
+    display: block;
+    position: absolute;
+    top: 10%; }
+  .index header .logo {
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    transition: all 200ms;
+    display: block;
+    width: 250px;
+    margin-left: -13px;
+    overflow: hidden; }
+    .index header .logo img {
+      width: 250px; }
+  .index header .social {
+    margin-top: 5px;
+    right: 0; }
+    .index header .social img {
+      -webkit-transition: all 100ms;
+      -moz-transition: all 100ms;
+      transition: all 100ms;
+      opacity: .75;
+      width: 40px;
+      filter: saturate(0%);
+      -webkit-filter: saturate(0%); }
+    .index header .social:hover img {
+      opacity: 1;
+      transform: scale(1.1);
+      filter: saturate(100%);
+      -webkit-filter: saturate(100%); }
+    .index header .social:active img {
+      opacity: 1;
+      margin: 0;
+      width: 40px;
+      filter: saturate(100%);
+      -webkit-filter: saturate(100%); }
+  .index header h1 {
+    top: 50%;
+    margin-top: -110px;
+    clear: both;
+    position: absolute;
+    font-size: 4.15em;
+    text-transform: uppercase;
+    color: #4db8de;
+    line-height: 1.25em;
+    font-weight: 100; }
+    .index header h1 p {
+      margin-top: 4%;
+      font-weight: 700; }
+    .index header h1 a {
+      -webkit-transition: all 200ms;
+      -moz-transition: all 200ms;
+      transition: all 200ms;
+      font-weight: 700;
+      color: #264f64;
+      border-bottom: 3px solid rgba(0, 0, 0, 0.1); }
+      .index header h1 a:hover {
+        color: #4db8de;
+        border-bottom: 2px double #4db8de; }
+  .index header .rotativos {
+    display: none; }
+.index section.twitter {
+  clear: both;
+  background-color: #FFD500;
+  text-align: center; }
+  .index section.twitter a {
+    -webkit-transition: all 100ms;
+    -moz-transition: all 100ms;
+    transition: all 100ms;
+    vertical-align: center;
+    padding: 5% 0;
+    color: #FFF;
+    font-size: 4.5em;
+    font-weight: 700; }
+    .index section.twitter a:hover {
+      transform: scale(1.05); }
+.index section.constitucion-nacion {
+  background-color: #4db8de;
+  color: #FFF;
+  padding: 7% 0;
+  text-align: center; }
+  .index section.constitucion-nacion span {
+    margin-top: 3%;
+    display: block;
+    font-size: 1.75em;
+    font-weight: 700; }
+  .index section.constitucion-nacion .escudo {
+    width: 20%;
+    opacity: .95; }
+  .index section.constitucion-nacion a {
+    position: relative;
+    color: #FFF;
+    margin-top: 7%;
+    padding: 15px 50px 13px 50px; }
+    .index section.constitucion-nacion a:after {
+      -webkit-transition: all 200ms;
+      -moz-transition: all 200ms;
+      transition: all 200ms;
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      content: '';
+      background: url("/images/iconos/flecha-blanca.svg") no-repeat;
+      background-size: 10px;
+      opacity: 0;
+      top: 12px;
+      right: 0px; }
+    .index section.constitucion-nacion a:hover {
+      background-position: 85% 49%; }
+      .index section.constitucion-nacion a:hover:after {
+        opacity: 1;
+        top: 12px;
+        right: -13px; }
+  .index section.constitucion-nacion span {
+    font-size: 4.25em;
+    font-weight: 100; }
+    .index section.constitucion-nacion span strong {
+      font-weight: 700; }
+.index section.constitucion-provincias {
+  padding: 5% 0;
+  background-color: #f4f4f4; }
+  .index section.constitucion-provincias ul {
+    margin-left: -3%; }
+    .index section.constitucion-provincias ul:after {
+      display: block;
+      clear: both;
+      content: ''; }
+    .index section.constitucion-provincias ul li {
+      height: 375px;
+      width: 30.333%;
+      margin: 3% 0;
+      float: left;
+      margin-left: 3%; }
+      .index section.constitucion-provincias ul li a {
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        transition: all 200ms;
+        -webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+        -moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        height: 375px;
+        width: 100%;
+        position: relative;
+        display: block;
+        background-color: #FFF;
+        overflow: hidden; }
+        .index section.constitucion-provincias ul li a:hover {
+          -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+          -moz-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 7px 15px rgba(0, 0, 0, 0.1); }
+          .index section.constitucion-provincias ul li a:hover img {
+            filter: saturate(100%);
+            -webkit-filter: saturate(100%); }
+          .index section.constitucion-provincias ul li a:hover span {
+            color: #4db8de;
+            background-position: 10% 49%;
+            filter: saturate(100%);
+            -webkit-filter: saturate(100%); }
+        .index section.constitucion-provincias ul li a img {
+          position: absolute;
+          top: 7%;
+          left: 10%;
+          max-width: 100px;
+          max-height: 100px;
+          filter: saturate(0%);
+          -webkit-filter: saturate(0%); }
+        .index section.constitucion-provincias ul li a .provincia {
+          -webkit-transition: all 200ms;
+          -moz-transition: all 200ms;
+          transition: all 200ms;
+          position: absolute;
+          bottom: 80px;
+          font-size: 1.65em;
+          line-height: 1.2em;
+          text-align: left;
+          padding: 0 10%;
+          color: #666; }
+          .index section.constitucion-provincias ul li a .provincia strong {
+            font-weight: 700;
+            display: block; }
+        .index section.constitucion-provincias ul li a .boton {
+          -webkit-transition: all 200ms;
+          -moz-transition: all 200ms;
+          transition: all 200ms;
+          position: absolute;
+          width: 900%;
+          bottom: 0;
+          border-top: 1px solid #e2e2e2;
+          line-height: 50px;
+          padding-left: 10%;
+          text-transform: uppercase;
+          color: #999;
+          font-size: .75em;
+          letter-spacing: 0.05em;
+          background: url("/images/iconos/flecha.svg") no-repeat;
+          background-size: 10px;
+          background-position: 10% 190%;
+          filter: saturate(0%);
+          -webkit-filter: saturate(0%); }
+      .index section.constitucion-provincias ul li.desactivado a {
+        cursor: default;
+        opacity: .65; }
+        .index section.constitucion-provincias ul li.desactivado a:hover {
+          opacity: 1; }
+          .index section.constitucion-provincias ul li.desactivado a:hover img {
+            filter: saturate(0%);
+            -webkit-filter: saturate(0%); }
+          .index section.constitucion-provincias ul li.desactivado a:hover .boton, .index section.constitucion-provincias ul li.desactivado a:hover .provincia {
+            background-position: 10% 190%;
+            color: #666; }
+.index section.acerca-constitucion {
+  padding: 10% 0 7% 0;
+  position: relative; }
+  .index section.acerca-constitucion:before {
+    top: 0;
+    content: '';
+    position: absolute;
+    display: block;
+    opacity: .10;
+    background: url("/images/escudos/argentina.svg") no-repeat center bottom;
+    background-size: 30%;
+    z-index: -1;
+    display: block;
+    width: 100%;
+    height: 35%; }
+  .index section.acerca-constitucion .wrapper:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .index section.acerca-constitucion .wrapper aside {
+    width: 35%;
+    float: left; }
+    .index section.acerca-constitucion .wrapper aside a {
+      display: none; }
+    .index section.acerca-constitucion .wrapper aside h2 {
+      font-size: 3.25em;
+      color: #264f64; }
+      .index section.acerca-constitucion .wrapper aside h2 strong {
+        font-weight: 700; }
+  .index section.acerca-constitucion .wrapper p {
+    width: 55%;
+    float: right;
+    line-height: 1.5em;
+    margin-bottom: 1.5%;
+    font-size: 1.25em; }
+    .index section.acerca-constitucion .wrapper p strong {
+      display: inline-block;
+      margin-top: 3%;
+      font-weight: 700; }
+    .index section.acerca-constitucion .wrapper p:last-child {
+      font-size: 1em;
+      color: #999; }
+      .index section.acerca-constitucion .wrapper p:last-child a {
+        color: #4db8de;
+        border-bottom: 1px dotted; }
+        .index section.acerca-constitucion .wrapper p:last-child a:hover {
+          color: #264f64; }
+.index section.acerca-nosotros {
+  padding: 7% 0; }
+  .index section.acerca-nosotros .wrapper:after {
+    display: block;
+    clear: both;
+    content: ''; }
+  .index section.acerca-nosotros .wrapper aside {
+    width: 35%;
+    float: left; }
+    .index section.acerca-nosotros .wrapper aside a {
+      display: none; }
+    .index section.acerca-nosotros .wrapper aside h2 {
+      color: #264f64;
+      font-size: 3.25em; }
+      .index section.acerca-nosotros .wrapper aside h2 strong {
+        font-weight: 700; }
+  .index section.acerca-nosotros .wrapper p {
+    width: 55%;
+    float: right;
+    line-height: 1.5em;
+    margin-bottom: 1.5%;
+    font-size: 1.25em; }
+    .index section.acerca-nosotros .wrapper p a {
+      color: #4db8de;
+      border-bottom: 1px solid #e2e2e2; }
+      .index section.acerca-nosotros .wrapper p a:hover {
+        color: #264f64; }
+    .index section.acerca-nosotros .wrapper p:last-child {
+      margin-top: 3%; }
+      .index section.acerca-nosotros .wrapper p:last-child a {
+        display: inline-block;
+        min-width: 26%;
+        margin-bottom: 2%; }
+    .index section.acerca-nosotros .wrapper p strong {
+      font-weight: 700; }
+    .index section.acerca-nosotros .wrapper p span {
+      -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      margin-left: 1%;
+      display: inline-block;
+      text-transform: uppercase;
+      font-size: .6em;
+      letter-spacing: 0.05em;
+      font-weight: bold;
+      background-color: #f4f4f4;
+      padding: 0 2%;
+      color: #999; }
+
+footer {
+  position: relative;
+  background-color: #fafafa; }
+  footer nav {
+    padding: 6% 0 6% 0;
+    display: block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden; }
+    footer nav.wrapper {
+      display: block;
+      width: 90%;
+      max-width: 1280px;
+      margin: 0 auto; }
+    footer nav:after {
+      bottom: -40%;
+      content: '';
+      position: absolute;
+      display: block;
+      background: url("/images/constitucional_iso.svg") no-repeat right top;
+      background-size: 20%;
+      display: block;
+      width: 100%;
+      height: 100%;
+      z-index: -1; }
+    footer nav a {
+      cursor: pointer;
+      font-size: .9em;
+      letter-spacing: 0.1em;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-right: 3%;
+      color: #999;
+      line-height: 37px; }
+      footer nav a:hover {
+        color: #264f64; }
+      footer nav a.cc {
+        float: left;
+        padding-top: 0;
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        transition: all 200ms;
+        display: inline-block;
+        opacity: .1;
+        margin-right: 5%; }
+        footer nav a.cc:hover {
+          opacity: .5; }
+        footer nav a.cc img {
+          height: 35px; }
+    footer nav p {
+      position: absolute;
+      top: 65%;
+      left: calc(118px + 5%);
+      font-size: .9em;
+      color: #c0c0c0; }
+
+.constitucion {
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  transition: all 300ms;
+  background-color: #f4f4f4;
+  position: relative;
+  right: 0; }
+  .constitucion #principal {
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+    text-align: center;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    left: 0 !important; }
+    .constitucion #principal ul {
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      transition: all 300ms;
+      position: absolute;
+      top: 11px;
+      right: 105px;
+      opacity: 0; }
+      .constitucion #principal ul li {
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        -webkit-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.05);
+        -moz-box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.05);
+        box-shadow: inset 0 -4px 0 rgba(0, 0, 0, 0.05);
+        border: 1px solid #e2e2e2;
+        display: inline-block;
+        height: 40px;
+        font-size: 11px;
+        line-height: 38px;
+        font-weight: 700;
+        color: #666;
+        padding: 0 15px;
+        float: left;
+        margin-left: 7px;
+        letter-spacing: 0.05em;
+        background-color: #FFF; }
+        .constitucion #principal ul li:nth-child(even) {
+          -webkit-box-shadow: none;
+          -moz-box-shadow: none;
+          box-shadow: none;
+          border: none;
+          padding: 0;
+          color: #c0c0c0;
+          font-weight: 300;
+          background: transparent; }
+    .constitucion #principal p {
+      -webkit-transition: all 200ms;
+      -moz-transition: all 200ms;
+      transition: all 200ms;
+      color: #264f64;
+      opacity: 0;
+      line-height: 65px;
+      height: 100%;
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center; }
+    .constitucion #principal a {
+      padding: 5px;
+      text-indent: -9999px;
+      display: block;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 10px;
+      opacity: .15;
+      z-index: 9999;
+      cursor: pointer; }
+      .constitucion #principal a.btn-menu {
+        background: url("/images/iconos/menu.svg") no-repeat center;
+        right: 10px; }
+        .constitucion #principal a.btn-menu:before {
+          content: '';
+          position: absolute;
+          right: 47px;
+          display: block;
+          height: 30px;
+          width: 1px;
+          border-left: 1px solid rgba(0, 0, 0, 0.5); }
+      .constitucion #principal a:hover {
+        opacity: .5; }
+        .constitucion #principal a:hover:before {
+          border-left: 1px solid rgba(0, 0, 0, 0.15); }
+      .constitucion #principal a.btn-buscar {
+        cursor: default;
+        background: url("/images/iconos/buscar.svg") no-repeat center;
+        right: 65px; }
+        .constitucion #principal a.btn-buscar:hover {
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          border-radius: 5px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          opacity: .5;
+          background-color: #FFF; }
+          .constitucion #principal a.btn-buscar:hover ~ ul {
+            opacity: 1; }
+      .constitucion #principal a.btn-constitucional {
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        transition: all 200ms;
+        text-indent: 0;
+        width: 35px;
+        top: 10px;
+        left: 15px;
+        opacity: 1;
+        overflow: hidden; }
+        .constitucion #principal a.btn-constitucional:hover {
+          width: 18 5px; }
+        .constitucion #principal a.btn-constitucional img {
+          width: 175px; }
+  .constitucion .hero {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    background-color: #FFF;
+    text-align: center;
+    margin: 0 auto;
+    padding: 9% 5% 14% 5%; }
+    .constitucion .hero h1 {
+      color: #264f64;
+      font-weight: 700;
+      font-size: 3.5em;
+      line-height: 1.2em;
+      letter-spacing: -0.05em;
+      padding-bottom: 2%; }
+    .constitucion .hero p {
+      font-style: italic;
+      font-size: 0.938em;
+      color: #666; }
+      .constitucion .hero p em {
+        font-weight: 700; }
+    .constitucion .hero img {
+      width: 11.5%;
+      margin-bottom: 2%; }
+  .constitucion h2 {
+    margin: 9% auto 9% auto; }
+    .constitucion h2 span {
+      border-bottom: 3px solid rgba(0, 0, 0, 0.045);
+      padding: 2.5% 2% 2.5% 2%;
+      font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 1em;
+      line-height: 2em;
+      font-weight: 300;
+      color: rgba(0, 0, 0, 0.45);
+      letter-spacing: 0.25em;
+      text-transform: uppercase; }
+      .constitucion h2 span em {
+        margin-left: 2%; }
+  .constitucion h3 {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-size: 2.5em;
+    color: #264f64;
+    font-weight: 700;
+    margin: 10% 0 10% 0; }
+    .constitucion h3 span {
+      display: block;
+      font-style: italic;
+      font-size: 0.55em;
+      color: #264f64;
+      margin: 5% 0 1% 0;
+      font-weight: 300; }
+    .constitucion h3 + h4 {
+      margin-top: -5%; }
+  .constitucion h4 {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-size: 1.5em;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 6%; }
+    .constitucion h4 span {
+      display: block;
+      font-style: italic;
+      font-size: 0.65em;
+      color: #666;
+      margin: 5% 0 1% 0;
+      font-weight: 300; }
+  .constitucion h5 {
+    font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+    font-size: 1.65em;
+    line-height: 1.25em;
+    font-weight: 300;
+    color: #264f64;
+    font-style: italic;
+    margin: 6% 0; }
+    .constitucion h5 span {
+      font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 0.5em;
+      display: block;
+      border-bottom: 1px solid #eaeaea;
+      padding: 0 5%;
+      line-height: 2em;
+      margin: 0 auto 2% auto;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      font-style: normal; }
+  .constitucion h1, .constitucion h2, .constitucion h3, .constitucion h4, .constitucion h5 {
+    text-align: center; }
+    .constitucion h1 + a + section, .constitucion h2 + a + section, .constitucion h3 + a + section, .constitucion h4 + a + section, .constitucion h5 + a + section {
+      border-top: none !important; }
+    .constitucion h1 + a, .constitucion h2 + a, .constitucion h3 + a, .constitucion h4 + a, .constitucion h5 + a {
+      position: relative;
+      top: -95px; }
+  .constitucion section {
+    position: relative; }
+    .constitucion section header {
+      -webkit-box-shadow: 0 3px 25px rgba(0, 0, 0, 0.07);
+      -moz-box-shadow: 0 3px 25px rgba(0, 0, 0, 0.07);
+      box-shadow: 0 3px 25px rgba(0, 0, 0, 0.07);
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      transition: all 300ms;
+      min-height: 50px;
+      max-height: 50px;
+      background-color: #F6F9FA;
+      width: 70%;
+      max-width: 1280px;
+      margin: 3% auto 0 auto;
+      line-height: 25px;
+      position: relative;
+      z-index: 2;
+      overflow: visible; }
+      .constitucion section header aside {
+        -webkit-border-radius: 10%;
+        -moz-border-radius: 10%;
+        border-radius: 10%;
+        position: absolute;
+        top: -13px;
+        left: 25px;
+        max-height: 45px; }
+        .constitucion section header aside img {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 5px;
+          width: 45px;
+          height: 45px; }
+      .constitucion section header dfn {
+        position: absolute;
+        top: 12px;
+        left: 100px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: .65em;
+        color: #9EAEB5;
+        letter-spacing: .1em; }
+      .constitucion section header button {
+        position: absolute;
+        top: 5px;
+        right: 20px;
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        transition: all 300ms;
+        background: url("/images/iconos/puntos.svg") no-repeat center 14px;
+        background-size: 75%;
+        display: inline-block;
+        border: none;
+        height: 40px;
+        width: 45px;
+        padding: 5px 0;
+        cursor: pointer;
+        opacity: .35;
+        outline: none;
+        text-indent: -9999px;
+        float: left; }
+        .constitucion section header button:hover, .constitucion section header button:active {
+          opacity: .85; }
+      .constitucion section header ul {
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        transition: all 300ms;
+        opacity: 0;
+        display: none; }
+    .constitucion section a {
+      color: #333;
+      text-decoration: none;
+      border-bottom: 2px solid #9FD9F3; }
+      .constitucion section a:visited {
+        border-color: #ccc; }
+      .constitucion section a:hover, .constitucion section a:active {
+        border-color: #9FD9F3; }
+    .constitucion section.resaltado article {
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      transition: all 300ms;
+      -webkit-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+      -moz-box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2); }
+    .constitucion section article {
+      -webkit-box-shadow: 0 3px 25px rgba(0, 0, 0, 0.07);
+      -moz-box-shadow: 0 3px 25px rgba(0, 0, 0, 0.07);
+      box-shadow: 0 3px 25px rgba(0, 0, 0, 0.07);
+      font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+      background-color: #FFF;
+      width: 70%;
+      max-width: 1280px;
+      margin: 3% auto;
+      line-height: 25px;
+      padding: 5% 6% 5% 0;
+      padding: 5% 100px;
+      margin: 0 auto 5% auto;
+      z-index: 99;
+      position: relative; }
+      .constitucion section article p {
+        font-size: 1.15em;
+        line-height: 1.75em;
+        padding-bottom: 2%; }
+        .constitucion section article p:last-child {
+          padding-bottom: 0; }
+      .constitucion section article ol li {
+        counter-increment: item;
+        margin: 3% 0 5% 40px; }
+        .constitucion section article ol li:before {
+          content: counter(item);
+          float: left;
+          margin-left: -40px;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+          font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          font-size: 0.85em;
+          line-height: 1em;
+          color: #666;
+          border: 1px solid #e2e2e2;
+          padding: 5px 0 3px 0;
+          min-width: 20px;
+          font-weight: 600;
+          text-align: center; }
+        .constitucion section article ol li:last-child {
+          margin-bottom: 0; }
+        .constitucion section article ol li p {
+          line-height: 1.75em;
+          font-weight: 300; }
+      .constitucion section article:after {
+        clear: both;
+        content: '';
+        display: table; }
+      .constitucion section article:first-child {
+        margin-top: 0; }
+      .constitucion section article aside {
+        width: 100px;
+        float: left;
+        padding: 0;
+        margin: 0; }
+        .constitucion section article aside span {
+          -webkit-border-radius: 0 3px 3px 0;
+          -moz-border-radius: 0 3px 3px 0;
+          border-radius: 0 3px 3px 0;
+          display: block;
+          width: 70%; }
+          .constitucion section article aside span img {
+            width: 100%;
+            padding: 15% 15% 15% 45%; }
+    .constitucion section h6 {
+      font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+      color: #333;
+      font-size: 1.2em;
+      text-align: left;
+      font-weight: 700;
+      line-height: 1.5em;
+      margin-bottom: 3%; }
+    .constitucion section.expandido header {
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      transition: all 300ms;
+      min-height: 200px;
+      max-height: 250px; }
+      .constitucion section.expandido header ul {
+        opacity: 1;
+        display: block;
+        padding: 40px 0 20px 0; }
+        .constitucion section.expandido header ul li {
+          font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+          padding: 0 50px 0 100px;
+          margin: 10px 0 0;
+          font-size: 15px;
+          color: #999; }
+          .constitucion section.expandido header ul li:first-child {
+            border-top: 1px dashed rgba(0, 0, 0, 0.1);
+            padding-top: 25px; }
+          .constitucion section.expandido header ul li a {
+            color: #264f64; }
+          .constitucion section.expandido header ul li span {
+            min-width: 150px;
+            font-weight: 100;
+            text-transform: uppercase;
+            font-size: 0.75em;
+            padding-right: 5px;
+            display: inline-block;
+            letter-spacing: 0.05em;
+            color: #999;
+            letter-spacing: 1px;
+            line-height: 2.5em;
+            float: left; }
+          .constitucion section.expandido header ul li textarea, .constitucion section.expandido header ul li input {
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+            border: 1px solid #e2e2e2;
+            width: 70%;
+            height: 40px;
+            font-size: .65em;
+            line-height: 1.4em;
+            display: inline-block;
+            padding: 8px 7px;
+            outline: none; }
+            .constitucion section.expandido header ul li textarea:focus, .constitucion section.expandido header ul li input:focus {
+              -webkit-box-shadow: 0 0 15px #eaeaea;
+              -moz-box-shadow: 0 0 15px #eaeaea;
+              box-shadow: 0 0 15px #eaeaea;
+              border-color: #d1d1d1; }
+          .constitucion section.expandido header ul li input {
+            height: 20px; }
+    .constitucion section.destacado {
+      padding: 0;
+      margin: 0;
+      border: none;
+      background-color: #4db9df; }
+      .constitucion section.destacado:last-child {
+        margin-top: 10%; }
+      .constitucion section.destacado article {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+        width: 70%;
+        padding: 10% 0;
+        background: none;
+        color: #FFF; }
+        .constitucion section.destacado article h2 {
+          margin-top: 0; }
+          .constitucion section.destacado article h2 span {
+            color: #FFF;
+            border-color: rgba(255, 255, 255, 0.35); }
+        .constitucion section.destacado article p {
+          float: none;
+          width: 100%;
+          font-size: 1.5em;
+          line-height: 1.75em;
+          text-align: center; }
+    .constitucion section + a {
+      position: relative;
+      top: -95px; }
+  .constitucion #lateral {
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    -webkit-overflow-scrolling: touch;
+    border-left: 1px solid #d9d9d9;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: -280px;
+    padding-top: 65px;
+    overflow: scroll;
+    width: 280px;
+    height: 100%;
+    background-color: #FFF; }
+    .constitucion #lateral h1, .constitucion #lateral h2, .constitucion #lateral h3, .constitucion #lateral h4, .constitucion #lateral h5 {
+      font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+      border: none;
+      border-bottom: 1px solid #eaeaea;
+      color: #333;
+      font-size: .95em;
+      padding: 25px;
+      margin: 0;
+      text-align: left;
+      font-weight: 600;
+      background-color: #f9f9f9;
+      font-style: none; }
+      .constitucion #lateral h1 span, .constitucion #lateral h2 span, .constitucion #lateral h3 span, .constitucion #lateral h4 span, .constitucion #lateral h5 span {
+        font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+        font-style: italic;
+        color: #999;
+        display: block;
+        border: none;
+        padding: 0;
+        margin: 0;
+        text-transform: none;
+        letter-spacing: 0em;
+        line-height: 1.75em;
+        color: #333;
+        font-size: 0.75em; }
+    .constitucion #lateral + h2 {
+      padding: 0;
+      background-color: #FFF; }
+      .constitucion #lateral + h2 a {
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        transition: all 300ms;
+        padding: 25px;
+        display: block; }
+        .constitucion #lateral + h2 a:hover {
+          color: #FFF;
+          background-color: #0068AD;
+          border-bottom: 1px solid #0068AD; }
+    .constitucion #lateral ul li {
+      font-size: .9em; }
+      .constitucion #lateral ul li a {
+        padding: 20px 25px;
+        display: block;
+        line-height: 1.15em;
+        border-bottom: 1px dashed #eaeaea; }
+        .constitucion #lateral ul li a:hover {
+          color: #FFF;
+          background-color: #0068AD;
+          margin-top: -1px;
+          border-top: 1px solid #0068AD;
+          border-bottom: 1px solid #0068AD; }
+        .constitucion #lateral ul li a span {
+          font-family: 'Merriweather', Georgia, 'Times New Roman', serif;
+          display: block;
+          font-size: .85em;
+          font-style: italic; }
+    .constitucion #lateral a {
+      color: #0068AD;
+      text-decoration: none; }
+  .constitucion.lateral-activo {
+    right: 140px;
+    overflow-x: hidden; }
+    .constitucion.lateral-activo #principal a.btn-menu {
+      background: url("/images/iconos/menu-activo.svg") no-repeat center;
+      opacity: 1; }
+      .constitucion.lateral-activo #principal a.btn-menu:before {
+        border-left: 1px solid rgba(0, 0, 0, 0.15); }
+    .constitucion.lateral-activo #lateral {
+      right: 0; }
+  .constitucion.achicado #principal {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0.97); }
+    .constitucion.achicado #principal p {
+      opacity: 1; }
+  .constitucion footer {
+    margin-top: -5%; }
+    .constitucion footer a {
+      text-decoration: none; }
+
+.argentina section:nth-of-type(4n+2) aside {
+  background-color: #FFD500; }
+.argentina section:nth-of-type(4n+3) aside {
+  background-color: #9FD9F3; }
+.argentina section:nth-of-type(4n+4) aside {
+  background-color: #0093E0; }
+.argentina section:nth-of-type(4n+1) aside {
+  background-color: #0068AD; }
+
+.buenos_aires section:nth-of-type(5n+1) aside {
+  background-color: #f4d13b; }
+.buenos_aires section:nth-of-type(5n+2) aside {
+  background-color: #8cd9ed; }
+.buenos_aires section:nth-of-type(5n+3) aside {
+  background-color: #2e8db7; }
+.buenos_aires section:nth-of-type(5n+4) aside {
+  background-color: #47B179; }
+.buenos_aires section:nth-of-type(5n+5) aside {
+  background-color: #3B4E99; }
+
+@media (max-width: 1279px) {
+  body {
+    font-size: 13px; } }
+@media (max-width: 1023px) {
+  body {
+    font-size: 12px; } }
+@media (max-width: 639px) {
+  body {
+    font-size: 11px; }
+    body #principal {
+      height: 60px !important; }
+      body #principal p {
+        background-position: center -2px !important;
+        background-size: 113px !important;
+        font-size: 13px !important;
+        line-height: 1.25em !important;
+        padding: 23px 17%; }
+      body #principal .btn-buscar, body #principal ul {
+        display: none; }
+      body #principal .btn-menu:before {
+        border-left: none !important; }
+      body #principal .btn-constitucional {
+        width: 38px !important; }
+    body #lateral {
+      width: 200px !important;
+      padding-top: 0 !important;
+      font-size: 12px; }
+      body #lateral h3, body #lateral h5 {
+        width: 100% !important; }
+    body.homepage header {
+      width: 100%;
+      height: 90%;
+      max-height: initial;
+      min-height: initial;
+      padding: 0 10%;
+      min-width: initial;
+      max-width: initial;
+      background-size: 90%; }
+      body.homepage header h1 {
+        font-size: 2.85em;
+        width: 85%;
+        margin-top: -20%; }
+        body.homepage header h1 a {
+          border: none; }
+      body.homepage header .logo img {
+        width: 175px; }
+      body.homepage header .social {
+        right: 7%; }
+        body.homepage header .social img {
+          width: 30px; }
+    body.homepage .wrapper {
+      width: 85%;
+      min-width: initial;
+      max-width: initial; }
+    body.homepage .constitucion-nacion {
+      padding: 15% 0; }
+      body.homepage .constitucion-nacion span {
+        font-size: 3em; }
+    body.homepage .constitucion-provincias ul {
+      margin: 25px 0; }
+      body.homepage .constitucion-provincias ul li {
+        float: none;
+        width: 100%;
+        margin: 35px 0;
+        height: auto; }
+        body.homepage .constitucion-provincias ul li:first-child {
+          margin-top: 0; }
+        body.homepage .constitucion-provincias ul li a {
+          height: 255px; }
+        body.homepage .constitucion-provincias ul li .boton {
+          font-size: .95em !important; }
+    body.homepage .acerca-constitucion, body.homepage .acerca-nosotros {
+      padding: 15% 0 10% 0; }
+      body.homepage .acerca-constitucion:before, body.homepage .acerca-nosotros:before {
+        background-size: 60%; }
+      body.homepage .acerca-constitucion aside, body.homepage .acerca-nosotros aside {
+        width: 100% !important;
+        float: none !important;
+        margin-bottom: 10%; }
+      body.homepage .acerca-constitucion p, body.homepage .acerca-nosotros p {
+        width: 100% !important;
+        font-size: 1.45em !important;
+        float: none !important;
+        margin-bottom: 5% !important; }
+        body.homepage .acerca-constitucion p:last-child, body.homepage .acerca-nosotros p:last-child {
+          font-size: 1em !important; }
+    body.homepage .twitter a {
+      padding: 10% 0;
+      font-size: 4em; }
+    body.homepage .acerca-nosotros p:last-child {
+      margin-top: 10% !important;
+      font-size: 1.35em !important; }
+      body.homepage .acerca-nosotros p:last-child a {
+        min-width: 35%; }
+    body.constitucion h1 + a, body.constitucion h2 + a, body.constitucion h3 + a, body.constitucion h4 + a, body.constitucion h5 + a, body.constitucion section + a {
+      top: -85px !important; }
+    body.constitucion h3 {
+      width: 80%;
+      margin: 15% auto; }
+    body.constitucion h5 {
+      margin: 6% auto 12% auto;
+      width: 80%; }
+    body.constitucion .hero {
+      padding: 13% 5% 19% 5%; }
+    body.constitucion .destacado {
+      padding: 10% 4% 7% 4%; }
+    body.constitucion section article {
+      margin: 0 auto 10% auto;
+      width: 90%;
+      padding: 7% 7% 6% 7%; }
+    body.constitucion section.destacado article {
+      width: 90%;
+      padding: 10% 3% 9% 3%; }
+    body.constitucion section.expandido header {
+      min-height: 150px; }
+    body.constitucion section header {
+      width: 90%; }
+      body.constitucion section header aside {
+        left: 21px; }
+      body.constitucion section header dfn {
+        left: 85px;
+        width: calc(100% - 150px);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+      body.constitucion section header ul li:first-child {
+        padding: 16px 7% 0 7% !important; }
+        body.constitucion section header ul li:first-child input {
+          width: 100%; }
+      body.constitucion section header ul li.embeber {
+        display: none; }
+    body footer {
+      position: relative;
+      padding: 13% 7% 0 10%; }
+      body footer nav {
+        width: 100% !important;
+        min-width: 100% !important;
+        padding: 0 0 15% 0; }
+      body footer a {
+        display: block;
+        margin: 0; }
+      body footer a.cc {
+        position: absolute;
+        opacity: .25;
+        display: block;
+        right: 0;
+        margin: 0; }
+        body footer a.cc img {
+          height: 20px; }
+      body footer p {
+        position: absolute;
+        top: 40px;
+        right: 0;
+        text-align: right; }
+    body.lateral-activo {
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      transition: all 300ms;
+      right: 0px !important; }
+      body.lateral-activo:after {
+        content: '';
+        background: rgba(0, 0, 0, 0.35);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0; }
+      body.lateral-activo.achicado #lateral {
+        padding-top: 60px !important; } }
+@media (max-width: 329px) {
+  body {
+    font-size: 8px; }
+    body #principal p {
+      padding: 15px 31%; } }

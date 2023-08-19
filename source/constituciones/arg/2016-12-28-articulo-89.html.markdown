@@ -1,9 +1,0 @@
----
-title: Artículo 89&ordm;
-date: 2016-12-28 17:05 UTC
-art_id: 90
-icon: "icono_presidente"
-topic: "Requisitos para ser Presidente de la Nación"
-shortcode: "art-89"
----
-Para ser elegido Presidente o vicepresidente de la Nación, se requiere haber nacido en el territorio argentino, o ser hijo de ciudadano nativo, habiendo nacido en país extranjero; y las demás calidades exigidas para ser elegido senador.

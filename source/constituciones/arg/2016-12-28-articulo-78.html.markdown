@@ -1,9 +1,0 @@
----
-title: Artículo 78&ordm;
-date: 2016-12-28 16:46 UTC
-art_id: 79
-icon: "icono_justicia"
-topic: "Proceso de Sanción de una Ley"
-shortcode: "art-78"
----
-Aprobado un proyecto de ley por la Cámara de su origen, pasa para su discusión a la otra Cámara. Aprobado por ambas, pasa al Poder Ejecutivo de la Nación para su examen; y si también obtiene su aprobación, lo promulga como ley.

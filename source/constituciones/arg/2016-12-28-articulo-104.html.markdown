@@ -1,9 +1,0 @@
----
-title: Artículo 104&ordm;
-date: 2016-12-28 17:52 UTC
-art_id: 105
-icon: "icono_presidente"
-topic: "Presentación ante el Congreso"
-shortcode: "art-104"
----
-Luego que el Congreso abra sus sesiones, deberán los ministros del despacho presentarle una memoria detallada del estado de la Nación en lo relativo a los negocios de sus respectivos departamentos.
